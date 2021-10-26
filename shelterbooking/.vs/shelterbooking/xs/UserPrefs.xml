@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
   <MonoDevelop.Ide.ItemProperties.shelterbooking.Shared FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/SheltersDatabaseSettings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/SheltersController.cs">
     <Files>
       <File FileName="shelterbooking/Server/Startup.cs" Line="18" Column="10" />
-      <File FileName="shelterbooking/Server/ShelterService.cs" Line="9" Column="25" />
-      <File FileName="shelterbooking/Server/SheltersDatabaseSettings.cs" Line="8" Column="10" />
-      <File FileName="shelterbooking/Server/appsettings.json" Line="3" Column="28" />
-      <File FileName="shelterbooking/Shared/Bruger.cs" Line="10" Column="1" />
+      <File FileName="shelterbooking/Server/ShelterService.cs" Line="18" Column="28" />
+      <File FileName="shelterbooking/Server/appsettings.json" Line="4" Column="41" />
+      <File FileName="shelterbooking/Shared/Bruger.cs" />
+      <File FileName="shelterbooking/Server/SheltersDatabaseSettings.cs" Line="17" Column="2" />
+      <File FileName="shelterbooking/Server/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Server" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="SheltersController.cs" selected="True" />
               </Node>
-              <Node name="SheltersDatabaseSettings.cs" selected="True" />
             </Node>
             <Node name="shelterbooking.Shared" expanded="True" />
           </Node>
