@@ -1,0 +1,11 @@
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/bin/Debug/net5.0/sheltersapp.Shared.deps.json
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/bin/Debug/net5.0/sheltersapp.Shared.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/bin/Debug/net5.0/ref/sheltersapp.Shared.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/bin/Debug/net5.0/sheltersapp.Shared.pdb
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/sheltersapp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/sheltersapp.Shared.AssemblyInfoInputs.cache
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/sheltersapp.Shared.AssemblyInfo.cs
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/sheltersapp.Shared.csproj.CoreCompileInputs.cache
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/sheltersapp.Shared.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/ref/sheltersapp.Shared.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/sheltersapp/sheltersapp/Shared/obj/Debug/net5.0/sheltersapp.Shared.pdb

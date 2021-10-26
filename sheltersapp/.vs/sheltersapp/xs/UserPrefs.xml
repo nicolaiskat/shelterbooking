@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F5E9107F-BC3F-443F-B4C6-D4FAECDDD38E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sheltersapp/Client/Pages/FetchData.razor">
+    <Files>
+      <File FileName="sheltersapp/Server/Startup.cs" Line="28" Column="38" />
+      <File FileName="sheltersapp/Server/ShelterService.cs" Line="28" Column="1" />
+      <File FileName="sheltersapp/Shared/Shelter.cs" Line="23" Column="46" />
+      <File FileName="sheltersapp/Server/Program.cs" Line="20" Column="1" />
+      <File FileName="sheltersapp/Server/Controllers/SheltersController.cs" Line="8" Column="13" />
+      <File FileName="sheltersapp/Client/Pages/FetchData.razor" Line="44" Column="64" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sheltersapp" expanded="True">
+            <Node name="sheltersapp.Client" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="FetchData.razor" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.sheltersapp.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
