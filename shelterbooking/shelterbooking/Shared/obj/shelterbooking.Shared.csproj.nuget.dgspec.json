@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {}
+    "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {}
   },
   "projects": {
-    "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
+    "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
+        "projectUniqueName": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
         "projectName": "shelterbooking.Shared",
-        "projectPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
-        "packagesPath": "/Users/alexanderjensen/.nuget/packages/",
-        "outputPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/",
+        "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
+        "packagesPath": "/Users/nicolaiskat/.nuget/packages/",
+        "outputPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexanderjensen/.config/NuGet/NuGet.Config"
+          "/Users/nicolaiskat/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
