@@ -26,7 +26,9 @@
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Metadata.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
@@ -35,6 +37,7 @@
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/MongoDB.Driver.Core.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/SharpCompress.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/runtimes/win/native/libzstd.dll

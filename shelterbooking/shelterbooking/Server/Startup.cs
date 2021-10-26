@@ -7,6 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
+
 
 namespace shelterbooking.Server
 {
@@ -27,7 +30,8 @@ namespace shelterbooking.Server
             services.AddSingleton<ISheltersDatabaseSettings>(sp => sp.GetRequiredService<IOptions<SheltersDatabaseSettings>>().Value);
             services.AddSingleton<ShelterService>();
 
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddNewtonsoftJson(options => options.UseMemberCasing());
+
             services.AddRazorPages();
         }
 

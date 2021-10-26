@@ -22,7 +22,6 @@ namespace shelterbooking.Server
         //Find alle shelters
         public List<Shelter> Get() => _shelters.Find(shelter => true).ToList();
 
-
         ////Find enkelt shelter
         public Shelter Get(string id) => _shelters.Find(shelter => shelter._id == id).FirstOrDefault();
 

@@ -3,6 +3,8 @@ using shelterbooking.Shared;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using shelterbooking.Server;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace shelterbooking.Server.Controllers
 {

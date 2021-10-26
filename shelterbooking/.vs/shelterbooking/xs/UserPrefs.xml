@@ -1,30 +1,12 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-<<<<<<< Updated upstream
-  <MonoDevelop.Ide.ItemProperties.shelterbooking.Shared FirstBuild="True" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/bruger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/Shelter.cs">
     <Files>
-      <File FileName="shelterbooking/Shared/bruger.cs" Line="27" Column="1" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" Line="39" Column="2" />
-      <File FileName="shelterbooking/Shared/Booking.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/SheltersController.cs">
-    <Files>
-      <File FileName="shelterbooking/Server/Startup.cs" Line="18" Column="10" />
-      <File FileName="shelterbooking/Server/ShelterService.cs" Line="18" Column="28" />
-      <File FileName="shelterbooking/Server/appsettings.json" Line="4" Column="41" />
-      <File FileName="shelterbooking/Shared/Bruger.cs" />
-      <File FileName="shelterbooking/Server/SheltersDatabaseSettings.cs" Line="17" Column="2" />
-      <File FileName="shelterbooking/Server/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="8" Column="10" />
->>>>>>> bd437d4ce0a7483c85ab92f0927ed1138c31bc97
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/ShelterService.cs">
-    <Files>
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="42" Column="6" />
-      <File FileName="shelterbooking/Server/ShelterService.cs" Line="1" Column="1" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="16" Column="10" />
->>>>>>> Stashed changes
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="23" Column="14" />
+      <File FileName="shelterbooking/Server/ShelterService.cs" Line="21" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="19" Column="33" />
+      <File FileName="shelterbooking/Server/Startup.cs" Line="33" Column="51" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="32" Column="38" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" Line="13" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,20 +17,11 @@
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-              <Node name="Bruger.cs" selected="True" />
-=======
-              <Node name="Controllers" expanded="True">
-                <Node name="SheltersController.cs" selected="True" />
-              </Node>
->>>>>>> bd437d4ce0a7483c85ab92f0927ed1138c31bc97
-=======
               <Node name="Controllers" expanded="True" />
-              <Node name="ShelterService.cs" selected="True" />
->>>>>>> Stashed changes
             </Node>
-            <Node name="shelterbooking.Shared" expanded="True" />
+            <Node name="shelterbooking.Shared" expanded="True">
+              <Node name="Shelter.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

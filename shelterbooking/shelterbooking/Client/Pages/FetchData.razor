@@ -15,20 +15,14 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Shelter</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var shelter in shelters)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@shelter</td>
                 </tr>
             }
         </tbody>
@@ -37,10 +31,12 @@ else
 
 @code {
     private WeatherForecast[] forecasts;
+    private Shelter[] shelters;
 
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
     }
 
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3y9KByztss7nGkKXiYuvRuGEp8Bb4At6XcqINmerH+mamAg0VH48/TNoBUbNaNPm8k6EnQLM5NE+B/iFPnZhSw==",
+  "dgSpecHash": "InlishqbIflRbPwSX6qyXcevTm7dYu2FWcqTxLwkuO8qRrec8Kr18Qdu+Z+yGr5xyIRoW73s4entfpPpM96U6w==",
   "success": true,
   "projectFilePath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/shelterbooking.Server.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,10 @@
     "/Users/nicolaiskat/.nuget/packages/microsoft.aspnetcore.components.web/5.0.11/microsoft.aspnetcore.components.web.5.0.11.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/microsoft.aspnetcore.components.webassembly/5.0.11/microsoft.aspnetcore.components.webassembly.5.0.11.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/5.0.11/microsoft.aspnetcore.components.webassembly.server.5.0.11.nupkg.sha512",
+    "/Users/nicolaiskat/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.11/microsoft.aspnetcore.jsonpatch.5.0.11.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/microsoft.aspnetcore.metadata/5.0.11/microsoft.aspnetcore.metadata.5.0.11.nupkg.sha512",
+    "/Users/nicolaiskat/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.11/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.11.nupkg.sha512",
+    "/Users/nicolaiskat/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/microsoft.extensions.configuration.binder/5.0.0/microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
@@ -35,6 +38,7 @@
     "/Users/nicolaiskat/.nuget/packages/mongodb.driver.core/2.13.2/mongodb.driver.core.2.13.2.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/mongodb.libmongocrypt/1.2.2/mongodb.libmongocrypt.1.2.2.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/nicolaiskat/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/nicolaiskat/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",

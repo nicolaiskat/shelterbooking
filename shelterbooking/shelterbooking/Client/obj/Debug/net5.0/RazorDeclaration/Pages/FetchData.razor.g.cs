@@ -98,13 +98,15 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/FetchData.razor"
+#line 32 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/FetchData.razor"
        
     private WeatherForecast[] forecasts;
+    private string[] shelters;
 
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        shelters = await Http.GetFromJsonAsync<string[]>("SheltersList");
     }
 
 
