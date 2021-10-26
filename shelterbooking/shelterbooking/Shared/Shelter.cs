@@ -15,13 +15,15 @@ namespace shelterbooking.Shared
         public Geometry geometry { get; set; }
         public Properties properties { get; set; }
     }
+
     public class Geometry
-        {
+    {
         public string type { get; set; }
-        public List<List<double>> coordinnates { get; set; }
+        public List<List<double>> coordinates { get; set; }
     }
+
     public class Properties
-        {
+    {
         public string objekt_id { get; set; }
         public int cvr_kode { get; set; }
         public string cvr_navn { get; set; }
@@ -31,7 +33,7 @@ namespace shelterbooking.Shared
         public string beskrivels { get; set; }
         public string lang_beskr { get; set; }
         public int antal_pl { get; set; }
-        public string annsvar_org { get; set; }
+        public string ansvar_org { get; set; }
         public string kontakt_ved { get; set; }
         public string ansva_v { get; set; }
     }
