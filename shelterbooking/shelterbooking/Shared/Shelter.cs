@@ -48,13 +48,12 @@ namespace shelterbooking.Shared
         public string lang_beskr { get; set; }
         public int antal_pl { get; set; }
         public string ansvar_org { get; set; }
-        public string kontakt_ved { get; set; }
         public string ansva_v { get; set; }
 
         public Properties(string objekt_id, int cvr_kode, string cvr_navn,
                             int kommunekode, string facil_ty, string navn,
-                            string beskrivelse, string lang_beskr, int antal_pl,
-                            string ansvar_org, string kontakt_ved, string ansva_v)
+                            string beskrivels, string lang_beskr, int antal_pl,
+                            string ansvar_org, string ansva_v)
         {
             this.objekt_id = objekt_id;
             this.cvr_kode = cvr_kode;
@@ -66,7 +65,6 @@ namespace shelterbooking.Shared
             this.lang_beskr = lang_beskr;
             this.antal_pl = antal_pl;
             this.ansvar_org = ansvar_org;
-            this.kontakt_ved = kontakt_ved;
             this.ansva_v = ansva_v;
         }
     }
