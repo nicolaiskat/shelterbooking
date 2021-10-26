@@ -8,15 +8,15 @@ namespace shelterbooking.Shared
 {
     public class Booking
     {
-        public String _id { get; set; }
+        public string _id { get; set; }
 
-        public String reference_nr { get; set; }
+        public string reference_nr { get; set; }
 
-        public String bruger_id { get; set; }
+        public string bruger_id { get; set; }
 
         public Shelter shelter { get; set; }
 
-        public String kommentar { get; set; }
+        public string kommentar { get; set; }
 
         public DateTime startdato { get; set; }
 

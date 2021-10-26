@@ -1,10 +1,18 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
   <MonoDevelop.Ide.ItemProperties.shelterbooking.Shared FirstBuild="True" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/bruger.cs">
     <Files>
       <File FileName="shelterbooking/Shared/bruger.cs" Line="27" Column="1" />
       <File FileName="shelterbooking/Shared/Shelter.cs" Line="39" Column="2" />
       <File FileName="shelterbooking/Shared/Booking.cs" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/Booking.cs">
+    <Files>
+      <File FileName="shelterbooking/Shared/WeatherForecast.cs" Line="15" Column="18" />
+      <File FileName="shelterbooking/Shared/Bruger.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Shared/Booking.cs" Line="18" Column="1" />
+>>>>>>> 64f01d103033c7d1ce452f28ca26a74af39268f0
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +20,11 @@
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Shared" expanded="True">
               <Node name="Dependencies" expanded="True" />
+<<<<<<< HEAD
               <Node name="Bruger.cs" selected="True" />
+=======
+              <Node name="Booking.cs" selected="True" />
+>>>>>>> 64f01d103033c7d1ce452f28ca26a74af39268f0
             </Node>
           </Node>
         </State>
