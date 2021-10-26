@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
+  <MonoDevelop.Ide.ItemProperties.shelterbooking.Shared FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.shelterbooking.Client FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server FirstBuild="True" />
+</Properties>

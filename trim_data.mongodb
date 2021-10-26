@@ -27,3 +27,21 @@ use('shelterdb');
 //   {$match: {"properties.facil_ty": "Shelter"}},
 //   {$out: "shelters"}
 // ])
+
+//
+// db.shelter.aggregate([
+//   {$project: {"_id": 1, "type": 1, "geometry": 1, 
+//     "properties.objekt_id": 1,
+//     "properties.cvr_kode": 1,
+//     "properties.cvr_navn": 1,
+//     "properties.kommunekode": 1,
+//     "properties.facil_ty": 1,
+//     "properties.navn": 1,
+//     "properties.beskrivels": 1,
+//     "properties.lang_beskr": 1,
+//     "properties.antal_pl": 1,
+//     "properties.ansvar_org": 1,
+//     "properties.kontakt_ved": 1,
+//     "properties.ansva_v": 1}},
+//     {$out: "shelters"}
+// ])
