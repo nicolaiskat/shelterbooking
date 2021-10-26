@@ -8,6 +8,8 @@ namespace shelterbooking.Shared
 {
     public class Booking
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
         public string _id { get; set; }
 
         public string reference_nr { get; set; }

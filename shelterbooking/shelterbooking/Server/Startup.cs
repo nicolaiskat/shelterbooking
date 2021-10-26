@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using Microsoft.Extensions.Options;
 
 namespace shelterbooking.Server
 {
@@ -22,6 +23,9 @@ namespace shelterbooking.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<SheltersDatabaseSettings>(Configuration.GetSection(nameof(SheltersDatabaseSettings)));
+            services.AddSingleton<ISheltersDatabaseSettings>(sp => sp.GetRequiredService<IOptions<SheltersDatabaseSettings>>().Value);
+            services.AddSingleton<ShelterService>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
