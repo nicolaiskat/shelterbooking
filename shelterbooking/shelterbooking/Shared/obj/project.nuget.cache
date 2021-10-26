@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "A00OKfbuTUWU4VXCDiIt90eFNoge33r2X3C4S7dwr3THV5QuncZ3Z3Yg0U17aCvulBq9hw/oDZihPH5KIMcH1w==",
+  "dgSpecHash": "6IWEXn8+j6eYn6pFnOa75DYuFNzZ97DI2Uj9gty+JgIM49RwQxMYEPJfd6ZHJTY9i7PmZph7LE2a/JafPf+hyw==",
   "success": true,
-  "projectFilePath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
+  "projectFilePath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
   "expectedPackageFiles": [
-    "/Users/nicolaiskat/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/mongodb.bson/2.13.2/mongodb.bson.2.13.2.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/mongodb.driver/2.13.2/mongodb.driver.2.13.2.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/mongodb.driver.core/2.13.2/mongodb.driver.core.2.13.2.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/mongodb.libmongocrypt/1.2.2/mongodb.libmongocrypt.1.2.2.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "/Users/nicolaiskat/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    "/Users/alexanderjensen/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/mongodb.bson/2.13.2/mongodb.bson.2.13.2.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/mongodb.driver/2.13.2/mongodb.driver.2.13.2.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/mongodb.driver.core/2.13.2/mongodb.driver.core.2.13.2.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/mongodb.libmongocrypt/1.2.2/mongodb.libmongocrypt.1.2.2.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/alexanderjensen/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

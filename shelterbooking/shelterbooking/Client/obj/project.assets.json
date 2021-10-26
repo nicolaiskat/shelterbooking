@@ -1793,19 +1793,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/nicolaiskat/.nuget/packages/": {}
+    "/Users/alexanderjensen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
+      "projectUniqueName": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
       "projectName": "shelterbooking.Client",
-      "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
-      "packagesPath": "/Users/nicolaiskat/.nuget/packages/",
-      "outputPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/",
+      "projectPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
+      "packagesPath": "/Users/alexanderjensen/.nuget/packages/",
+      "outputPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/nicolaiskat/.config/NuGet/NuGet.Config"
+        "/Users/alexanderjensen/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1817,8 +1817,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
-              "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj"
+            "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
+              "projectPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj"
             }
           }
         }
