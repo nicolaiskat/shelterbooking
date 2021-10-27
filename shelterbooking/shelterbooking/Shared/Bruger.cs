@@ -1,6 +1,7 @@
 ﻿using System;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 
 namespace shelterbooking.Shared
 {
@@ -10,7 +11,6 @@ namespace shelterbooking.Shared
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string _id { get; set; }
-
         public string fornavn { get; set; }
         public string efternavn { get; set; }
         public int mobil { get; set; }

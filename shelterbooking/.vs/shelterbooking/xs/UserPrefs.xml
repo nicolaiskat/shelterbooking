@@ -1,16 +1,26 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.ItemProperties.shelterbooking.Shared FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/WeatherForecast.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/Shelter.cs">
     <Files>
-      <File FileName="shelterbooking/Shared/WeatherForecast.cs" Line="15" Column="18" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="23" Column="14" />
+      <File FileName="shelterbooking/Server/ShelterService.cs" Line="21" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="19" Column="33" />
+      <File FileName="shelterbooking/Server/Startup.cs" Line="33" Column="51" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="32" Column="38" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" Line="13" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
-            <Node name="shelterbooking.Shared" expanded="True">
+            <Node name="shelterbooking.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+            <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="WeatherForecast.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="shelterbooking.Shared" expanded="True">
+              <Node name="Shelter.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -23,6 +33,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.shelterbooking.Client FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

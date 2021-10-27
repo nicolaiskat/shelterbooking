@@ -486,19 +486,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sisse\\.nuget\\packages\\": {}
+    "C:\\Users\\Nicolai Skat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Nicolai Skat\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj",
       "projectName": "shelterbooking.Shared",
-      "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj",
-      "packagesPath": "C:\\Users\\sisse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\Nicolai Skat\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj",
+      "packagesPath": "C:\\Users\\Nicolai Skat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nicolai Skat\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sisse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nicolai Skat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -548,7 +548,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
