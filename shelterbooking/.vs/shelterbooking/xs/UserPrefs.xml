@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/SheltersListController.cs">
     <Files>
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="33" Column="41" />
       <File FileName="shelterbooking/Server/ShelterService.cs" Line="29" Column="44" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="19" Column="33" />
-      <File FileName="shelterbooking/Server/Startup.cs" Line="33" Column="51" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" />
+      <File FileName="shelterbooking/Server/Startup.cs" />
       <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="34" Column="19" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" Line="16" Column="35" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
