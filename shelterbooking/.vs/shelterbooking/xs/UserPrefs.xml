@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/FetchData.razor">
     <Files>
       <File FileName="shelterbooking/Server/Controllers/WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="18" Column="8" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="25" Column="1" />
       <File FileName="shelterbooking/Server/Program.cs" />
     </Files>
     <Pads>

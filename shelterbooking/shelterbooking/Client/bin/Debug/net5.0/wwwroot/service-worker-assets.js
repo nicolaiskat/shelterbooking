@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-gTQp+G9mP6qQAlo39SrSFfwp67iY1MMOpbFxsA2TVN0=",
+      "hash": "sha256-ESJUEZ2o\/jWGRkMAHb6lJWgDb\/+HlEYP7JdVjxPc1h8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -821,11 +821,11 @@
       "url": "_framework\/shelterbooking.Shared.pdb"
     },
     {
-      "hash": "sha256-hwIlDKwhRR4aXtz\/2whGSBq7USQVYc7g6VRjK5toTQM=",
+      "hash": "sha256-QgmWMJX9a6m3vLvBHnGxFQyEUVTgB5p7iF4cBr17ycA=",
       "url": "_framework\/shelterbooking.Client.dll"
     },
     {
-      "hash": "sha256-S58L1iljmuzR2iIZXy1QZLzKsg2SQzVvuF629U57Yuc=",
+      "hash": "sha256-SrDMWyZMm9GEBRN+6oOhCDuovlSpsefCbrSj\/RdvUaU=",
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
@@ -1717,5 +1717,5 @@
       "url": "shelterbooking.Client.bundle.scp.css"
     }
   ],
-  "version": "uIjF9R7d"
+  "version": "fys\/BH8J"
 };
