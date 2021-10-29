@@ -2,23 +2,21 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/SheltersListController.cs">
     <Files>
       <File FileName="shelterbooking/Server/ShelterService.cs" Line="29" Column="44" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" />
-      <File FileName="shelterbooking/Server/Startup.cs" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="34" Column="19" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Server/Startup.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="3" Column="17" />
       <File FileName="shelterbooking/Shared/Shelter.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="shelterbooking" expanded="True">
+          <Node name="shelterbooking" expanded="True" selected="True">
             <Node name="shelterbooking.Client" expanded="True">
               <Node name="Pages" expanded="True" />
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="SheltersListController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="shelterbooking.Shared" expanded="True" />
           </Node>
@@ -32,5 +30,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
 </Properties>
