@@ -4,9 +4,9 @@
       <File FileName="shelterbooking/Server/ShelterService.cs" Line="29" Column="44" />
       <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" />
       <File FileName="shelterbooking/Server/Startup.cs" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="3" Column="17" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" />
       <File FileName="shelterbooking/Shared/Shelter.cs" />
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="17" Column="17" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="39" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

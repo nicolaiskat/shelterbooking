@@ -84,7 +84,7 @@ using shelterbooking.Client.Shared;
 #nullable disable
 #nullable restore
 #line 2 "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/Pages/FetchData.razor"
-using Indkøbsapp.Shared;
+using shelterbooking.Shared;
 
 #line default
 #line hidden
