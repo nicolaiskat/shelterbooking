@@ -1,9 +1,20 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/FetchData.razor">
     <Files>
       <File FileName="shelterbooking/Server/Controllers/WeatherForecast.cs" Line="1" Column="1" />
       <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="25" Column="1" />
       <File FileName="shelterbooking/Server/Program.cs" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Indkob/Indkob/Client/Pages/Shopping2.razor">
+    <Files>
+      <File FileName="shelterbooking/Client/Pages/pedelside.razor" Line="80" Column="30" />
+      <File FileName="shelterbooking/Client/Pages/Counter.razor" Line="8" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="56" Column="47" />
+      <File FileName="shelterbooking/Shared/Bruger.cs" Line="26" Column="2" />
+      <File FileName="shelterbooking/Client/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="../../../Indkob/Indkob/Client/Pages/Shopping2.razor" Line="1" Column="1" />
+>>>>>>> 48f90625a41dd8f6dc884dbeeb52742e93ce63da
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,8 +22,14 @@
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
               <Node name="Pages" expanded="True">
+<<<<<<< HEAD
                 <Node name="FetchData.razor" selected="True" />
               </Node>
+=======
+                <Node name="Pedelside.razor" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+>>>>>>> 48f90625a41dd8f6dc884dbeeb52742e93ce63da
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />
