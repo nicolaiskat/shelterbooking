@@ -24,7 +24,7 @@ namespace shelterbooking.Server.Controllers
             this.logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet]   
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

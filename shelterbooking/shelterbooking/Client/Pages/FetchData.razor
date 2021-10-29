@@ -2,9 +2,12 @@
 @using shelterbooking.Shared
 @inject HttpClient Http
 
-<h1>Weather forecast</h1>
+<h1>Shelterbooking i Aarhus, Skanderborg og Silkeborg</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>
+    Se det skønne udvalg over Shelters i Aarhus, Skanderborg og Silkeborg kommune.
+    Her kan du se ledige shelters og booke shelters.
+</p>
 
 @if (shelters == null)
 {
@@ -12,24 +15,42 @@
 }
 else
 {
+    <p>
+        <b>Søgekriterier: </b>
+    </p>
+    <p><b>Navn: </b><input /></p>
+    <p><b>Antal pladser: </b><input /> - <input /></p>
+    <p><b>Kommunenavn: </b><input /></p>
+    
+
+    <br />
+    <br />
+
+
     <table class="table">
         <thead>
             <tr>
-                <th>Navn</th>
-                <th>Antal pladser</th>
-                <th>Kommune</th>
-                <th>Beskrivelse</th>
+                <th>Shelterplads</th>
+                <th>Book nu</th>
             </tr>
+
         </thead>
         <tbody>
             @foreach (var shelter in shelters)
             {
                 <tr>
-                    <td>@shelter.properties.navn</td>
-                    <td>@shelter.properties.antal_pl</td>
-                    <td>@shelter.properties.cvr_navn</td>
-                    <td>@shelter.properties.beskrivels.</td>
+                    <td>
+                        <b>Navn: </b>@shelter.properties.navn
+                        <br />
+                        <b>Antal pladser: </b>@shelter.properties.antal_pl
+                        <br />
+                        <b>Kommune: </b>@shelter.properties.cvr_navn
+                        <br />
+                        <b>Beskrivelse: </b>@shelter.properties.beskrivels.
+                    </td>
+                    <td><button>Book</button></td>
                 </tr>
+
             }
         </tbody>
     </table>
