@@ -1334,3 +1334,5 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/service-worker-assets.js
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs

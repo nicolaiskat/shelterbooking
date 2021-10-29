@@ -1,41 +1,22 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/WeatherForecast.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/FetchData.razor">
     <Files>
-      <File FileName="shelterbooking/Server/ShelterService.cs" Line="29" Column="44" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="38" Column="1" />
-      <File FileName="shelterbooking/Server/Startup.cs" />
-<<<<<<< HEAD
-      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" Line="1" Column="1" />
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="1" Column="1" />
-      <File FileName="shelterbooking/Shared/WeatherForecast.cs" Line="17" Column="2" />
-      <File FileName="shelterbooking/Server/Controllers/WeatherForecast.cs" Line="38" Column="10" />
-=======
-      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="13" Column="28" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" />
-      <File FileName="shelterbooking/Client/Shared/NavMenu.razor" Line="20" Column="23" />
-      <File FileName="shelterbooking/Client/Shared/MainLayout.razor" Line="15" Column="7" />
-      <File FileName="shelterbooking/Client/Pages/Index.razor" Line="1" Column="1" />
-      <File FileName="shelterbooking/Client/Shared/SurveyPrompt.razor" Line="5" Column="31" />
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="17" Column="17" />
->>>>>>> 4221e04986bbefb2cd646cf76721f21389aab0ae
+      <File FileName="shelterbooking/Server/Controllers/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="18" Column="8" />
+      <File FileName="shelterbooking/Server/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="shelterbooking" expanded="True" selected="True">
+          <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
-              <Node name="Pages" expanded="True" />
-<<<<<<< HEAD
-=======
-              <Node name="Shared" expanded="True" />
->>>>>>> 4221e04986bbefb2cd646cf76721f21389aab0ae
+              <Node name="Pages" expanded="True">
+                <Node name="FetchData.razor" selected="True" />
+              </Node>
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherForecast.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="shelterbooking.Shared" expanded="True" />
           </Node>
@@ -49,5 +30,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.shelterbooking.Server PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
 </Properties>

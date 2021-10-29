@@ -3927,6 +3927,320 @@
         }
       },
       {
+        "HashCode": 2064994369,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.App",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.App"
+        }
+      },
+      {
+        "HashCode": -1791582449,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.App",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1422233249,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Pages.Counter",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 829149793,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Pages.Counter",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 346781043,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Pages.FetchData",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -865038571,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Pages.FetchData",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1504215620,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Pages.Index",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -197072108,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Pages.Index",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1501230376,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Shared.SurveyPrompt",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 2061822000,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Shared.SurveyPrompt",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -494768005,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Shared.MainLayout",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": 1468277441,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Shared.MainLayout",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2078629787,
+        "Kind": "Components.ChildContent",
+        "Name": "shelterbooking.Client.Shared.MainLayout.Body",
+        "AssemblyName": "shelterbooking.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "shelterbooking.Client.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1903093598,
+        "Kind": "Components.ChildContent",
+        "Name": "shelterbooking.Client.Shared.MainLayout.Body",
+        "AssemblyName": "shelterbooking.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "shelterbooking.Client.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "shelterbooking.Client.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1973441854,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Shared.NavMenu",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1696418360,
+        "Kind": "Components.Component",
+        "Name": "shelterbooking.Client.Shared.NavMenu",
+        "AssemblyName": "shelterbooking.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "shelterbooking.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "shelterbooking.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -644107692,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
