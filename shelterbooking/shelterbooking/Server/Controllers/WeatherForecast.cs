@@ -1,4 +1,4 @@
-using Indkøbsapp.Shared;
+using shelterbooking.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Indkøbsapp.Server.Controllers
+namespace shelterbooking.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]
