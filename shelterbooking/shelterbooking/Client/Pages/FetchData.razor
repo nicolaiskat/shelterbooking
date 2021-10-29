@@ -1,12 +1,12 @@
 @page "/fetchdata"
-@using Indkøbsapp.Shared
+@using shelterbooking.Shared
 @inject HttpClient Http
 
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (forecasts == null)
+@if (shelters == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -15,20 +15,20 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Navn</th>
+                <th>Antal pladser</th>
+                <th>Kommune</th>
+                <th>Beskrivelse</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var shelter in shelters)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@shelter.properties.navn</td>
+                    <td>@shelter.properties.antal_pl</td>
+                    <td>@shelter.properties.cvr_navn</td>
+                    <td>@shelter.properties.beskrivels.</td>
                 </tr>
             }
         </tbody>
@@ -36,11 +36,11 @@ else
 }
 
 @code {
-    private WeatherForecast[] forecasts;
+    private Shelter[] shelters;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
     }
 
 }
