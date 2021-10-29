@@ -11,7 +11,6 @@
 else
 {
     <button class="btn btn-primary" @onclick="getSheltersList">Se Shelters</button>
-    <br/>
     <button class="btn btn-primary" @onclick="getBookingsList">Se bookings</button>
     <br/>
     if (typeList == 1)
@@ -72,26 +71,16 @@ else
                     <td>
                     </td>
                 </tr>
-                @foreach (var shelter in shelters)
+                @foreach (var booking in shelters)
                 {
                     <tr>
                         <td>
-                            <b>Navn:</b> @shelter.properties.navn
-                            <br />
-                            <b>Beskrivelse:</b> @shelter.properties.beskrivels
-                            <br />
-                            <b>Kommune:</b> @shelter.properties.cvr_navn
-                            <br />
-                            <b>Antal pladser:</b> @shelter.properties.antal_pl
-                            <br />
-                            <b>Ledig:</b> Yes
-                            <br />
-                            <b>Ansvarlig:</b> @shelter.properties.ansva_v
+                            booking eks.
                         </td>
                         <td>
-                            <button class="btn btn-primary" @onclick="() => getBookings(shelter._id)">Se bookings</button>
-                            <button class="btn btn-primary" @onclick="() => updateShelter(shelter._id)">Ret shelter</button>
-                            <button class="btn btn-primary" @onclick="() => deleteShelter(shelter._id)">Slet shelter</button>
+                            <button class="btn btn-primary" @onclick="() => getShelter(booking._id)">Se bookings</button>
+                            <button class="btn btn-primary" @onclick="() => updateBooking(booking._id)">Ret shelter</button>
+                            <button class="btn btn-primary" @onclick="() => deleteBooking(booking._id)">Slet shelter</button>
                         </td>
                     </tr>
                 }
@@ -103,6 +92,7 @@ else
 
 @code {
     private Shelter[] shelters;
+    private Booking[] bookings;
 
     protected override async Task OnInitializedAsync()
     {
@@ -128,6 +118,18 @@ else
 
     }
     public void deleteShelter(string id)
+    {
+
+    }
+    public void getShelter(string id)
+    {
+
+    }
+    public void updateBooking(string id)
+    {
+
+    }
+    public void deleteBooking(string id)
     {
 
     }

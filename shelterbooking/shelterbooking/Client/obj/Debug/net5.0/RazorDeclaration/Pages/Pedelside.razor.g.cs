@@ -98,9 +98,10 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 104 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+#line 94 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
        
     private Shelter[] shelters;
+    private Booking[] bookings;
 
     protected override async Task OnInitializedAsync()
     {
@@ -126,6 +127,18 @@ using shelterbooking.Shared;
 
     }
     public void deleteShelter(string id)
+    {
+
+    }
+    public void getShelter(string id)
+    {
+
+    }
+    public void updateBooking(string id)
+    {
+
+    }
+    public void deleteBooking(string id)
     {
 
     }

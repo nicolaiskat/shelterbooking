@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/pedelside.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Indkob/Indkob/Client/Pages/Shopping2.razor">
     <Files>
-      <File FileName="shelterbooking/Client/Pages/pedelside.razor" Line="122" Column="17" />
+      <File FileName="shelterbooking/Client/Pages/pedelside.razor" Line="80" Column="30" />
       <File FileName="shelterbooking/Client/Pages/Counter.razor" Line="8" Column="1" />
       <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="56" Column="47" />
       <File FileName="shelterbooking/Shared/Bruger.cs" Line="26" Column="2" />
+      <File FileName="shelterbooking/Client/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="../../../Indkob/Indkob/Client/Pages/Shopping2.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +14,9 @@
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="pedelside.razor" selected="True" />
+                <Node name="Pedelside.razor" selected="True" />
               </Node>
-              <Node name="Shared" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />

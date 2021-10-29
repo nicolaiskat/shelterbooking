@@ -151,6 +151,7 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Ser
 /Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/ref/shelterbooking.Server.dll
 /Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/shelterbooking.Server.pdb
 /Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/shelterbooking.Server.genruntimeconfig.cache
+>>>>>>> 854a547f81f3afaec0efcfe4496a006cd4c9827c
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Client.StaticWebAssets.xml
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/appsettings.Development.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/appsettings.json
@@ -226,4 +227,3 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Ser
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/ref/shelterbooking.Server.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/shelterbooking.Server.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/shelterbooking.Server.genruntimeconfig.cache
->>>>>>> 854a547f81f3afaec0efcfe4496a006cd4c9827c
