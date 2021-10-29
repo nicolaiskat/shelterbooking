@@ -12,10 +12,18 @@ else
 {
     <button class="btn btn-primary" @onclick="getSheltersList">Se Shelters</button>
     <button class="btn btn-primary" @onclick="getBookingsList">Se bookings</button>
-    <br/>
+    <br />
     if (typeList == 1)
     {
         <h2>Liste af alle shelters</h2>
+
+        <p>
+            <b>Søgekriterier: </b>
+        </p>
+        <p><b>Navn: </b><input /></p>
+        <p><b>Antal pladser: </b><input /> - <input /></p>
+        <p><b>Kommunenavn: </b><input /></p>
+
 
         <table class="table">
             <thead>
