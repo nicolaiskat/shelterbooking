@@ -1527,35 +1527,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/alexanderjensen/.nuget/packages/": {}
+    "C:\\Users\\sisse\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Server/shelterbooking.Server.csproj",
+      "projectUniqueName": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Server\\shelterbooking.Server.csproj",
       "projectName": "shelterbooking.Server",
-      "projectPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Server/shelterbooking.Server.csproj",
-      "packagesPath": "/Users/alexanderjensen/.nuget/packages/",
-      "outputPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Server/obj/",
+      "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Server\\shelterbooking.Server.csproj",
+      "packagesPath": "C:\\Users\\sisse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alexanderjensen/.config/NuGet/NuGet.Config"
+        "C:\\Users\\sisse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj": {
-              "projectPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj"
+            "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj": {
+              "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj"
             },
-            "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
-              "projectPath": "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj"
+            "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj": {
+              "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj"
             }
           }
         }
@@ -1597,6 +1599,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.8, 5.0.8]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1605,7 +1613,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
       }
     }
   }
