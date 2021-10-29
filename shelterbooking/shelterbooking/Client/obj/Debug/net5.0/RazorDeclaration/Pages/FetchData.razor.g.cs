@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace shelterbooking.Client.Shared
+namespace shelterbooking.Client.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,15 @@ using shelterbooking.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/Pages/FetchData.razor"
+using Indkøbsapp.Shared;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
+    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,20 +98,20 @@ using shelterbooking.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/Shared/NavMenu.razor"
+#line 38 "/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/Pages/FetchData.razor"
        
-    private bool collapseNavMenu = true;
+    private WeatherForecast[] forecasts;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
     }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591
