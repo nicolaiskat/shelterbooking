@@ -1,13 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< HEAD
-      "C:\\Users\\sisse\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sisse\\.nuget\\packages"
-=======
-      "/Users/nicolaiskat/.dotnet/store/|arch|/|tfm|",
-      "/Users/nicolaiskat/.nuget/packages"
->>>>>>> 854a547f81f3afaec0efcfe4496a006cd4c9827c
+      "/Users/alexanderjensen/.dotnet/store/|arch|/|tfm|",
+      "/Users/alexanderjensen/.nuget/packages"
     ]
   }
 }

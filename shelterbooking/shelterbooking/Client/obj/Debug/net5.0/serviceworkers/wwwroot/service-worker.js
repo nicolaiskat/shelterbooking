@@ -3,7 +3,7 @@
 // be reflected on the first load after each change).
 self.addEventListener('fetch', () => { });
 <<<<<<< HEAD
-/* Manifest version: XuA0Ts3q */
+/* Manifest version: fys/BH8J */
 =======
-/* Manifest version: inbFB6gs */
->>>>>>> 854a547f81f3afaec0efcfe4496a006cd4c9827c
+/* Manifest version: Ehn4juwd */
+>>>>>>> 48f90625a41dd8f6dc884dbeeb52742e93ce63da

@@ -1,0 +1,138 @@
+@page "/pedelside"
+@using shelterbooking.Shared
+@inject HttpClient Http
+
+<h1>Pedel side</h1>
+
+@if (shelters == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <button class="btn btn-primary" @onclick="getSheltersList">Se Shelters</button>
+    <button class="btn btn-primary" @onclick="getBookingsList">Se bookings</button>
+    <br/>
+    if (typeList == 1)
+    {
+        <h2>Liste af alle shelters</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Shelterplads</th>
+                    <th>Funktioner</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                @foreach (var shelter in shelters)
+                {
+                    <tr>
+                        <td>
+                            <b>Navn:</b> @shelter.properties.navn
+                            <br />
+                            <b>Beskrivelse:</b> @shelter.properties.beskrivels
+                            <br />
+                            <b>Kommune:</b> @shelter.properties.cvr_navn
+                            <br />
+                            <b>Antal pladser:</b> @shelter.properties.antal_pl
+                            <br />
+                            <b>Ledig:</b> Yes
+                            <br />
+                            <b>Ansvarlig:</b> @shelter.properties.ansva_v
+                        </td>
+                        <td>
+                            <button class="btn btn-primary" @onclick="() => getBookings(shelter._id)">Se bookings</button>
+                            <button class="btn btn-primary" @onclick="() => updateShelter(shelter._id)">Ret shelter</button>
+                            <button class="btn btn-primary" @onclick="() => deleteShelter(shelter._id)">Slet shelter</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (typeList == 2)
+    {
+        <h2>Liste af alle bookings</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Booking</th>
+                    <th>Funktioner</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                @foreach (var booking in shelters)
+                {
+                    <tr>
+                        <td>
+                            booking eks.
+                        </td>
+                        <td>
+                            <button class="btn btn-primary" @onclick="() => getShelter(booking._id)">Se bookings</button>
+                            <button class="btn btn-primary" @onclick="() => updateBooking(booking._id)">Ret shelter</button>
+                            <button class="btn btn-primary" @onclick="() => deleteBooking(booking._id)">Slet shelter</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+}
+
+@code {
+    private Shelter[] shelters;
+    private Booking[] bookings;
+
+    protected override async Task OnInitializedAsync()
+    {
+        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
+    }
+
+    public int typeList = 1;
+    public void getSheltersList()
+    {
+        typeList = 1;
+    }
+    public void getBookingsList()
+    {
+        typeList = 2;
+    }
+
+    public void getBookings(string id)
+    {
+
+    }
+    public void updateShelter(string id)
+    {
+
+    }
+    public void deleteShelter(string id)
+    {
+
+    }
+    public void getShelter(string id)
+    {
+
+    }
+    public void updateBooking(string id)
+    {
+
+    }
+    public void deleteBooking(string id)
+    {
+
+    }
+
+
+}
