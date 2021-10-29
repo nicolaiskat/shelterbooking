@@ -1,3 +1,26 @@
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.deps.json
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.dll
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/ref/shelterbooking.Shared.dll
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.pdb
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.AssemblyInfoInputs.cache
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.AssemblyInfo.cs
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.csproj.CoreCompileInputs.cache
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.dll
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/ref/shelterbooking.Shared.dll
+C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.pdb
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.deps.json
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.dll
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/ref/shelterbooking.Shared.dll
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.pdb
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.csproj.AssemblyReference.cache
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.AssemblyInfoInputs.cache
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.AssemblyInfo.cs
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.csproj.CoreCompileInputs.cache
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.dll
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/ref/shelterbooking.Shared.dll
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.deps.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/ref/shelterbooking.Shared.dll
@@ -9,6 +32,7 @@
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/ref/shelterbooking.Shared.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/obj/Debug/net5.0/shelterbooking.Shared.pdb
+<<<<<<< HEAD
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\shelterbooking.Shared.deps.json
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\shelterbooking.Shared.dll
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\ref\shelterbooking.Shared.dll
@@ -32,3 +56,5 @@ C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Sha
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.dll
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\ref\shelterbooking.Shared.dll
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.pdb
+=======
+>>>>>>> 854a547f81f3afaec0efcfe4496a006cd4c9827c

@@ -1,0 +1,46 @@
+@page "/fetchdata"
+@using shelterbooking.Shared
+@inject HttpClient Http
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (shelters == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Navn</th>
+                <th>Antal pladser</th>
+                <th>Kommune</th>
+                <th>Beskrivelse</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var shelter in shelters)
+            {
+                <tr>
+                    <td>@shelter.properties.navn</td>
+                    <td>@shelter.properties.antal_pl</td>
+                    <td>@shelter.properties.cvr_navn</td>
+                    <td>@shelter.properties.beskrivels.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Shelter[] shelters;
+
+    protected override async Task OnInitializedAsync()
+    {
+        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
+    }
+
+}
