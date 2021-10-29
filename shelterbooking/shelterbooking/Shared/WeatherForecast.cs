@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Indkøbsapp.Shared
+namespace shelterbooking.Shared
 {
     public class WeatherForecast
     {

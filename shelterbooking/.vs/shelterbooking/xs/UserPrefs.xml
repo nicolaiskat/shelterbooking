@@ -1,25 +1,27 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/FetchData.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/WeatherForecast.cs">
     <Files>
       <File FileName="shelterbooking/Server/ShelterService.cs" Line="29" Column="44" />
       <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" />
       <File FileName="shelterbooking/Server/Startup.cs" />
       <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" />
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="39" Column="13" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="1" Column="1" />
+      <File FileName="shelterbooking/Shared/WeatherForecast.cs" Line="17" Column="2" />
+      <File FileName="shelterbooking/Server/Controllers/WeatherForecast.cs" Line="38" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="FetchData.razor" selected="True" />
-              </Node>
+              <Node name="Pages" expanded="True" />
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecast.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="shelterbooking.Shared" expanded="True" />
           </Node>
