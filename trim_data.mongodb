@@ -45,3 +45,4 @@ use('shelterdb');
 //     "properties.ansva_v": 1}},
 //     {$out: "shelters"}
 // ])
+    
