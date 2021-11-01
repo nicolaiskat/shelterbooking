@@ -1320,6 +1320,10 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/service-worker-assets.js
 >>>>>>> 854a547f81f3afaec0efcfe4496a006cd4c9827c
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Pedelside.razor.g.cs
+/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Pedelside.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/blazor.boot.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/shelterbooking.Client.StaticWebAssets.xml
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/shelterbooking.Client.dll
@@ -1330,6 +1334,7 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/shelterbooking.Client.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/shelterbooking.Client.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/blazor.webassembly.js
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Blazored.Modal.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/DnsClient.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
@@ -1533,6 +1538,7 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/icudt_no_CJK.dat.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/dotnet.5.0.11.js.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/shelterbooking.Shared.dll.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Blazored.Modal.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/DnsClient.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll
@@ -1767,6 +1773,7 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/J025mbgM.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/M57sR+Ix.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/zRN0+r6J.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/k6v3nmvf.gz
@@ -1983,7 +1990,3 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/service-worker-assets.js
-/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
-/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
-/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Pedelside.razor.g.cs
-/Users/alexanderjensen/Desktop/shelter projekt/shelterbooking/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Pedelside.razor.g.cs

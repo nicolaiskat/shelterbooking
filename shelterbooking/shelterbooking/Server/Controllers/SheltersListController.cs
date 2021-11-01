@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using shelterbooking.Shared;
+using shelterbooking.Server;
 
 namespace shelterbooking.Server.Controllers
 {
@@ -66,4 +67,5 @@ namespace shelterbooking.Server.Controllers
 
         }
     }
+
 }

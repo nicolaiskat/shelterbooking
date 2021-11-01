@@ -1,8 +1,20 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-ILlhGZDSoJiPLgrCOfDFdubsBKZtLvGLTN1uiQIKmK0=",
+      "hash": "sha256-hCgyKYB2Fp3cS2OYfOsDmtYLbOA\/5\/0gZ\/fo0fXNVuo=",
+      "url": "_content\/Blazored.Modal\/blazored-modal.css"
+    },
+    {
+      "hash": "sha256-hzc3VjBPQWszPOZ2BiO4+DGMfVN\/c2qCVdzHWAbhe2E=",
+      "url": "_content\/Blazored.Modal\/blazored.modal.js"
+    },
+    {
+      "hash": "sha256-9z8SNaVDpsTL6zsowvlLjNUm8jepUafSb3V23pomtx0=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-yoXX75RsqCVb+q2v0ZS7Hd6lW+OeSPHHPyJBk\/AyYMg=",
+      "url": "_framework\/Blazored.Modal.dll"
     },
     {
       "hash": "sha256-gWqxqdNWccOfJcbLM+dhjMNj1xkEDo+YNJiZkDQnEGs=",
@@ -813,24 +825,28 @@
       "url": "_framework\/dotnet.5.0.11.js"
     },
     {
-      "hash": "sha256-GcvN3u7\/K7CSUuoRmzhlzNWT7XFHNw7zyo3GbJxnEvw=",
+      "hash": "sha256-B52yEnKf+y0TcfKJgEwrAqx\/6yulfEQUUI78ZTYFXy0=",
       "url": "_framework\/shelterbooking.Shared.dll"
     },
     {
-      "hash": "sha256-\/EkWFWEVklWvMHCnNDdXf6GqhDoyy0anFXu1o8AULGA=",
+      "hash": "sha256-\/GjWszIaRk3KZ28PMj8Wfh1uEaVjt9jQ4V0mQn+1X2I=",
       "url": "_framework\/shelterbooking.Shared.pdb"
     },
     {
-      "hash": "sha256-ZrbDoCYJ79k2l4jwc+io3EBM\/q8ptCsSq4W4kyLVQmE=",
+      "hash": "sha256-qAHec8HD6oTP3JaprHJ8R1IzP7jG2th7D6m\/YalSUj4=",
       "url": "_framework\/shelterbooking.Client.dll"
     },
     {
-      "hash": "sha256-VTR4hP+bxVukpK4St8AU5M4kk06cil5+AO5woV4hGQ8=",
+      "hash": "sha256-DrfSsFv59BlV6ejpdutkuwu43Eg59jz\/srF01eHZ8mY=",
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
       "hash": "sha256-dl8FVRvWOJfOtzIC\/x66QNnBNsT9cAOMrn22GB8fJ8U=",
       "url": "_framework\/blazor.webassembly.js"
+    },
+    {
+      "hash": "sha256-xX4nO+SaJmmwT1t+yXOM8bKetbdBJqkXyGMrQ+G7ujo=",
+      "url": "_framework\/Blazored.Modal.dll.gz"
     },
     {
       "hash": "sha256-ThIXATzvHuwb8gnEwF81cOeF0\/XGuf6GsekJccadlAc=",
@@ -1641,7 +1657,7 @@
       "url": "_framework\/dotnet.5.0.11.js.gz"
     },
     {
-      "hash": "sha256-Pghmm7aq4F3P6EdlWyLOlCsGCiou4P2dSRsNYQIakRQ=",
+      "hash": "sha256-XE12tBzwWHyUfq5BIsdQaYrya\/y0oPHBDubkm25Wqdc=",
       "url": "_framework\/shelterbooking.Shared.dll.gz"
     },
     {
@@ -1701,7 +1717,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-fNDKh7at9idVBpvljVLbaLxBiBiOM99s+5e+RiaVdiE=",
+      "hash": "sha256-RMcen7YV2I0U4L4NdF0T3kyKCA0jxu6tK2cjZ6qZiGc=",
       "url": "index.html"
     },
     {
@@ -1717,5 +1733,5 @@
       "url": "shelterbooking.Client.bundle.scp.css"
     }
   ],
-  "version": "79H7X1xh"
+  "version": "YfXbg5n2"
 };

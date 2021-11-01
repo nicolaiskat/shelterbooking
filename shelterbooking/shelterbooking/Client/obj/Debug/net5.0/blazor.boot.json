@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.Modal.dll": "sha256-yoXX75RsqCVb+q2v0ZS7Hd6lW+OeSPHHPyJBk\/AyYMg=",
       "DnsClient.dll": "sha256-gWqxqdNWccOfJcbLM+dhjMNj1xkEDo+YNJiZkDQnEGs=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-ktaWu1p6pD2yy7T\/20KVYU7oihmpYm3jrPw4QHb7J+k=",
       "Microsoft.AspNetCore.Components.dll": "sha256-alrtyx++CQU1VO\/6akeZFBPsYgrGGm+Z5ax9\/kaPM3k=",
@@ -202,12 +203,12 @@
       "mscorlib.dll": "sha256-heWnofXFSc\/TfAxrWpjQxeuS+nlIOs9YycfI2QGXGM8=",
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
-      "shelterbooking.Shared.dll": "sha256-GcvN3u7\/K7CSUuoRmzhlzNWT7XFHNw7zyo3GbJxnEvw=",
-      "shelterbooking.Client.dll": "sha256-ZrbDoCYJ79k2l4jwc+io3EBM\/q8ptCsSq4W4kyLVQmE="
+      "shelterbooking.Shared.dll": "sha256-B52yEnKf+y0TcfKJgEwrAqx\/6yulfEQUUI78ZTYFXy0=",
+      "shelterbooking.Client.dll": "sha256-qAHec8HD6oTP3JaprHJ8R1IzP7jG2th7D6m\/YalSUj4="
     },
     "lazyAssembly": null,
     "pdb": {
-      "shelterbooking.Client.pdb": "sha256-VTR4hP+bxVukpK4St8AU5M4kk06cil5+AO5woV4hGQ8="
+      "shelterbooking.Client.pdb": "sha256-DrfSsFv59BlV6ejpdutkuwu43Eg59jz\/srF01eHZ8mY="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",

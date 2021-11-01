@@ -173,6 +173,7 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Ser
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.Views.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.Views.pdb
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Blazored.Modal.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/DnsClient.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll

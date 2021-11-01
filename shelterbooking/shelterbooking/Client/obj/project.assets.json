@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Blazored.Modal/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.JSInterop.WebAssembly": "3.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazored.Modal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazored.Modal.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Modal.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Modal.props": {}
+        }
+      },
       "DnsClient/1.4.0": {
         "type": "package",
         "compile": {
@@ -497,6 +518,27 @@
       }
     },
     "net5.0/browser-wasm": {
+      "Blazored.Modal/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.JSInterop.WebAssembly": "3.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazored.Modal.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazored.Modal.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.Modal.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Modal.props": {}
+        }
+      },
       "DnsClient/1.4.0": {
         "type": "package",
         "compile": {
@@ -959,6 +1001,25 @@
     }
   },
   "libraries": {
+    "Blazored.Modal/6.0.1": {
+      "sha512": "a7FwVYU2nDL6MBvtBnkp8GSLTEdZU4eKcN8ZcfhQNh4tFwGRKsIvz9jN+6eIEGV1PdI2rbzHkif/igyOcfC8Zg==",
+      "type": "package",
+      "path": "blazored.modal/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.modal.6.0.1.nupkg.sha512",
+        "blazored.modal.nuspec",
+        "build/Blazored.Modal.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazored.Modal.props",
+        "buildTransitive/Blazored.Modal.props",
+        "icon.png",
+        "lib/netstandard2.1/Blazored.Modal.dll",
+        "staticwebassets/blazored-modal.css",
+        "staticwebassets/blazored.modal.js"
+      ]
+    },
     "DnsClient/1.4.0": {
       "sha512": "CO1NG1zQdV0nEAXmr/KppLZ0S1qkaPwV0kPX5YPgmYBtrBVh1XMYHM54IXy3RBJu1k4thFtpzwo4HNHqxiuFYw==",
       "type": "package",
@@ -1786,6 +1847,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Blazored.Modal >= 6.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.11",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.11",
       "System.Net.Http.Json >= 5.0.0",
@@ -1793,34 +1855,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sisse\\.nuget\\packages\\": {}
+    "/Users/nicolaiskat/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj",
+      "projectUniqueName": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
       "projectName": "shelterbooking.Client",
-      "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj",
-      "packagesPath": "C:\\Users\\sisse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\obj\\",
+      "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
+      "packagesPath": "/Users/nicolaiskat/.nuget/packages/",
+      "outputPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sisse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nicolaiskat/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj": {
-              "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj"
+            "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
+              "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj"
             }
           }
         }
@@ -1835,6 +1895,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Blazored.Modal": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[5.0.11, )"
@@ -1862,7 +1926,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.8, 5.0.8]"
+            "version": "[5.0.11, 5.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -1870,7 +1934,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

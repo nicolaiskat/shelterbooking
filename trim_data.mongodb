@@ -4,7 +4,7 @@
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 
 // Select the database to use.
-use('shelterdb');
+use('admin');
 
 //Trin 4
 // db.shelters.aggregate([
@@ -45,4 +45,13 @@ use('shelterdb');
 //     "properties.ansva_v": 1}},
 //     {$out: "shelters"}
 // ])
-    
+
+db.createUser(
+    {
+        user: "applicationUser",
+        pwd: passwordPrompt(),
+        roles: [
+            { role: "read", db: "caloriesdb" }
+        ]
+    }
+)
