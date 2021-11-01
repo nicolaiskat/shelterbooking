@@ -90,11 +90,7 @@ using shelterbooking.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-<<<<<<< HEAD
-#line 28 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Shared/NavMenu.razor"
-=======
-#line 33 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Shared\NavMenu.razor"
->>>>>>> 5e42768d603c507ef913899fc3df381f25e768ee
+#line 33 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

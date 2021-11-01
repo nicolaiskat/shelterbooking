@@ -98,11 +98,7 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-<<<<<<< HEAD
 #line 58 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/FetchData.razor"
-=======
-#line 59 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\FetchData.razor"
->>>>>>> 5e42768d603c507ef913899fc3df381f25e768ee
        
     private Shelter[] shelters;
 
