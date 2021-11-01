@@ -10,9 +10,10 @@ namespace shelterbooking.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SheltersController : ControllerBase
+    public class SheltersController : Controller
     {
         private readonly ShelterService _shelterService;
+
 
         public SheltersController(ShelterService shelterService)
         {

@@ -13,13 +13,6 @@ namespace shelterbooking.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\_Imports.razor"
-using System.Net.Http;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 2 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\_Imports.razor"
 using System.Net.Http.Json;
 
@@ -89,6 +82,13 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
+using System.Net.Http;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/pedelside")]
     public partial class Pedelside : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,191 +98,217 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 101 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
-       
-    private Shelter[] shelters;
-    private Booking[] bookings;
+#line 107 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
+           
+        private Shelter[] shelters;
+        private Booking[] bookings;
 
-    protected override async Task OnInitializedAsync()
-    {
-        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
-    }
-
-    public int typeList = 1;
-    public void getSheltersList()
-    {
-        typeList = 1;
-    }
-    public void getBookingsList()
-    {
-        typeList = 2;
-    }
-
-    public void getBookings(string id)
-    {
-
-    }
-    public void updateShelter(string id)
-    {
-
-    }
-    public void deleteShelter(string id)
-    {
-
-    }
-    public void getShelter(string id)
-    {
-
-    }
-    public void updateBooking(string id)
-    {
-
-    }
-    public void deleteBooking(string id)
-    {
-
-    }
-
-    public List<Shelter> shelterToList()
-    {
-        List<Shelter> items = new();
-        foreach (var shelter in shelters)
+        protected override async Task OnInitializedAsync()
         {
-            items.Add(shelter);
-        };
-        return items;
-    }
-    private List<Shelter> GetFilteretItems(string name, int antal_pl_min, int antal_pl_max, string kommune)
-    {
-        List<Shelter> unfilteretItems = shelterToList();
-        List<Shelter> filteretItems = shelterToList();
-
-        if (!string.IsNullOrEmpty(name) && antal_pl_min > 0 && antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.antal_pl >= antal_pl_min &&
-                item.properties.antal_pl <= antal_pl_max &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (!string.IsNullOrEmpty(name) && antal_pl_min > 0 && antal_pl_max > 0)
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.antal_pl >= antal_pl_min &&
-                item.properties.antal_pl <= antal_pl_max
-                );
-        }
-        else if (!string.IsNullOrEmpty(name) && antal_pl_min > 0 && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.antal_pl >= antal_pl_min &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (!string.IsNullOrEmpty(name) && antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.antal_pl <= antal_pl_max &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (antal_pl_min > 0 && antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.antal_pl >= antal_pl_min &&
-                item.properties.antal_pl <= antal_pl_max &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (!string.IsNullOrEmpty(name) && antal_pl_min > 0)
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.antal_pl >= antal_pl_min
-                );
-        }
-        else if (!string.IsNullOrEmpty(name) && antal_pl_max > 0)
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.antal_pl <= antal_pl_max
-                );
-        }
-        else if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower()) &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (antal_pl_min > 0 && antal_pl_max > 0)
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.antal_pl >= antal_pl_min &&
-                item.properties.antal_pl <= antal_pl_max
-                );
-        }
-        else if (antal_pl_min > 0 && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.antal_pl >= antal_pl_min &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.antal_pl <= antal_pl_max &&
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        else if (!string.IsNullOrEmpty(name))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.navn.ToLower().Contains(name.ToLower())
-                );
-        }
-        else if (antal_pl_min > 0)
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.antal_pl >= antal_pl_min
-                );
-        }
-        else if (antal_pl_max > 0)
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.antal_pl <= antal_pl_max
-                );
-        }
-        else if (!string.IsNullOrEmpty(kommune))
-        {
-            filteretItems = unfilteretItems.FindAll(
-                item =>
-                item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
-                );
-        }
-        return filteretItems;
-    }
+            shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
 
 
+
+            
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 125 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
+                                                                              
+        }
+
+        public string shelternavn;
+        public string kom;
+        public string antal_min;
+        public string antal_max;
+        public int typeList = 1;
+        public void getSheltersList()
+        {
+            typeList = 1;
+        }
+        public void getBookingsList()
+        {
+            typeList = 2;
+        }
+
+        public void getBookings(string id)
+        {
+
+        }
+        public void updateShelter(string id)
+        {
+
+        }
+        public void deleteShelter(string id)
+        {
+
+        }
+        public void getShelter(string id)
+        {
+
+        }
+        public void updateBooking(string id)
+        {
+
+        }
+        public void deleteBooking(string id)
+        {
+
+        }
+
+        public List<Shelter> shelterToList()
+        {
+            List<Shelter> items = new();
+            foreach (var shelter in shelters)
+            {
+                items.Add(shelter);
+            };
+            return items;
+        }
+        private List<Shelter> GetFilteretItems(string name, string antal_pl_min_s, string antal_pl_max_s, string kommune)
+        {
+            List<Shelter> unfilteretItems = shelterToList();
+            List<Shelter> filteretItems = shelterToList();
+            int antal_pl_min = 0;
+            int antal_pl_max = 0;
+            if (!string.IsNullOrEmpty(antal_pl_min_s))
+            {
+                antal_pl_min = int.Parse(antal_pl_min_s);
+            }
+            if (!string.IsNullOrEmpty(antal_pl_max_s))
+            {
+                antal_pl_max = int.Parse(antal_pl_max_s);
+            }
+
+            if (!string.IsNullOrEmpty(name) && antal_pl_min > 0 && antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.antal_pl >= antal_pl_min &&
+                    item.properties.antal_pl <= antal_pl_max &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name) && antal_pl_min > 0 && antal_pl_max > 0)
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.antal_pl >= antal_pl_min &&
+                    item.properties.antal_pl <= antal_pl_max
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name) && antal_pl_min > 0 && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.antal_pl >= antal_pl_min &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name) && antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.antal_pl <= antal_pl_max &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (antal_pl_min > 0 && antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.antal_pl >= antal_pl_min &&
+                    item.properties.antal_pl <= antal_pl_max &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name) && antal_pl_min > 0)
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.antal_pl >= antal_pl_min
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name) && antal_pl_max > 0)
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.antal_pl <= antal_pl_max
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower()) &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (antal_pl_min > 0 && antal_pl_max > 0)
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.antal_pl >= antal_pl_min &&
+                    item.properties.antal_pl <= antal_pl_max
+                    );
+            }
+            else if (antal_pl_min > 0 && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.antal_pl >= antal_pl_min &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (antal_pl_max > 0 && !string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.antal_pl <= antal_pl_max &&
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            else if (!string.IsNullOrEmpty(name))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.navn.ToLower().Contains(name.ToLower())
+                    );
+            }
+            else if (antal_pl_min > 0)
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.antal_pl >= antal_pl_min
+                    );
+            }
+            else if (antal_pl_max > 0)
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.antal_pl <= antal_pl_max
+                    );
+            }
+            else if (!string.IsNullOrEmpty(kommune))
+            {
+                filteretItems = unfilteretItems.FindAll(
+                    item =>
+                    item.properties.cvr_navn.ToLower().Contains(kommune.ToLower())
+                    );
+            }
+            return filteretItems;
+        }
+
+
+    
 
 #line default
 #line hidden

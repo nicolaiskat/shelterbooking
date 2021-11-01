@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/qYk5ZxKGr3dJeunMF0I3wboAKHvTupCterVEYGTqW2qEFHMSlcunorp/9AzfJ3KteBxGXuUoFeKBesd4e+RFw==",
+  "dgSpecHash": "PpEsGpOPgXZaAAoieIwS21l5K+sHkaXM/feDbpvmXeS3AxBY1h6NzXLTVh5Wg9BOyEmHoVIGnXVPnNMOQWZpLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Server\\shelterbooking.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sisse\\.nuget\\packages\\blazored.modal\\6.0.1\\blazored.modal.6.0.1.nupkg.sha512",
     "C:\\Users\\sisse\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\sisse\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.11\\microsoft.aspnetcore.authorization.5.0.11.nupkg.sha512",
     "C:\\Users\\sisse\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.11\\microsoft.aspnetcore.components.5.0.11.nupkg.sha512",

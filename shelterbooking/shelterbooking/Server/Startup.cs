@@ -10,7 +10,6 @@ using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 
-
 namespace shelterbooking.Server
 {
     public class Startup
@@ -31,7 +30,7 @@ namespace shelterbooking.Server
             services.AddSingleton<ShelterService>();
 
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.UseMemberCasing());
-
+            
             services.AddRazorPages();
         }
 

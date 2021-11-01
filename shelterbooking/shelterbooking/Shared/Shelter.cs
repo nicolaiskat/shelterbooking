@@ -22,6 +22,7 @@ namespace shelterbooking.Shared
             this.geometry = geometry;
             this.properties = properties;
         }
+        public Shelter() { }
     }
 
     public class Geometry
