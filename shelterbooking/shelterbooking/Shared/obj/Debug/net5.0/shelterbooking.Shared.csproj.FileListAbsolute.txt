@@ -2,7 +2,6 @@ C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Sha
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\shelterbooking.Shared.dll
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\ref\shelterbooking.Shared.dll
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\shelterbooking.Shared.pdb
-C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.csproj.AssemblyReference.cache
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.AssemblyInfoInputs.cache
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.AssemblyInfo.cs
