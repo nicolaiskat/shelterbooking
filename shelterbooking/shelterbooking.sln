@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.810.11
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shelterbooking.Server", "shelterbooking\Server\shelterbooking.Server.csproj", "{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelterbooking.Server", "shelterbooking\Server\shelterbooking.Server.csproj", "{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shelterbooking.Client", "shelterbooking\Client\shelterbooking.Client.csproj", "{4F1327BA-625A-4F7A-B7E4-620BF1CB2711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelterbooking.Client", "shelterbooking\Client\shelterbooking.Client.csproj", "{4F1327BA-625A-4F7A-B7E4-620BF1CB2711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shelterbooking.Shared", "shelterbooking\Shared\shelterbooking.Shared.csproj", "{7585990D-0458-46C9-95F6-990784AC8F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelterbooking.Shared", "shelterbooking\Shared\shelterbooking.Shared.csproj", "{7585990D-0458-46C9-95F6-990784AC8F64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
