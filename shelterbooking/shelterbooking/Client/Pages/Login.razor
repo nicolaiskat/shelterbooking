@@ -1,0 +1,24 @@
+﻿@page "/login"
+<h3>LogIn</h3>
+
+<p>
+    Username:
+    <input placeholder ="Email" @bind="email" />
+    <br />
+    Password: 
+     <input placeholder ="Password" @bind="password" />
+    <br />
+    <button class="btn btn-primary" @onclick="getlogin">Login</button>
+    <br />
+     <a href="https://localhost:5001/createuser" >Dont have a user?</a>
+</p>
+
+
+
+@code { public string email;
+    public string password;
+    public void getlogin() { }
+
+
+}
+

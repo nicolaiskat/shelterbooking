@@ -1,0 +1,32 @@
+﻿@page "/createuser"
+<h3>CreateUser</h3>
+
+ <p>
+    Fornavn:
+    <input placeholder ="Fornavn" @bind="fornavn" />
+    <br />
+    Efternavn:
+    <input placeholder ="Efternavn" @bind="efternavn" />
+    <br />
+    Mobil:
+    <input placeholder ="Mobilnummer" @bind="mobil" />
+    <br />
+    Email:
+    <input placeholder ="Email" @bind="email" />
+    <br />
+    Password: 
+     <input placeholder ="Password" @bind="password" />
+    <br />
+    <button class="btn btn-primary" @onclick="getUser">Create</button>
+</p>
+
+@code {
+
+    public string fornavn;
+    public string efternavn;
+    public string mobil;
+    public string email;
+    public string password;
+    public void getUser() { }
+
+}
