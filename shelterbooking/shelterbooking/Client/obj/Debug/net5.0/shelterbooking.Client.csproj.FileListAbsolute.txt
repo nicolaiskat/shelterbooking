@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/blazor.boot.json
 C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/shelterbooking.Client.StaticWebAssets.xml
 C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/shelterbooking.Client.dll
@@ -2012,7 +2011,6 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/service-worker-assets.js
-=======
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\bin\Debug\net5.0\shelterbooking.Client.StaticWebAssets.xml
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\bin\Debug\net5.0\shelterbooking.Client.dll
@@ -2684,3 +2682,11 @@ C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Cli
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\service-worker-assets.js
 >>>>>>> 742f6e008995dd0d0e41ccdefce681639ff1c252
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Form.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Form2.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\RazorDeclaration\Pages\OpretShelter.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\RazorDeclaration\Pages\UpdateShelter.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\Razor\Pages\Form.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\Razor\Pages\Form2.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\Razor\Pages\OpretShelter.razor.g.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\Razor\Pages\UpdateShelter.razor.g.cs
