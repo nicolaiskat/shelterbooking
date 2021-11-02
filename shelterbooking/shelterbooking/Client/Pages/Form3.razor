@@ -1,0 +1,79 @@
+﻿@using shelterbooking.Shared
+
+<EditForm Model="@book" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group ">
+        <div>
+            <label>Booking shelter id :</label>
+            <div>
+                <InputText @bind-Value="@book.shelter_id" />
+                <ValidationMessage For="@(() => book.shelter_id)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Fulde Navn :</label>
+            <div>
+                <InputText @bind-Value="@book.fuldenavn" />
+                <ValidationMessage For="@(() => book.fuldenavn)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Telefon nr :</label>
+            <div>
+                <InputNumber @bind-Value="@book.telefon" />
+                <ValidationMessage For="@(() => book.telefon)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Booking kommentar :</label>
+            <div>
+                <InputText @bind-Value="@book.kommentar" />
+                <ValidationMessage For="@(() => book.kommentar)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Startdato :</label>
+            <div>
+                <InputDate @bind-Value="@book.startdato" />
+                <ValidationMessage For="@(() => book.startdato)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Slutdato :</label>
+            <div>
+                <InputDate @bind-Value="@book.slutdato" />
+                <ValidationMessage For="@(() => book.slutdato)" />
+            </div>
+        </div>
+     </div>
+    
+    <button type="submit" class="btn btn-success">
+        @ButtonText
+    </button>
+</EditForm>
+@code {
+    [Parameter] public Booking book { get; set; }
+    [Parameter] public string ButtonText { get; set; } = "Save";
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+    static Random random = new Random();
+    public static string GetRandomHexNumber(int digits)
+    {
+        byte[] buffer = new byte[digits / 2];
+        random.NextBytes(buffer);
+        string result = String.Concat(buffer.Select(x => x.ToString("X2")).ToArray());
+        if (digits % 2 == 0)
+            return result;
+        return result + random.Next(16).ToString("X");
+    }
+}
