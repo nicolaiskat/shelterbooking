@@ -208,12 +208,12 @@
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
       "shelterbooking.Shared.dll": "sha256-BZvOywfKUgWYXLzzVrQzUXSWbpzq03a6enftvpPSfIs=",
-      "shelterbooking.Client.dll": "sha256-4Y\/lw4GAjAv6eHiWO7h\/stHJIjtwWwjSJ0Bdgc8mq4E="
+      "shelterbooking.Client.dll": "sha256-iA1mXxRSqXESR1xns5HGt0bP0OI2\/+IdGaq6RG1Igg8="
     },
     "lazyAssembly": null,
     "pdb": {
       "shelterbooking.Shared.pdb": "sha256-iWwhnogRuI+eHuFnMV3+ibxFdbFUbVQBYXTE8S4fJCI=",
-      "shelterbooking.Client.pdb": "sha256-AW\/uBqyKPIc37c3Za2XVDiGUbErx\/eU8cdiXLlmT8wE="
+      "shelterbooking.Client.pdb": "sha256-rQjY1BMQtsllVIMPcE34KandnqFR3Xg8uY\/2FvSzQjI="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",
