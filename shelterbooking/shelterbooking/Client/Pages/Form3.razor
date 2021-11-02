@@ -1,112 +1,68 @@
 ﻿@using shelterbooking.Shared
 
-<EditForm Model="@prop" OnValidSubmit="@OnValidSubmit">
+<EditForm Model="@book" OnValidSubmit="@OnValidSubmit">
     <DataAnnotationsValidator />
     <div class="form-group ">
         <div>
-            <label>Properties-objekt_id :</label>
+            <label>Booking shelter id :</label>
             <div>
-                <InputText @bind-Value="@prop.objekt_id" />
-                <ValidationMessage For="@(() => GetRandomHexNumber(24))" />
+                <InputText @bind-Value="@book.shelter_id" />
+                <ValidationMessage For="@(() => book.shelter_id)" />
             </div>
         </div>
     </div>
     <div class="form-group ">
         <div>
-            <label>Properties-cvr_kode :</label>
+            <label>Fulde Navn :</label>
             <div>
-                <InputNumber @bind-Value="@prop.cvr_kode" />
-                <ValidationMessage For="@(() => prop.cvr_kode)" />
+                <InputText @bind-Value="@book.fuldenavn" />
+                <ValidationMessage For="@(() => book.fuldenavn)" />
             </div>
         </div>
     </div>
     <div class="form-group ">
         <div>
-            <label>Properties-cvr_navn :</label>
+            <label>Telefon nr :</label>
             <div>
-                <InputText @bind-Value="@prop.cvr_navn" />
-                <ValidationMessage For="@(() => prop.cvr_navn)" />
+                <InputNumber @bind-Value="@book.telefon" />
+                <ValidationMessage For="@(() => book.telefon)" />
             </div>
         </div>
     </div>
     <div class="form-group ">
         <div>
-            <label>Properties-kommunekode :</label>
+            <label>Booking kommentar :</label>
             <div>
-                <InputNumber @bind-Value="@prop.kommunekode" />
-                <ValidationMessage For="@(() => prop.kommunekode)" />
+                <InputText @bind-Value="@book.kommentar" />
+                <ValidationMessage For="@(() => book.kommentar)" />
             </div>
         </div>
     </div>
     <div class="form-group ">
         <div>
-            <label>Properties-facil_ty :</label>
+            <label>Startdato :</label>
             <div>
-                <InputText @bind-Value="@prop.facil_ty" />
-                <ValidationMessage For="@(() => prop.facil_ty)" />
+                <InputDate @bind-Value="@book.startdato" />
+                <ValidationMessage For="@(() => book.startdato)" />
             </div>
         </div>
     </div>
     <div class="form-group ">
         <div>
-            <label>Properties-navn :</label>
+            <label>Slutdato :</label>
             <div>
-                <InputText @bind-Value="@prop.navn" />
-                <ValidationMessage For="@(() => prop.navn)" />
+                <InputDate @bind-Value="@book.slutdato" />
+                <ValidationMessage For="@(() => book.slutdato)" />
             </div>
         </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-beskrivels :</label>
-            <div>
-                <InputText @bind-Value="@prop.beskrivels" />
-                <ValidationMessage For="@(() => prop.beskrivels)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-lang_beskr :</label>
-            <div>
-                <InputText @bind-Value="@prop.lang_beskr" />
-                <ValidationMessage For="@(() => prop.lang_beskr)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-antal_pl :</label>
-            <div>
-                <InputNumber @bind-Value="@prop.antal_pl" />
-                <ValidationMessage For="@(() => prop.antal_pl)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-ansvar_org :</label>
-            <div>
-                <InputText @bind-Value="@prop.ansvar_org" />
-                <ValidationMessage For="@(() => prop.ansvar_org)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-ansva_v :</label>
-            <div>
-                <InputText @bind-Value="@prop.ansva_v" />
-                <ValidationMessage For="@(() => prop.ansva_v)" />
-            </div>
-        </div>
-    </div>
+     </div>
+    
     <button type="submit" class="btn btn-success">
         @ButtonText
     </button>
 </EditForm>
 @code {
-    [Parameter] public Properties prop { get; set; }
+    [Parameter] public Booking book { get; set; }
     [Parameter] public string ButtonText { get; set; } = "Save";
     [Parameter] public EventCallback OnValidSubmit { get; set; }
 
