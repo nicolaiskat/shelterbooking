@@ -9,7 +9,7 @@
       "url": "_content\/Blazored.Modal\/blazored.modal.js"
     },
     {
-      "hash": "sha256-LnDKt09dhZ73v1xLydXEeSSGbjeDBBBAfFkmw\/VY+jY=",
+      "hash": "sha256-uIrL+JevS2z5mRXABjuQ3jskUdUemq1Ar+z8N6kMKvE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -825,19 +825,19 @@
       "url": "_framework\/dotnet.5.0.11.js"
     },
     {
-      "hash": "sha256-B52yEnKf+y0TcfKJgEwrAqx\/6yulfEQUUI78ZTYFXy0=",
+      "hash": "sha256-eZN66lkQtoHp+qk2Yfir6U+GQ2uezJKF29vVJeCf5MM=",
       "url": "_framework\/shelterbooking.Shared.dll"
     },
     {
-      "hash": "sha256-\/GjWszIaRk3KZ28PMj8Wfh1uEaVjt9jQ4V0mQn+1X2I=",
+      "hash": "sha256-L3mQCDplVJB9EGrsbVHb1aGDu44ROrZJ+VXKrrPse6s=",
       "url": "_framework\/shelterbooking.Shared.pdb"
     },
     {
-      "hash": "sha256-35D4JlYKbXumRM8bEQ8+8m\/uNf3VRex+BS10GXyp0cc=",
+      "hash": "sha256-Clw3j0nQMmzaGtRCvUJmyuYsYVKFwrox2wN6ku6O65k=",
       "url": "_framework\/shelterbooking.Client.dll"
     },
     {
-      "hash": "sha256-8ry6+3M3TC2Ci9QVZJlQLRSrlkmnQhzdxSWDmRvR8OA=",
+      "hash": "sha256-ADUWf0NpMLH+pbr8pUSF5DMdjqcizrDrhVbOeSE9vrM=",
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
@@ -1657,7 +1657,7 @@
       "url": "_framework\/dotnet.5.0.11.js.gz"
     },
     {
-      "hash": "sha256-XE12tBzwWHyUfq5BIsdQaYrya\/y0oPHBDubkm25Wqdc=",
+      "hash": "sha256-WaR7B7Iw3raRv8Xlj82SbnTiI2tIhJS4HVYZlaKTGy0=",
       "url": "_framework\/shelterbooking.Shared.dll.gz"
     },
     {
@@ -1733,5 +1733,5 @@
       "url": "shelterbooking.Client.bundle.scp.css"
     }
   ],
-  "version": "Xm9As3eG"
+  "version": "Ivd9wzQk"
 };
