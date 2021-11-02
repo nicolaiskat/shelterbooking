@@ -103,22 +103,30 @@ using shelterbooking.Shared;
     [Parameter] public string shelId { get; set; }
     public Shelter shel = new Shelter();
     public Properties prop = new Properties();
+    public Geometry geom = new Geometry();
     protected async override Task OnParametersSetAsync()
     {
         shel = await Http.GetFromJsonAsync<Shelter>($"api/shelters/{shelId}");
         prop = shel.properties;
+        geom = shel.geometry;
         
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
+<<<<<<< HEAD
+#line 20 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateShelter.razor"
+=======
 #line 18 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\UpdateShelter.razor"
+>>>>>>> 49cb30c685b9da4f8a5c517d8792065c1d02b463
                                                                         
     }
+ 
     async Task EditShelter()
     {
-        await Http.PutAsJsonAsync("api/shelters", prop);
+        Shelter shel2 = new(shelId, "Feature", geom, prop);
+        await Http.PutAsJsonAsync("api/shelters", shel2);
         await js.InvokeVoidAsync("alert", $"Updated Successfully!");
         uriHelper.NavigateTo("pedelside");
     }
