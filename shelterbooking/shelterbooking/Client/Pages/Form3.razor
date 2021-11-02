@@ -4,15 +4,6 @@
     <DataAnnotationsValidator />
     <div class="form-group ">
         <div>
-            <label>Booking shelter id :</label>
-            <div>
-                <InputText @bind-Value="@book.shelter_id" />
-                <ValidationMessage For="@(() => book.shelter_id)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
             <label>Fulde Navn :</label>
             <div>
                 <InputText @bind-Value="@book.fuldenavn" />
@@ -40,18 +31,18 @@
     </div>
     <div class="form-group ">
         <div>
-            <label>Startdato :</label>
+            <label>Startdato : (Format: ex. 31/10/2021)</label>
             <div>
-                <InputDate @bind-Value="@book.startdato" />
+                <InputText @bind-Value="@book.startdato" />
                 <ValidationMessage For="@(() => book.startdato)" />
             </div>
         </div>
     </div>
     <div class="form-group ">
         <div>
-            <label>Slutdato :</label>
+            <label>Slutdato : (Format: ex. 01/11/2021)</label>
             <div>
-                <InputDate @bind-Value="@book.slutdato" />
+                <InputText @bind-Value="@book.slutdato" />
                 <ValidationMessage For="@(() => book.slutdato)" />
             </div>
         </div>

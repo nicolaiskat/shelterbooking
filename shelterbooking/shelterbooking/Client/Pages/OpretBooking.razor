@@ -1,0 +1,24 @@
+﻿@page "/booking/create/{shelId}"
+@inject HttpClient Http
+@inject IJSRuntime js
+@inject NavigationManager uriHelper
+@using shelterbooking.Shared
+
+<h3>Create Booking</h3>
+
+<Form ButtonText="Create Booking" book="@book"
+      OnValidSubmit="@CreateBooking" />
+
+@code {
+    [Parameter] public string shelId { get; set; }
+    public Booking book = new Booking();
+
+    async Task CreateBooking()
+    {
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to book shelter {shelId}?"))
+        {
+            await Http.PostAsJsonAsync("api/bookings", new Booking(shelId, book.kommentar, book.startdato, book.slutdato, book.fuldenavn, book.telefon));
+            uriHelper.NavigateTo("fetchdata");
+        }
+    }
+}

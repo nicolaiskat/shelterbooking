@@ -18,15 +18,27 @@ namespace shelterbooking.Shared
         public string fuldenavn { get; set; }
         public int telefon {  get; set; }
         public string kommentar { get; set; }
-        public DateTime startdato { get; set; }
-        public DateTime slutdato { get; set; }
+        public string startdato { get; set; }
+        public string slutdato { get; set; }
 
-        public Booking(string shelter_id, string kommentar, DateTime startdato, DateTime slutdato)
+        public Booking(string shelter_id, string kommentar, string startdato, string slutdato, string fuldenavn, int telefon)
         {
             this.shelter_id = shelter_id;
             this.kommentar = kommentar;
             this.startdato = startdato;
             this.slutdato = slutdato;
+            this.fuldenavn = fuldenavn;
+            this.telefon = telefon;
+        }
+        public Booking(string _id, string shelter_id, string fuldenavn, int telefon, string kommentar, string startdato, string slutdato)
+        {
+            this._id = _id;
+            this.shelter_id = shelter_id;
+            this.kommentar = kommentar;
+            this.startdato = startdato;
+            this.slutdato = slutdato;
+            this.fuldenavn = fuldenavn;
+            this.telefon = telefon;
         }
 
         public Booking() { }
