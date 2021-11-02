@@ -1,5 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="_content/Blazored.Modal" Path="C:\Users\sisse\.nuget\packages\blazored.modal\6.0.1\build\..\staticwebassets\" />
+  <ContentRoot BasePath="/" Path="/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/scopedcss/bundle/" />
+  <ContentRoot BasePath="_content/Blazored.Modal" Path="/Users/nicolaiskat/.nuget/packages/blazored.modal/6.0.1/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="/Users/nicolaiskat/.nuget/packages/syncfusion.blazor/19.3.0.47/build/../staticwebassets/" />
 </StaticWebAssets>

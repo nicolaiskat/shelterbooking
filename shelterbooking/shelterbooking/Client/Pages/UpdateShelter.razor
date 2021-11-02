@@ -1,25 +1,25 @@
-﻿@page "/pedelside/shelter/edit/"
+﻿@page "/shelter/edit/{shelId}"
 @inject HttpClient Http
 @inject IJSRuntime js
 @inject NavigationManager uriHelper
 @using shelterbooking.Shared
 
 <h3>Edit</h3>
-<Form ButtonText="Update" prop="@prop"
+<Form2 ButtonText="Update" prop="@prop"
       OnValidSubmit="@EditShelter" />
 @code {
     [Parameter] public string shelId { get; set; }
-    Shelter shel = new Shelter();
-    Shelter shel2 = new Shelter();
-    Properties prop = new Properties();
+    public Shelter shel = new Shelter();
+    public Properties prop = new Properties();
     protected async override Task OnParametersSetAsync()
     {
         shel = await Http.GetFromJsonAsync<Shelter>($"api/shelters/{shelId}");
-        shel2 = new Shelter(shelId, shel.type, shel.geometry, prop);
+        prop = shel.properties;
+        @*shel2 = new Shelter(shelId, shel.type, shel.geometry, prop);*@
     }
     async Task EditShelter()
     {
-        await Http.PutAsJsonAsync("api/shelters", shel2);
+        await Http.PutAsJsonAsync("api/shelters", prop);
         await js.InvokeVoidAsync("alert", $"Updated Successfully!");
         uriHelper.NavigateTo("pedelside");
     }

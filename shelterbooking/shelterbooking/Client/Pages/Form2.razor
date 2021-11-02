@@ -4,15 +4,6 @@
     <DataAnnotationsValidator />
     <div class="form-group ">
         <div>
-            <label>Properties-objekt_id :</label>
-            <div>
-                <InputText @bind-Value="@prop.objekt_id" />
-                <ValidationMessage For="@(() => GetRandomHexNumber(24))" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
             <label>Properties-cvr_kode :</label>
             <div>
                 <InputNumber @bind-Value="@prop.cvr_kode" />
@@ -35,15 +26,6 @@
             <div>
                 <InputNumber @bind-Value="@prop.kommunekode" />
                 <ValidationMessage For="@(() => prop.kommunekode)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-facil_ty :</label>
-            <div>
-                <InputText @bind-Value="@prop.facil_ty" />
-                <ValidationMessage For="@(() => prop.facil_ty)" />
             </div>
         </div>
     </div>
@@ -107,17 +89,7 @@
 </EditForm>
 @code {
     [Parameter] public Properties prop { get; set; }
+    [Parameter] public Shelter shel { get; set; }
     [Parameter] public string ButtonText { get; set; } = "Save";
     [Parameter] public EventCallback OnValidSubmit { get; set; }
-
-    static Random random = new Random();
-    public static string GetRandomHexNumber(int digits)
-    {
-        byte[] buffer = new byte[digits / 2];
-        random.NextBytes(buffer);
-        string result = String.Concat(buffer.Select(x => x.ToString("X2")).ToArray());
-        if (digits % 2 == 0)
-            return result;
-        return result + random.Next(16).ToString("X");
-    }
 }
