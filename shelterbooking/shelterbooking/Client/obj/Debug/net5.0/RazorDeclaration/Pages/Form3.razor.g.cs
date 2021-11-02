@@ -97,7 +97,7 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 64 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Form3.razor"
+#line 55 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Form3.razor"
        
     [Parameter] public Booking book { get; set; }
     [Parameter] public string ButtonText { get; set; } = "Save";

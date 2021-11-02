@@ -83,14 +83,14 @@ using shelterbooking.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\OpretShelter.razor"
+#line 5 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\OpretBooking.razor"
 using shelterbooking.Shared;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/shelter/create")]
-    public partial class OpretShelter : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/booking/create/{shelId}")]
+    public partial class OpretBooking : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,17 +98,17 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\OpretShelter.razor"
+#line 12 "C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\OpretBooking.razor"
        
-    public Properties prop = new Properties();
-    public Geometry geom = new Geometry("MultiPoint", new() { new() { 0, 0 } });
+    [Parameter] public string shelId { get; set; }
+    public Booking book = new Booking();
 
-    async Task CreateShelter()
+    async Task CreateBooking()
     {
-        if (await js.InvokeAsync<bool>("confirm", $"Do you want to create shelter {prop.navn}?"))
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to book shelter {shelId}?"))
         {
-            await Http.PostAsJsonAsync("api/shelters", new Shelter("Feature", geom, prop));
-            uriHelper.NavigateTo("pedelside");
+            await Http.PostAsJsonAsync("api/bookings", new Booking(shelId, book.kommentar, book.startdato, book.slutdato, book.fuldenavn, book.telefon));
+            uriHelper.NavigateTo("fetchdata");
         }
     }
 
