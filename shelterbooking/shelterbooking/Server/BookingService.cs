@@ -6,39 +6,39 @@ using System.Linq;
 
 namespace shelterbooking.Server
 {
-    public class ShelterService
+    public class BookingService
     {
-        private readonly IMongoCollection<Shelter> _shelters;
+        private readonly IMongoCollection<Booking> _bookings;
 
-        public ShelterService(ISheltersDatabaseSettings settings)
+        public BookingService(IBookingsDatabaseSettings settings)
         {
             var client = new MongoClient("mongodb+srv://dbGruppen:dbGruppen69@shelterbooking.5yhuf.mongodb.net/test");
             var database = client.GetDatabase("shelterdb");
 
-            _shelters = database.GetCollection<Shelter>(settings.SheltersCollectionName);
+            _bookings = database.GetCollection<Booking>(settings.BookingsCollectionName);
         }
 
 
-        //Find alle shelters
-        public List<Shelter> Get() => _shelters.Find(shelter => true).ToList();
+        //Find alle bookings
+        public List<Booking> Get() => _bookings.Find(booking => true).ToList();
 
-        ////Find enkelt shelter
-        public Shelter Get(string id) => _shelters.Find(shelter => shelter._id == id).FirstOrDefault();
+        ////Find enkelt booking
+        public Booking Get(string id) => _bookings.Find(booking => booking._id == id).FirstOrDefault();
 
-        ////Opret shelter
-        public Shelter Create(Shelter shelter)
+        ////Opret booking
+        public Booking Create(Booking booking)
         {
-            _shelters.InsertOne(shelter);
-            return shelter;
+            _bookings.InsertOne(booking);
+            return booking;
         }
 
-        ////Opdater shelter
-        public void Update(string id, Shelter updatedShelter) => _shelters.ReplaceOne(shelter => shelter._id == id, updatedShelter);
+        ////Opdater booking
+        public void Update(string id, Booking updatedBooking) => _bookings.ReplaceOne(booking => booking._id == id, updatedBooking);
 
-        ////Delete shelter
-        public void Delete(Shelter shelterForDeletion) => _shelters.DeleteOne(shelter => shelter._id == shelterForDeletion._id);
+        ////Delete booking
+        public void Delete(Booking bookingForDeletion) => _bookings.DeleteOne(booking => booking._id == bookingForDeletion._id);
 
-        ////Dete shelter ud fra id
-        public void Delete(string id) => _shelters.DeleteOne(shelter => shelter._id == id);
+        ////Delete booking ud fra id
+        public void Delete(string id) => _bookings.DeleteOne(booking => booking._id == id);
     }
 }

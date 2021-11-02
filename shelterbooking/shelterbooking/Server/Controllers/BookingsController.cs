@@ -21,11 +21,11 @@ namespace shelterbooking.Server.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Shelter>> Get() =>
+        public ActionResult<List<Booking>> Get() =>
             _bookingService.Get();
 
         [HttpGet("{id:length(24)}", Name = "GetBooking")]
-        public ActionResult<Shelter> Get(string id)
+        public ActionResult<Booking> Get(string id)
         {
             var booking = _bookingService.Get(id);
 
@@ -38,7 +38,7 @@ namespace shelterbooking.Server.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Shelter> Create(Booking booking)
+        public ActionResult<Booking> Create(Booking booking)
         {
             _bookingService.Create(booking);
 

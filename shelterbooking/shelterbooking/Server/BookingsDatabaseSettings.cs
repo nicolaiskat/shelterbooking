@@ -1,16 +1,16 @@
 ﻿using System;
 namespace shelterbooking.Server
 {
-    public class SheltersDatabaseSettings : ISheltersDatabaseSettings
+    public class BookingsDatabaseSettings : IBookingsDatabaseSettings
     {
-        public string SheltersCollectionName { get; set; }
+        public string BookingsCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
 
-    public interface ISheltersDatabaseSettings
+    public interface IBookingsDatabaseSettings
     {
-        string SheltersCollectionName { get; set; }
+        string BookingsCollectionName { get; set; }
         string ConnectionString { get; set; }
         string DatabaseName { get; set; }
     }
