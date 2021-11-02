@@ -1,0 +1,26 @@
+﻿@page "/booking/edit/{bookId}"
+@inject HttpClient Http
+@inject IJSRuntime js
+@inject NavigationManager uriHelper
+@using shelterbooking.Shared
+
+<h3>Edit</h3>
+<Form3 ButtonText="Update" book="@book"
+      OnValidSubmit="@EditBooking" />
+@code {
+    [Parameter] public string bookId { get; set; }
+    public Booking book = new Booking();
+
+    protected async override Task OnParametersSetAsync()
+    {
+        book = await Http.GetFromJsonAsync<Booking>($"api/bookings/{bookId}");
+
+    }
+ 
+    async Task EditBooking()
+    {
+        await Http.PutAsJsonAsync($"api/bookings/{bookId}", book);
+        await js.InvokeVoidAsync("alert", $"Updated Successfully!");
+        uriHelper.NavigateTo("pedelside");
+    }
+}

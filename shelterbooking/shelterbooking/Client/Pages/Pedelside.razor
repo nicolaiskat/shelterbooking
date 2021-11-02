@@ -105,7 +105,7 @@ else
                             <b>Slut dato:</b> @booking.slutdato
                         </td>
                         <td>
-                            <button class="btn btn-primary">Ret booking</button>
+                            <a class="btn btn-primary" href='@string.Format("https://localhost:5001/booking/edit/{0}", booking._id)'>Ret booking</a>
                             <br />
                             <button class="btn btn-primary" @onclick="() => BookDelete(booking._id)">Slet booking</button>
                         </td>

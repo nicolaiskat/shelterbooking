@@ -1,20 +1,26 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Shared/Shelter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/UpdateBooking.razor">
     <Files>
-      <File FileName="shelterbooking/Server/Controllers/BookingsListController.cs" Line="24" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/BookingsListController.cs" Line="38" Column="19" />
       <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="47" Column="31" />
       <File FileName="shelterbooking/Client/Pages/Pedelside.razor" Line="102" Column="35" />
-      <File FileName="shelterbooking/Client/Pages/OpretBooking.razor" Line="19" Column="10" />
-      <File FileName="shelterbooking/Client/Pages/Form3.razor" Line="1" Column="1" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="1" Column="1" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" Line="14" Column="15" />
+      <File FileName="shelterbooking/Client/Pages/OpretBooking.razor" Line="4" Column="24" />
+      <File FileName="shelterbooking/Client/Pages/Form3.razor" Line="12" Column="15" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="24" Column="9" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" Line="27" Column="30" />
+      <File FileName="shelterbooking/Client/Pages/UpdateShelter.razor" Line="24" Column="43" />
+      <File FileName="shelterbooking/Client/Pages/Form2.razor" Line="94" Column="50" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="42" Column="10" />
+      <File FileName="shelterbooking/Client/Pages/UpdateBooking.razor" Line="10" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="UpdateBooking.razor" selected="True" />
+              </Node>
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
@@ -22,7 +28,6 @@
             </Node>
             <Node name="shelterbooking.Shared" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Shelter.cs" selected="True" />
             </Node>
           </Node>
         </State>
