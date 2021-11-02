@@ -108,12 +108,12 @@ using shelterbooking.Shared;
         book = await Http.GetFromJsonAsync<Booking>($"api/bookings/{bookId}");
 
     }
- 
+
     async Task EditBooking()
     {
         await Http.PutAsJsonAsync($"api/bookings/{bookId}", book);
         await js.InvokeVoidAsync("alert", $"Updated Successfully!");
-        uriHelper.NavigateTo("fetchdata");
+        uriHelper.NavigateTo("pedelside");
     }
 
 #line default

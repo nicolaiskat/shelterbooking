@@ -16,7 +16,7 @@
         book = await Http.GetFromJsonAsync<Booking>($"api/bookings/{bookId}");
 
     }
- 
+
     async Task EditBooking()
     {
         await Http.PutAsJsonAsync($"api/bookings/{bookId}", book);

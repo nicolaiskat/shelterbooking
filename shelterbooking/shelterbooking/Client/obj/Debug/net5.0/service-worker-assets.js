@@ -557,7 +557,7 @@
       "url": "_content\/Blazored.Modal\/blazored.modal.js"
     },
     {
-      "hash": "sha256-c1cx2\/\/wbtA5i6hHxwffVBs0MQV\/N7RqhkqnDxiQpnc=",
+      "hash": "sha256-A5OxWlt6fvsXI6QK9inlZjARUxE3remT0lqZKx5Rhxs=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1397,11 +1397,11 @@
       "url": "_framework\/shelterbooking.Shared.pdb"
     },
     {
-      "hash": "sha256-GXEmJci8M0iYOVQ56f6TxYDSlXOWPrVaDkZ1W8BuK14=",
+      "hash": "sha256-T5tr7yg8Xnp95A+zfqKt6pfa+sIxLP3xDQxVzKMwMQg=",
       "url": "_framework\/shelterbooking.Client.dll"
     },
     {
-      "hash": "sha256-n\/HlALmTPJMZ263Q\/ugm\/4GcnKq8vQyjFSDQP1FLy9Y=",
+      "hash": "sha256-RW57GXWO9XGs3gWAgxc3RpKP00DTFC0PF775MeI9oa8=",
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
@@ -2313,5 +2313,5 @@
       "url": "shelterbooking.Client.bundle.scp.css"
     }
   ],
-  "version": "PonQPTAs"
+  "version": "\/s8RGP40"
 };

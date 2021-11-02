@@ -92,7 +92,7 @@ else
                         <td>
                             <b>Booking id:</b> @booking._id
                             <br />
-                            <b>Shelter id:</b> @booking.shelter_id
+                            <b>Shelter navn:</b> @getShelterNavn(booking.shelter_id)
                             <br />
                             <b>Fulde navn:</b> @booking.fuldenavn
                             <br />
@@ -162,6 +162,17 @@ else
     public string updateShelter(string id)
     {
         return id;
+    }
+    public string getShelterNavn(string id)
+    {
+        foreach (var shel in shelters)
+        {
+            if(shel._id == id)
+            {
+                return shel.properties.navn;
+            }
+        }
+        return "ukendt navn";
     }
 
     public List<Shelter> shelterToList()
