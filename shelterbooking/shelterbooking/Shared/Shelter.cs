@@ -15,28 +15,22 @@ namespace shelterbooking.Shared
         public Geometry geometry { get; set; }
         public Properties properties { get; set; }
 
-        public Shelter(string _id, string type, Geometry geometry, Properties properties)
+        public Shelter(string id, string type, Geometry geometry, Properties properties)
         {
-            this._id = _id;
+            this._id = id;
+            this.type = type;
+            this.geometry = geometry;
+            this.properties = properties;
+        }
+        public Shelter(string type, Geometry geometry, Properties properties)
+        {
             this.type = type;
             this.geometry = geometry;
             this.properties = properties;
         }
         public Shelter() { }
+
     }
-
-    public class Geometry
-    {
-        public string type { get; set; }
-        public List<List<double>> coordinates { get; set; }
-
-        public Geometry(string type, List<List<double>> coordinates)
-        {
-            this.type = type;
-            this.coordinates = coordinates;
-        }
-    }
-
     public class Properties
     {
         public string objekt_id { get; set; }
@@ -68,6 +62,21 @@ namespace shelterbooking.Shared
             this.ansvar_org = ansvar_org;
             this.ansva_v = ansva_v;
         }
+        public Properties() { }
+    }
+
+    public class Geometry
+    {
+        public string type { get; set; }
+        public List<List<double>> coordinates { get; set; }
+
+        public Geometry(string type, List<List<double>> coordinates)
+        {
+            this.type = type;
+            this.coordinates = coordinates;
+        }
+
+        public Geometry() { }
     }
 
 }

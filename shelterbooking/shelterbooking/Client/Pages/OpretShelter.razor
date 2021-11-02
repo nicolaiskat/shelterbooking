@@ -1,0 +1,35 @@
+﻿@page "/shelter/create"
+@inject HttpClient Http
+@inject IJSRuntime js
+@inject NavigationManager uriHelper
+@using shelterbooking.Shared
+
+<h3>Create Shelter</h3>
+
+<Form ButtonText="Create shelter" prop="@prop"
+      OnValidSubmit="@CreateShelter" />
+
+@code {
+    public Properties prop = new Properties();
+    public Geometry geom = new Geometry("MultiPoint", new() { new() { 0, 0 } });
+
+    async Task CreateShelter()
+    {
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to create shelter {prop.navn}?"))
+        {
+            await Http.PostAsJsonAsync("api/shelters", new Shelter("Feature", geom, prop));
+            uriHelper.NavigateTo("pedelside");
+        }
+    }
+
+    static Random random = new Random();
+    public static string GetRandomHexNumber(int digits)
+    {
+        byte[] buffer = new byte[digits / 2];
+        random.NextBytes(buffer);
+        string result = String.Concat(buffer.Select(x => x.ToString("X2")).ToArray());
+        if (digits % 2 == 0)
+            return result;
+        return result + random.Next(16).ToString("X");
+    }
+}
