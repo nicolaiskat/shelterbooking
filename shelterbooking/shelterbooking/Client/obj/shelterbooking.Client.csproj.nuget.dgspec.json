@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[5.0.11, )"
             },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[19.3.0.47, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
