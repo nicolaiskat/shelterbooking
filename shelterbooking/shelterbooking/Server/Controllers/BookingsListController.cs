@@ -4,9 +4,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using shelterbooking.Shared;
 using shelterbooking.Server;
-using Newtonsoft.Json;
 
 
 namespace shelterbooking.Server.Controllers
@@ -23,12 +23,12 @@ namespace shelterbooking.Server.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Shelter>> GetAsync()
+        public async Task<IEnumerable<Booking>> GetAsync()
         {
             string url = "https://localhost:5001/api/bookings";
             HttpClient client = new HttpClient();
             string json = await client.GetStringAsync(url);
-            dynamic jsonObj = JsonContent.DeserializeObject(json);
+            dynamic jsonObj = JsonConvert.DeserializeObject(json);
             List<Booking> item = new();
             foreach (var obj in jsonObj)
             {
@@ -43,14 +43,13 @@ namespace shelterbooking.Server.Controllers
                                 $"{obj["slutdato"]}");
 
 
-                //Tilføj shelter til liste
                 item.Add(booking);
             }
             return item;
 
         }
-       
 
-        }
 
     }
+
+}

@@ -45,9 +45,11 @@ else
                         <br />
                         <b>Kommune: </b>@shelter.properties.cvr_navn
                         <br />
-                        <b>Beskrivelse: </b>@shelter.properties.beskrivels.
+                        <b>Beskrivelse: </b>@shelter.properties.beskrivels
                     </td>
-                    <td> <button href='@string.Format("https://localhost:5001/booking/create/{0}", shelter._id)'>Book</button></td>
+                    <td>
+                        <a class="btn btn-primary" href='@string.Format("https://localhost:5001/booking/create/{0}", shelter._id)'>Book</a>
+                    </td>
                 </tr>
 
             }

@@ -98,7 +98,7 @@ using System.Net.Http;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 109 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+#line 119 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
        
     private Shelter[] shelters;
     private Booking[] bookings;
@@ -106,14 +106,24 @@ using System.Net.Http;
     protected override async Task OnInitializedAsync()
     {
         shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
+        bookings = await Http.GetFromJsonAsync<Booking[]>("BookingsList");
     }
 
-    async Task Delete(string shelId)
+    async Task ShelDelete(string shelId)
     {
         var shel = shelters.First(x => x._id == shelId);
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete shelter {shel.properties.navn}?"))
         {
             await Http.DeleteAsync($"api/shelters/{shelId}");
+            await OnInitializedAsync();
+        }
+    }
+    async Task BookDelete(string bookId)
+    {
+        var book = bookings.First(x => x._id == bookId);
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete this booking {book._id} for {book.fuldenavn}?"))
+        {
+            await Http.DeleteAsync($"api/bookings/{bookId}");
             await OnInitializedAsync();
         }
     }

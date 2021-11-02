@@ -12,8 +12,6 @@ namespace shelterbooking.Shared
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string _id { get; set; }
-        public string reference_nr { get; set; }
-        public string bruger_id { get; set; }
         public string shelter_id { get; set; }
         public string fuldenavn { get; set; }
         public int telefon {  get; set; }

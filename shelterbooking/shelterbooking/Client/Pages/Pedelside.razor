@@ -9,7 +9,7 @@
 
 <h1>Pedel side</h1>
 
-@if (shelters == null)
+@if (shelters == null || bookings == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -63,7 +63,7 @@ else
                             <br />
                             <a class="btn btn-primary" href='@string.Format("https://localhost:5001/shelter/edit/{0}", shelter._id)'>Ret shelter</a>
                             <br />
-                            <button class="btn btn-primary" @onclick="() => Delete(shelter._id)">Slet shelter</button>
+                            <button class="btn btn-primary" @onclick="() => ShelDelete(shelter._id)">Slet shelter</button>
                         </td>
                     </tr>
                 }
@@ -86,18 +86,28 @@ else
                     <td>
                     </td>
                 </tr>
-                @foreach (var booking in shelters)
+                @foreach (var booking in bookings)
                 {
                     <tr>
                         <td>
-                            booking eks.
+                            <b>Booking id:</b> @booking._id
+                            <br />
+                            <b>Shelter id:</b> @booking.shelter_id
+                            <br />
+                            <b>Fulde navn:</b> @booking.fuldenavn
+                            <br />
+                            <b>Telefon:</b> @booking.telefon
+                            <br />
+                            <b>Kommentare:</b> @booking.kommentar
+                            <br />
+                            <b>Start dato:</b> @booking.startdato
+                            <br />
+                            <b>Slut dato:</b> @booking.slutdato
                         </td>
                         <td>
-                            <button class="btn btn-primary">Se bookings</button>
+                            <button class="btn btn-primary">Ret booking</button>
                             <br />
-                            <button class="btn btn-primary">Ret shelter</button>
-                            <br />
-                            <button class="btn btn-primary">Slet shelter</button>
+                            <button class="btn btn-primary" @onclick="() => BookDelete(booking._id)">Slet booking</button>
                         </td>
                     </tr>
                 }
@@ -113,14 +123,24 @@ else
     protected override async Task OnInitializedAsync()
     {
         shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
+        bookings = await Http.GetFromJsonAsync<Booking[]>("BookingsList");
     }
 
-    async Task Delete(string shelId)
+    async Task ShelDelete(string shelId)
     {
         var shel = shelters.First(x => x._id == shelId);
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete shelter {shel.properties.navn}?"))
         {
             await Http.DeleteAsync($"api/shelters/{shelId}");
+            await OnInitializedAsync();
+        }
+    }
+    async Task BookDelete(string bookId)
+    {
+        var book = bookings.First(x => x._id == bookId);
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete this booking {book._id} for {book.fuldenavn}?"))
+        {
+            await Http.DeleteAsync($"api/bookings/{bookId}");
             await OnInitializedAsync();
         }
     }
