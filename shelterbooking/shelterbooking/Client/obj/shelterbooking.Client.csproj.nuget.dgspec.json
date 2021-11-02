@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj": {}
+    "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj": {}
   },
   "projects": {
-    "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj": {
+    "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
+        "projectUniqueName": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj",
         "projectName": "shelterbooking.Client",
-        "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/shelterbooking.Client.csproj",
-        "packagesPath": "/Users/nicolaiskat/.nuget/packages/",
-        "outputPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/",
+        "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\shelterbooking.Client.csproj",
+        "packagesPath": "C:\\Users\\sisse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nicolaiskat/.config/NuGet/NuGet.Config"
+          "C:\\Users\\sisse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
-                "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj"
+              "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj": {
+                "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj"
               }
             }
           }
@@ -55,6 +57,10 @@
               "target": "Package",
               "version": "[5.0.11, )"
             },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[19.3.0.47, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -73,7 +79,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.11, 5.0.11]"
+              "version": "[5.0.8, 5.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -90,22 +96,24 @@
         }
       }
     },
-    "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj": {
+    "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj",
         "projectName": "shelterbooking.Shared",
-        "projectPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/shelterbooking.Shared.csproj",
-        "packagesPath": "/Users/nicolaiskat/.nuget/packages/",
-        "outputPath": "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/obj/",
+        "projectPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\shelterbooking.Shared.csproj",
+        "packagesPath": "C:\\Users\\sisse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sisse\\Documents\\GitHub\\shelterbooking\\shelterbooking\\shelterbooking\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nicolaiskat/.config/NuGet/NuGet.Config"
+          "C:\\Users\\sisse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -152,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
         }
       }
     }
