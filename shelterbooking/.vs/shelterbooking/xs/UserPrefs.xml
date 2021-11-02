@@ -1,12 +1,18 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/Controllers/BookingsListController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/BookingService.cs">
     <Files>
       <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="47" Column="31" />
-      <File FileName="shelterbooking/Shared/Booking.cs" Line="20" Column="43" />
-      <File FileName="shelterbooking/Client/Pages/OpretBooking.razor" Line="1" Column="1" />
-      <File FileName="shelterbooking/Client/Pages/Form3.razor" Line="35" Column="18" />
-      <File FileName="shelterbooking/Server/appsettings.json" Line="14" Column="17" />
-      <File FileName="shelterbooking/Server/Controllers/BookingsListController.cs" Line="17" Column="56" />
+      <File FileName="shelterbooking/Shared/Booking.cs" />
+      <File FileName="shelterbooking/Client/Pages/OpretBooking.razor" />
+      <File FileName="shelterbooking/Client/Pages/Form3.razor" />
+      <File FileName="shelterbooking/Server/appsettings.json" />
+      <File FileName="shelterbooking/Server/Controllers/BookingsListController.cs" Line="33" Column="25" />
+      <File FileName="shelterbooking/Server/Controllers/BookingsController.cs" Line="15" Column="28" />
+      <File FileName="shelterbooking/Server/BookingService.cs" Line="24" Column="1" />
+      <File FileName="shelterbooking/Server/ShelterService.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Server/Program.cs" />
+      <File FileName="shelterbooking/Server/BookingsDatabaseSettings.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Server/SheltersDatabaseSettings.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +22,8 @@
               <Node name="Pages" expanded="True" />
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BookingsListController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="BookingService.cs" selected="True" />
             </Node>
             <Node name="shelterbooking.Shared" expanded="True">
               <Node name="Dependencies" expanded="True" />
