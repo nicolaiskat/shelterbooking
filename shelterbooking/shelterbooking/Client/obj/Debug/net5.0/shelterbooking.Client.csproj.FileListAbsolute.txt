@@ -1377,6 +1377,10 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Libmongocrypt.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/SharpCompress.dll.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Blazor.dll.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.ExcelExport.Net.dll.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Licensing.dll.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.PdfExport.Net.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll.gz
@@ -1581,6 +1585,10 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Libmongocrypt.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/SharpCompress.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Blazor.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.ExcelExport.Net.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Licensing.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.PdfExport.Net.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll
@@ -1828,6 +1836,10 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Cli
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/cHG+mboE.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/adPYqrmx.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/eEhoqG77.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/9yvEDMOa.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/hQyr2I1B.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/tdqcWMpv.gz
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/dv4qh2H5.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/NlsiBtj6.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/4MeRXRcu.gz
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/build-gz/NulGxqaQ.gz

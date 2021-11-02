@@ -38,6 +38,7 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.11",
           "MongoDB.Driver": "2.13.2",
           "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Blazor": "19.3.0.47",
           "shelterbooking.Client": "1.0.0",
           "shelterbooking.Shared": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -683,6 +684,11 @@
           "lib/netstandard2.1/MongoDB.Libmongocrypt.dll": {}
         }
       },
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2"
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -722,6 +728,64 @@
           "lib/netstandard2.0/SharpCompress.dll": {}
         }
       },
+      "Syncfusion.Blazor/19.3.0.47": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.11",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.ExcelExport.Net.Core": "19.3.0.47",
+          "Syncfusion.Licensing": "19.3.0.47",
+          "Syncfusion.PdfExport.Net.Core": "19.3.0.47"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.Blazor.dll": {
+            "assemblyVersion": "19.3.0.47",
+            "fileVersion": "19.3.0.47"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.Blazor.dll": {}
+        }
+      },
+      "Syncfusion.ExcelExport.Net.Core/19.3.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.ExcelExport.Net.dll": {
+            "assemblyVersion": "19.3.0.47",
+            "fileVersion": "19.3.0.47"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.ExcelExport.Net.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.3.0.47": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.3.0.47",
+            "fileVersion": "19.3.0.47"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.PdfExport.Net.Core/19.3.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.PdfExport.Net.dll": {
+            "assemblyVersion": "19.3.0.47",
+            "fileVersion": "19.3.0.47"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.PdfExport.Net.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.IO.Pipelines/5.0.1": {
         "runtime": {
@@ -746,6 +810,7 @@
         "dependencies": {
           "Blazored.Modal": "6.0.1",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.11",
+          "Syncfusion.Blazor": "19.3.0.47",
           "System.Net.Http.Json": "5.0.0",
           "shelterbooking.Shared": "1.0.0"
         },
@@ -759,7 +824,8 @@
       "shelterbooking.Shared/1.0.0": {
         "dependencies": {
           "MongoDB.Driver": "2.13.2",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Blazor": "19.3.0.47"
         },
         "runtime": {
           "shelterbooking.Shared.dll": {}
@@ -2664,6 +2730,13 @@
       "path": "mongodb.libmongocrypt/1.2.2",
       "hashPath": "mongodb.libmongocrypt.1.2.2.nupkg.sha512"
     },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
@@ -2684,6 +2757,34 @@
       "sha512": "sha512-HBbT47JHvNrsZX2dTBzUBOSzBt+EmIRGLIBkbxcP6Jef7DB4eFWQX5iHWV3Nj7hABFPCjISrZ8s0z72nF2zFHQ==",
       "path": "sharpcompress/0.23.0",
       "hashPath": "sharpcompress.0.23.0.nupkg.sha512"
+    },
+    "Syncfusion.Blazor/19.3.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MByDyQDJ+E93nXz7W/y5TeRqIxo+TX/u0SdLHHtR2pINXbCUeOqAtX7UDmbqVJzjwcDsKeK++t5OO+9+65RO0A==",
+      "path": "syncfusion.blazor/19.3.0.47",
+      "hashPath": "syncfusion.blazor.19.3.0.47.nupkg.sha512"
+    },
+    "Syncfusion.ExcelExport.Net.Core/19.3.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pY9Js9u3d4b4pDqvPsecgQc5zn9346nfY7jODczplQjTX9hnfF/inqlgsmbu2gSbEWYt1pVDrpxeWIuIVFyYsQ==",
+      "path": "syncfusion.excelexport.net.core/19.3.0.47",
+      "hashPath": "syncfusion.excelexport.net.core.19.3.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.3.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RRnpiuwIA61ahOydFwgtf9CkYZCUWJLdOxHQvmnEODGE/0sGxx1Q7DIc8VUi5P2D2Izom5XIc2tX2hLCb5bSaw==",
+      "path": "syncfusion.licensing/19.3.0.47",
+      "hashPath": "syncfusion.licensing.19.3.0.47.nupkg.sha512"
+    },
+    "Syncfusion.PdfExport.Net.Core/19.3.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gJHfdqQZyyoeE/g12oAU+7Ld6ep81GDLC9IHJC+AbBFzOdawNO0ImLQCNkJZz+WtdbxGoGU5PfqUscaH3kGSrg==",
+      "path": "syncfusion.pdfexport.net.core/19.3.0.47",
+      "hashPath": "syncfusion.pdfexport.net.core.19.3.0.47.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

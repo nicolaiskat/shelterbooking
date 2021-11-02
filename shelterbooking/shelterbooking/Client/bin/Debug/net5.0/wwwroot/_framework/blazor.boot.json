@@ -37,6 +37,10 @@
       "MongoDB.Libmongocrypt.dll": "sha256-GkdgksKzzMqkQjcwBrNYTyoHQcsUuT6rMRGR\/0YST44=",
       "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
       "SharpCompress.dll": "sha256-\/LU0iM3EOR7E20FEpCe4ZtmZIk0C\/UA+gWuSsB2ey5A=",
+      "Syncfusion.Blazor.dll": "sha256-KZZqVQ0hIE2dUFePKO8YEvqeWxESi7UHOgeogXDEYeU=",
+      "Syncfusion.ExcelExport.Net.dll": "sha256-zqKenBhwqpnHuWu+Okdf3NoVlPIDEZpxqxkHZcoPEN0=",
+      "Syncfusion.Licensing.dll": "sha256-JxnzcN8KAfgX5mIUjW\/AMlEzMPjzToc05QexZllh1DU=",
+      "Syncfusion.PdfExport.Net.dll": "sha256-P1MjJF+p\/g1wpNvPttfskm+Ef+4tnZ8aw16VORh5DEM=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
       "Microsoft.CSharp.dll": "sha256-J3xEnfK9Stuxsk3ysfAkwm7tlSZzs8rytHhodu+3aA0=",
       "Microsoft.VisualBasic.Core.dll": "sha256-6gJT+FVMmaF5o4CyPAnHcWjWVtFMSdJke\/+1seKS1Y0=",
@@ -203,13 +207,13 @@
       "mscorlib.dll": "sha256-heWnofXFSc\/TfAxrWpjQxeuS+nlIOs9YycfI2QGXGM8=",
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
-      "shelterbooking.Shared.dll": "sha256-eZN66lkQtoHp+qk2Yfir6U+GQ2uezJKF29vVJeCf5MM=",
-      "shelterbooking.Client.dll": "sha256-n\/Ed9TfQf6MlEoQ2ka9WfIhhJnX2IccN62Wzo4LwQWo="
+      "shelterbooking.Shared.dll": "sha256-BZvOywfKUgWYXLzzVrQzUXSWbpzq03a6enftvpPSfIs=",
+      "shelterbooking.Client.dll": "sha256-4Y\/lw4GAjAv6eHiWO7h\/stHJIjtwWwjSJ0Bdgc8mq4E="
     },
     "lazyAssembly": null,
     "pdb": {
-      "shelterbooking.Shared.pdb": "sha256-L3mQCDplVJB9EGrsbVHb1aGDu44ROrZJ+VXKrrPse6s=",
-      "shelterbooking.Client.pdb": "sha256-3lq4Bo4rLLjXebwiql52Mtk8j2eX2V8bywWFgB\/Cvqw="
+      "shelterbooking.Shared.pdb": "sha256-iWwhnogRuI+eHuFnMV3+ibxFdbFUbVQBYXTE8S4fJCI=",
+      "shelterbooking.Client.pdb": "sha256-AW\/uBqyKPIc37c3Za2XVDiGUbErx\/eU8cdiXLlmT8wE="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",

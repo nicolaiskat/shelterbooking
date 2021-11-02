@@ -1,13 +1,13 @@
 ﻿@using shelterbooking.Shared
 
-<EditForm Model="@shel.properties" OnValidSubmit="@OnValidSubmit">
+<EditForm Model="@prop" OnValidSubmit="@OnValidSubmit">
     <DataAnnotationsValidator />
     <div class="form-group ">
         <div>
             <label>Properties-cvr_kode :</label>
             <div>
-                <InputNumber @bind-Value="@shel.properties.cvr_kode" />
-                <ValidationMessage For="@(() => shel.properties.cvr_kode)" />
+                <InputNumber @bind-Value="@prop.cvr_kode" />
+                <ValidationMessage For="@(() => prop.cvr_kode)" />
             </div>
         </div>
     </div>
@@ -15,8 +15,8 @@
         <div>
             <label>Properties-cvr_navn :</label>
             <div>
-                <InputText @bind-Value="@shel.properties.cvr_navn" />
-                <ValidationMessage For="@(() => shel.properties.cvr_navn)" />
+                <InputText @bind-Value="@prop.cvr_navn" />
+                <ValidationMessage For="@(() => prop.cvr_navn)" />
             </div>
         </div>
     </div>
@@ -24,8 +24,8 @@
         <div>
             <label>Properties-kommunekode :</label>
             <div>
-                <InputNumber @bind-Value="@shel.properties.kommunekode" />
-                <ValidationMessage For="@(() => shel.properties.kommunekode)" />
+                <InputNumber @bind-Value="@prop.kommunekode" />
+                <ValidationMessage For="@(() => prop.kommunekode)" />
             </div>
         </div>
     </div>
@@ -33,8 +33,8 @@
         <div>
             <label>Properties-navn :</label>
             <div>
-                <InputText @bind-Value="@shel.properties.navn" />
-                <ValidationMessage For="@(() => shel.properties.navn)" />
+                <InputText @bind-Value="@prop.navn" />
+                <ValidationMessage For="@(() => prop.navn)" />
             </div>
         </div>
     </div>
@@ -42,8 +42,8 @@
         <div>
             <label>Properties-beskrivels :</label>
             <div>
-                <InputText @bind-Value="@shel.properties.beskrivels" />
-                <ValidationMessage For="@(() => shel.properties.beskrivels)" />
+                <InputText @bind-Value="@prop.beskrivels" />
+                <ValidationMessage For="@(() => prop.beskrivels)" />
             </div>
         </div>
     </div>
@@ -51,8 +51,8 @@
         <div>
             <label>Properties-lang_beskr :</label>
             <div>
-                <InputText @bind-Value="@shel.properties.lang_beskr" />
-                <ValidationMessage For="@(() => shel.properties.lang_beskr)" />
+                <InputText @bind-Value="@prop.lang_beskr" />
+                <ValidationMessage For="@(() => prop.lang_beskr)" />
             </div>
         </div>
     </div>
@@ -60,8 +60,8 @@
         <div>
             <label>Properties-antal_pl :</label>
             <div>
-                <InputNumber @bind-Value="@shel.properties.antal_pl" />
-                <ValidationMessage For="@(() => shel.properties.antal_pl)" />
+                <InputNumber @bind-Value="@prop.antal_pl" />
+                <ValidationMessage For="@(() => prop.antal_pl)" />
             </div>
         </div>
     </div>
@@ -69,8 +69,8 @@
         <div>
             <label>Properties-ansvar_org :</label>
             <div>
-                <InputText @bind-Value="@shel.properties.ansvar_org" />
-                <ValidationMessage For="@(() => shel.properties.ansvar_org)" />
+                <InputText @bind-Value="@prop.ansvar_org" />
+                <ValidationMessage For="@(() => prop.ansvar_org)" />
             </div>
         </div>
     </div>
@@ -78,8 +78,8 @@
         <div>
             <label>Properties-ansva_v :</label>
             <div>
-                <InputText @bind-Value="@shel.properties.ansva_v" />
-                <ValidationMessage For="@(() => shel.properties.ansva_v)" />
+                <InputText @bind-Value="@prop.ansva_v" />
+                <ValidationMessage For="@(() => prop.ansva_v)" />
             </div>
         </div>
     </div>

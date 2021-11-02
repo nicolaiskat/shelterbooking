@@ -154,6 +154,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[19.3.0.47, )"
             }
           },
           "imports": [
@@ -219,6 +223,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[19.3.0.47, )"
             }
           },
           "imports": [

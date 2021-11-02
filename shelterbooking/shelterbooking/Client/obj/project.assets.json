@@ -587,7 +587,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "MongoDB.Driver": "2.13.2",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Blazor": "19.3.0.47"
         },
         "compile": {
           "bin/placeholder/shelterbooking.Shared.dll": {}
@@ -1149,7 +1150,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "MongoDB.Driver": "2.13.2",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.Blazor": "19.3.0.47"
         },
         "compile": {
           "bin/placeholder/shelterbooking.Shared.dll": {}

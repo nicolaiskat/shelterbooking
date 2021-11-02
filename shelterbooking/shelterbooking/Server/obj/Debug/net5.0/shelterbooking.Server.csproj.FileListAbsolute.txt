@@ -117,6 +117,10 @@ C:/Users/sisse/Documents/GitHub/shelterbooking/shelterbooking/shelterbooking/Ser
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Newtonsoft.Json.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/SharpCompress.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.Blazor.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.ExcelExport.Net.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.Licensing.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.PdfExport.Net.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/runtimes/win/native/snappy32.dll

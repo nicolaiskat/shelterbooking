@@ -3,4 +3,5 @@
   <ContentRoot BasePath="/" Path="/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/scopedcss/bundle/" />
   <ContentRoot BasePath="/" Path="/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/wwwroot/" />
   <ContentRoot BasePath="_content/Blazored.Modal" Path="/Users/nicolaiskat/.nuget/packages/blazored.modal/6.0.1/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="/Users/nicolaiskat/.nuget/packages/syncfusion.blazor/19.3.0.47/build/../staticwebassets/" />
 </StaticWebAssets>
