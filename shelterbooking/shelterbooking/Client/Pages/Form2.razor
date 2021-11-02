@@ -1,22 +1,13 @@
 ﻿@using shelterbooking.Shared
 
-<EditForm Model="@prop" OnValidSubmit="@OnValidSubmit">
+<EditForm Model="@shel.properties" OnValidSubmit="@OnValidSubmit">
     <DataAnnotationsValidator />
-    <div class="form-group ">
-        <div>
-            <label>Properties-objekt_id :</label>
-            <div>
-                <InputText @bind-Value="@prop.objekt_id" />
-                <ValidationMessage For="@(() => GetRandomHexNumber(24))" />
-            </div>
-        </div>
-    </div>
     <div class="form-group ">
         <div>
             <label>Properties-cvr_kode :</label>
             <div>
-                <InputNumber @bind-Value="@prop.cvr_kode" />
-                <ValidationMessage For="@(() => prop.cvr_kode)" />
+                <InputNumber @bind-Value="@shel.properties.cvr_kode" />
+                <ValidationMessage For="@(() => shel.properties.cvr_kode)" />
             </div>
         </div>
     </div>
@@ -24,8 +15,8 @@
         <div>
             <label>Properties-cvr_navn :</label>
             <div>
-                <InputText @bind-Value="@prop.cvr_navn" />
-                <ValidationMessage For="@(() => prop.cvr_navn)" />
+                <InputText @bind-Value="@shel.properties.cvr_navn" />
+                <ValidationMessage For="@(() => shel.properties.cvr_navn)" />
             </div>
         </div>
     </div>
@@ -33,17 +24,8 @@
         <div>
             <label>Properties-kommunekode :</label>
             <div>
-                <InputNumber @bind-Value="@prop.kommunekode" />
-                <ValidationMessage For="@(() => prop.kommunekode)" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group ">
-        <div>
-            <label>Properties-facil_ty :</label>
-            <div>
-                <InputText @bind-Value="@prop.facil_ty" />
-                <ValidationMessage For="@(() => prop.facil_ty)" />
+                <InputNumber @bind-Value="@shel.properties.kommunekode" />
+                <ValidationMessage For="@(() => shel.properties.kommunekode)" />
             </div>
         </div>
     </div>
@@ -51,8 +33,8 @@
         <div>
             <label>Properties-navn :</label>
             <div>
-                <InputText @bind-Value="@prop.navn" />
-                <ValidationMessage For="@(() => prop.navn)" />
+                <InputText @bind-Value="@shel.properties.navn" />
+                <ValidationMessage For="@(() => shel.properties.navn)" />
             </div>
         </div>
     </div>
@@ -60,8 +42,8 @@
         <div>
             <label>Properties-beskrivels :</label>
             <div>
-                <InputText @bind-Value="@prop.beskrivels" />
-                <ValidationMessage For="@(() => prop.beskrivels)" />
+                <InputText @bind-Value="@shel.properties.beskrivels" />
+                <ValidationMessage For="@(() => shel.properties.beskrivels)" />
             </div>
         </div>
     </div>
@@ -69,8 +51,8 @@
         <div>
             <label>Properties-lang_beskr :</label>
             <div>
-                <InputText @bind-Value="@prop.lang_beskr" />
-                <ValidationMessage For="@(() => prop.lang_beskr)" />
+                <InputText @bind-Value="@shel.properties.lang_beskr" />
+                <ValidationMessage For="@(() => shel.properties.lang_beskr)" />
             </div>
         </div>
     </div>
@@ -78,8 +60,8 @@
         <div>
             <label>Properties-antal_pl :</label>
             <div>
-                <InputNumber @bind-Value="@prop.antal_pl" />
-                <ValidationMessage For="@(() => prop.antal_pl)" />
+                <InputNumber @bind-Value="@shel.properties.antal_pl" />
+                <ValidationMessage For="@(() => shel.properties.antal_pl)" />
             </div>
         </div>
     </div>
@@ -87,8 +69,8 @@
         <div>
             <label>Properties-ansvar_org :</label>
             <div>
-                <InputText @bind-Value="@prop.ansvar_org" />
-                <ValidationMessage For="@(() => prop.ansvar_org)" />
+                <InputText @bind-Value="@shel.properties.ansvar_org" />
+                <ValidationMessage For="@(() => shel.properties.ansvar_org)" />
             </div>
         </div>
     </div>
@@ -96,8 +78,8 @@
         <div>
             <label>Properties-ansva_v :</label>
             <div>
-                <InputText @bind-Value="@prop.ansva_v" />
-                <ValidationMessage For="@(() => prop.ansva_v)" />
+                <InputText @bind-Value="@shel.properties.ansva_v" />
+                <ValidationMessage For="@(() => shel.properties.ansva_v)" />
             </div>
         </div>
     </div>
@@ -107,17 +89,7 @@
 </EditForm>
 @code {
     [Parameter] public Properties prop { get; set; }
+    [Parameter] public Shelter shel { get; set; }
     [Parameter] public string ButtonText { get; set; } = "Save";
     [Parameter] public EventCallback OnValidSubmit { get; set; }
-
-    static Random random = new Random();
-    public static string GetRandomHexNumber(int digits)
-    {
-        byte[] buffer = new byte[digits / 2];
-        random.NextBytes(buffer);
-        string result = String.Concat(buffer.Select(x => x.ToString("X2")).ToArray());
-        if (digits % 2 == 0)
-            return result;
-        return result + random.Next(16).ToString("X");
-    }
 }

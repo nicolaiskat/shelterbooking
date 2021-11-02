@@ -1,11 +1,11 @@
-﻿@page "/pedelside/shelter/edit/"
+﻿@page "/shelter/edit/{shelId}"
 @inject HttpClient Http
 @inject IJSRuntime js
 @inject NavigationManager uriHelper
 @using shelterbooking.Shared
 
 <h3>Edit</h3>
-<Form ButtonText="Update" prop="@prop"
+<Form2 ButtonText="Update" prop="@shel.properties"
       OnValidSubmit="@EditShelter" />
 @code {
     [Parameter] public string shelId { get; set; }

@@ -89,7 +89,7 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/pedelside/shelter/edit/")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/shelter/edit/{shelId}")]
     public partial class UpdateShelter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
