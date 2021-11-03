@@ -557,7 +557,11 @@
       "url": "_content\/Blazored.Modal\/blazored.modal.js"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-Lx5FAPjBIfxw5ZJos45chPMR6CGZAsX6LB\/yRG738x8=",
+=======
+      "hash": "sha256-fNY+d5d6Sdu++S9wm+pGfGjU2Yt1BEqoOUMN89cFK7o=",
+>>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1389,6 +1393,7 @@
       "url": "_framework\/dotnet.5.0.9.js"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-EhGsCH\/OdpXBwjMwzIcDkwSzVsXRG6Nk7pvvurJ\/uZ4=",
       "url": "_framework\/shelterbooking.Shared.dll"
     },
@@ -1402,6 +1407,21 @@
     },
     {
       "hash": "sha256-mI79o2nXlpCTpUcRZwMxoYmtZUD4TQmqT6sHIgYvSLw=",
+=======
+      "hash": "sha256-Q4VeGEgYWsexq7XL9WDjocqNhR7Am68Hjs7MeXCfvGw=",
+      "url": "_framework\/shelterbooking.Shared.dll"
+    },
+    {
+      "hash": "sha256-zTcZEHMot9UfslIiejjjd18u\/Di4aFIYakAwmlA+kII=",
+      "url": "_framework\/shelterbooking.Shared.pdb"
+    },
+    {
+      "hash": "sha256-w\/VKPup07Zujspptm3a3o8ntS0DaPfUDrvcIDdYvqMg=",
+      "url": "_framework\/shelterbooking.Client.dll"
+    },
+    {
+      "hash": "sha256-5U\/YQ0hJ8wkYhGxFNTeUto2C6R\/9j62bRyfxqDW4KU4=",
+>>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
@@ -2237,7 +2257,11 @@
       "url": "_framework\/dotnet.5.0.9.js.gz"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-+A8BMcuu6bGtw+YGnKa1M8iC3qiqK8usxAMAWbI1VYA=",
+=======
+      "hash": "sha256-g8rUafRfmfqFPrgPSoSd7Cs8pXTVpT5tLBcm9Kf3OMY=",
+>>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08
       "url": "_framework\/shelterbooking.Shared.dll.gz"
     },
     {
@@ -2305,6 +2329,7 @@
       "url": "manifest.json"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-V8xMhsGilmBs8QDGQN2SvX8aFKBgpN31YYnnZZ1HNWQ=",
       "url": "shelterbooking.Client.styles.css"
     },
@@ -2315,3 +2340,15 @@
   ],
   "version": "B+2sGg75"
 };
+=======
+      "hash": "sha256-Kx\/dR0CSw0HP0zPU3Z5KBbZnK\/L0jPXzdeJNKnc3uLA=",
+      "url": "shelterbooking.Client.styles.css"
+    },
+    {
+      "hash": "sha256-7AsWwgKfU6Q\/soQDKgFySogKRzR3mTaSFIOsczK7okQ=",
+      "url": "shelterbooking.Client.bundle.scp.css"
+    }
+  ],
+  "version": "ZcKT8ohe"
+};
+>>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08

@@ -89,6 +89,13 @@ using System.Net.Http;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/pedelside")]
     public partial class Pedelside : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,7 +105,11 @@ using System.Net.Http;
         }
         #pragma warning restore 1998
 #nullable restore
+<<<<<<< HEAD
 #line 119 "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
+=======
+#line 120 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+>>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08
        
     private Shelter[] shelters;
     private Booking[] bookings;
@@ -125,6 +136,28 @@ using System.Net.Http;
         {
             await Http.DeleteAsync($"api/bookings/{bookId}");
             await OnInitializedAsync();
+        }
+    }
+    public void findBookings(Shelter shel)
+    {
+        foreach(var booking in bookings)
+        {
+            if(booking.shelter_id == shel._id)
+            {
+                DateTime start = DateTime.ParseExact(booking.startdato, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                DateTime slut = DateTime.ParseExact(booking.slutdato, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+                if (start == DateTime.Now)
+                {
+
+                    shel.properties.ledighed = false;
+                }
+                else
+                {
+                    shel.properties.ledighed = true;
+
+                }
+            }
         }
     }
 
