@@ -1,3 +1,4 @@
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Client.StaticWebAssets.xml
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/appsettings.Development.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/appsettings.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
@@ -9,7 +10,6 @@
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Client.StaticWebAssets.xml
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.StaticWebAssets.xml
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.deps.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.runtimeconfig.json

@@ -1,14 +1,23 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/FetchData.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/Index.razor">
     <Files>
-      <File FileName="shelterbooking/Client/Pages/Pedelside.razor" Line="162" Column="14" />
-      <File FileName="shelterbooking/Client/Shared/MainLayout.razor" />
+      <File FileName="shelterbooking/Client/Pages/Pedelside.razor" Line="66" Column="30" />
+      <File FileName="shelterbooking/Client/Shared/MainLayout.razor" Line="8" Column="17" />
       <File FileName="shelterbooking/Client/Shared/MainLayout.razor.css" />
       <File FileName="shelterbooking/Client/Shared/NavMenu.razor.css" />
-      <File FileName="shelterbooking/Client/Shared/NavMenu.razor" />
-      <File FileName="shelterbooking/Client/Pages/OpretShelter.razor" />
+      <File FileName="shelterbooking/Client/Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/OpretShelter.razor" Line="1" Column="1" />
       <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="1" Column="1" />
-      <File FileName="shelterbooking/Shared/Shelter.cs" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" Line="42" Column="45" />
+      <File FileName="shelterbooking/Server/ShelterService.cs" Line="36" Column="31" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="1" Column="1" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="22" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/UpdateShelter.razor" Line="1" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/UpdateBooking.razor" Line="1" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/OpretBooking.razor" Line="1" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/Index.razor" Line="6" Column="21" />
+      <File FileName="shelterbooking/Client/Pages/Login.razor" Line="1" Column="9" />
+      <File FileName="shelterbooking/Client/Pages/Form.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +25,13 @@
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="FetchData.razor" selected="True" />
+                <Node name="Index.razor" selected="True" />
               </Node>
               <Node name="Shared" expanded="True" />
             </Node>
-            <Node name="shelterbooking.Server" expanded="True" />
+            <Node name="shelterbooking.Server" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
             <Node name="shelterbooking.Shared" expanded="True" />
           </Node>
         </State>

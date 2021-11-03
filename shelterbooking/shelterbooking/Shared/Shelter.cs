@@ -44,7 +44,6 @@ namespace shelterbooking.Shared
         public int antal_pl { get; set; }
         public string ansvar_org { get; set; }
         public string ansva_v { get; set; }
-        public bool ledighed { get; set; }
 
         public Properties(string objekt_id, int cvr_kode, string cvr_navn,
                             int kommunekode, string facil_ty, string navn,

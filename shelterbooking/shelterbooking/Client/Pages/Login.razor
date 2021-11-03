@@ -1,4 +1,4 @@
-﻿@page "/login"
+﻿@page "/"
 <h3>LogIn</h3>
 
 <p>
@@ -8,17 +8,42 @@
     Password: 
      <input placeholder ="Password" @bind="password" />
     <br />
-    <button class="btn btn-success" @onclick="getlogin">Login</button>
+    <button class="btn btn-success" @onclick="() => startLogin(email, password)">Login</button>
     <br />
      <a href="https://localhost:5001/createuser" >Dont have a user?</a>
 </p>
 
 
 
-@code { public string email;
+@code {
+    public string email;
     public string password;
-    public void getlogin() { }
+    public void startLogin(string email, string password)
+    {
+        foreach(user in users)
+        {
+            if(user.email == email && user.password == password)
+            {
+                if(user.level == 0)
+                {
+                    uriHelper.NavigateTo("fetchdata");
 
+                }
+                else if (user.level == 1)
+                {
+                    uriHelper.NavigateTo("fetchdata");
+                }
+                else
+                {
+                    await js.InvokeVoidAsync("alert", $"User access not permitted");
+                }
+            }
+            else
+            {
+                await js.InvokeVoidAsync("alert", $"Email and/or password incorrect!");
+            }
+        }
+    }
 
 }
 

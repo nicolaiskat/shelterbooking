@@ -105,7 +105,7 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 120 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+#line 118 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
        
     private Shelter[] shelters;
     private Booking[] bookings;
@@ -132,28 +132,6 @@ using System.Globalization;
         {
             await Http.DeleteAsync($"api/bookings/{bookId}");
             await OnInitializedAsync();
-        }
-    }
-    public void findBookings(Shelter shel)
-    {
-        foreach(var booking in bookings)
-        {
-            if(booking.shelter_id == shel._id)
-            {
-                DateTime start = DateTime.ParseExact(booking.startdato, "dd/MM/yyyy", CultureInfo.InvariantCulture);
-                DateTime slut = DateTime.ParseExact(booking.slutdato, "dd/MM/yyyy", CultureInfo.InvariantCulture);
-
-                if (start == DateTime.Now)
-                {
-
-                    shel.properties.ledighed = false;
-                }
-                else
-                {
-                    shel.properties.ledighed = true;
-
-                }
-            }
         }
     }
 
