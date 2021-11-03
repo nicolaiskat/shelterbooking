@@ -1,15 +1,17 @@
-<<<<<<< HEAD
-﻿@page "/"
-=======
-﻿@page "/login"
+@page "/"
 @using shelterbooking.Shared
 @inject HttpClient Http
 @inject IJSRuntime js
 @using System.Net.Http
 @inject NavigationManager uriHelper
 
->>>>>>> f085d83f84ce4c00fcfdc3706952241dd0249374
 <h3>LogIn</h3>
+@if (users == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+            {
 
 <p>
     Username:
@@ -18,89 +20,49 @@
     Password:
     <input placeholder="Password" @bind="password" />
     <br />
-<<<<<<< HEAD
     <button class="btn btn-success" @onclick="() => startLogin(email, password)">Login</button>
-=======
-<<<<<<< HEAD
-    <a class="btn btn-primary" @onclick="login">Login</a>
-
-=======
-    <button class="btn btn-success" @onclick="getlogin">Login</button>
->>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08
->>>>>>> f085d83f84ce4c00fcfdc3706952241dd0249374
     <br />
     <a href="https://localhost:5001/createuser">Dont have a user?</a>
 </p>
 
 
+}
 
-<<<<<<< HEAD
 @code {
     public string email;
     public string password;
+
+    public Bruger[] users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetFromJsonAsync<Bruger[]>("UsersList");
+    }
+
     public void startLogin(string email, string password)
     {
-        foreach(user in users)
+        foreach (var user in users)
         {
-            if(user.email == email && user.password == password)
+            if (user.email == email && user.password == password)
             {
-                if(user.level == 0)
+                if (user.level == 0)
                 {
                     uriHelper.NavigateTo("fetchdata");
 
                 }
                 else if (user.level == 1)
                 {
-                    uriHelper.NavigateTo("fetchdata");
-                }
-                else
-                {
-                    await js.InvokeVoidAsync("alert", $"User access not permitted");
-                }
-            }
-            else
-            {
-                await js.InvokeVoidAsync("alert", $"Email and/or password incorrect!");
-            }
-        }
-    }
-=======
-@code { 
-    public string email;
-    public string password;
-
-    private Bruger[] brugere;
->>>>>>> f085d83f84ce4c00fcfdc3706952241dd0249374
-
-    protected override async Task OnInitializedAsync()
-    {
-        brugere = await Http.GetFromJsonAsync<Bruger[]>("UsersList");
-    }
-    
-    async Task login()
-    {
-        foreach(var bruger in brugere)
-        {
-            if(bruger.email == email && bruger.password == password)
-            {
-                if(bruger.level == 0)
-                {
-                    uriHelper.NavigateTo("fetchdata");
-                }
-                else if (bruger.level == 1)
-                {
                     uriHelper.NavigateTo("pedelside");
                 }
                 else
                 {
-                    await js.InvokeVoidAsync("alert", $"Level of access not correct");
+                    js.InvokeVoidAsync("alert", $"User access not permitted");
                 }
             }
             else
             {
-                js.InvokeVoidAsync("alert", $"Incorrect email and or password");
+                js.InvokeVoidAsync("alert", $"Email and/or password incorrect!");
             }
         }
     }
 }
-
