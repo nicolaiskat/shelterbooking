@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/CreateUser.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "46e2d997ae3a17c9bf02537278ae69173f8e548f"
 =======
 #pragma checksum "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/CreateUser.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "ee6ddb60a6e73bb28134e0f166f587e39afa6583"
 >>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+=======
+#pragma checksum "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\CreateUser.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9c91c3c433633b063d88db5eb117dc67f68a2557"
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 =======
 #pragma checksum "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\CreateUser.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9c91c3c433633b063d88db5eb117dc67f68a2557"
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
@@ -214,6 +218,7 @@ using shelterbooking.Shared;
             __builder.SetUpdatesAttributeName("value");
             __builder.CloseElement();
 <<<<<<< HEAD
+<<<<<<< HEAD
             __builder.AddMarkupContent(27, "\n    <br>\n    ");
 <<<<<<< HEAD
             __builder.OpenElement(28, "a");
@@ -225,6 +230,11 @@ using shelterbooking.Shared;
 =======
             __builder.OpenElement(28, "button");
             __builder.AddAttribute(29, "class", "btn btn-success");
+=======
+            __builder.AddMarkupContent(27, "\r\n    <br>\r\n    ");
+            __builder.OpenElement(28, "a");
+            __builder.AddAttribute(29, "class", "btn btn-primary");
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 =======
             __builder.AddMarkupContent(27, "\r\n    <br>\r\n    ");
             __builder.OpenElement(28, "a");

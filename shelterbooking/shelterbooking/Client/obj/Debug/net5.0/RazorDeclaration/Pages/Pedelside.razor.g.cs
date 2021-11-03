@@ -99,7 +99,11 @@ using System.Net.Http;
         #pragma warning restore 1998
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 118 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+=======
+#line 119 "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 =======
 #line 119 "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)

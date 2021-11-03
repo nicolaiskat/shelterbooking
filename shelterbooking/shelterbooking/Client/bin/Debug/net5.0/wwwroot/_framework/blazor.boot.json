@@ -43,6 +43,7 @@
       "Syncfusion.PdfExport.Net.dll": "sha256-P1MjJF+p\/g1wpNvPttfskm+Ef+4tnZ8aw16VORh5DEM=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.CSharp.dll": "sha256-J3xEnfK9Stuxsk3ysfAkwm7tlSZzs8rytHhodu+3aA0=",
       "Microsoft.VisualBasic.Core.dll": "sha256-6gJT+FVMmaF5o4CyPAnHcWjWVtFMSdJke\/+1seKS1Y0=",
       "Microsoft.VisualBasic.dll": "sha256-BCLkgDB15ehV\/3J8Qz1SJ2d4wMMH1Avc\/MlGr7G45I8=",
@@ -221,6 +222,8 @@
       "shelterbooking.Client.pdb": "sha256-L3XO79FdhbWIEGAMF0V2zGr4NKVXpFXUEk07aHBsaZA="
 >>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 =======
+=======
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
       "Microsoft.CSharp.dll": "sha256-twUgoMqRCjMxtXUIYt\/QO2nXdwn36f5Nz240MccEpOQ=",
       "Microsoft.VisualBasic.Core.dll": "sha256-RUn00o3YkpuvHph4uivfeOWDNhB7YxKW6e9szvw225k=",
       "Microsoft.VisualBasic.dll": "sha256-d00J4CemA82RnoNRzqjqNhBe7cz2sznrG6N6rZZn5Wk=",
@@ -393,6 +396,9 @@
     "pdb": {
       "shelterbooking.Shared.pdb": "sha256-7G9WCrlxCYXl19y1IbdDXfRRgDVHxgjZk5w3Wq3mmZc=",
       "shelterbooking.Client.pdb": "sha256-mI79o2nXlpCTpUcRZwMxoYmtZUD4TQmqT6sHIgYvSLw="
+<<<<<<< HEAD
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+=======
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
     },
     "runtime": {

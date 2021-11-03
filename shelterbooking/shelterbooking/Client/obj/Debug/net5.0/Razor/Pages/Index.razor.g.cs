@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Index.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "237367b67be1de42443f794c7d57a840303c6355"
+=======
+#pragma checksum "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Index.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6262c1dc53d77a9150c6bc75c443dbbe6c02518b"
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 =======
 #pragma checksum "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Index.razor" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6262c1dc53d77a9150c6bc75c443dbbe6c02518b"
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
@@ -90,15 +94,21 @@ using shelterbooking.Client.Shared;
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             __builder.AddMarkupContent(0, "<h1>Overnatning i naturen</h1>\n\n");
             __builder.AddMarkupContent(1, "<h2>Der er mange muligheder for at overnatte i naturen. </h2>\n<br>\n");
             __builder.AddMarkupContent(2, "<p>Overnattende gæster har nu mulighed for at sikre sig at komme frem til et ledigt shelter.</p>\n<br>\n");
             __builder.AddMarkupContent(3, "<p>På listen over shelters kan du se mulighederne for at overnatte på udendørs arealer </p>");
 =======
+=======
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
             __builder.AddMarkupContent(0, "<h1>Hello, world!</h1>\r\n\r\nWelcome to your new app.\r\n");
             __builder.OpenComponent<shelterbooking.Client.Shared.SurveyPrompt>(1);
             __builder.AddAttribute(2, "Title", "How is Blazor working for you?");
             __builder.CloseComponent();
+<<<<<<< HEAD
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+=======
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
         }
         #pragma warning restore 1998
