@@ -4,6 +4,7 @@
 @inject IJSRuntime js
 @using System.Net.Http
 @inject NavigationManager uriHelper
+@using System.Globalization 
 
 
 
@@ -142,6 +143,28 @@ else
         {
             await Http.DeleteAsync($"api/bookings/{bookId}");
             await OnInitializedAsync();
+        }
+    }
+    public void findBookings(Shelter shel)
+    {
+        foreach(var booking in bookings)
+        {
+            if(booking.shelter_id == shel._id)
+            {
+                DateTime start = DateTime.ParseExact(booking.startdato, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                DateTime slut = DateTime.ParseExact(booking.slutdato, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+                if (start == DateTime.Now)
+                {
+
+                    shel.properties.ledighed = false;
+                }
+                else
+                {
+                    shel.properties.ledighed = true;
+
+                }
+            }
         }
     }
 
