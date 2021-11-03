@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Server/ShelterService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/CreateUser.razor">
     <Files>
-      <File FileName="shelterbooking/Client/Pages/Login.razor" Line="33" Column="28" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" Line="1" Column="1" />
-      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="73" Column="49" />
-      <File FileName="shelterbooking/Client/Pages/FetchData.razor" Line="61" Column="2" />
-      <File FileName="shelterbooking/Server/Controllers/UsersListController.cs" Line="9" Column="7" />
-      <File FileName="shelterbooking/Server/Controllers/UsersController.cs" Line="21" Column="10" />
+      <File FileName="shelterbooking/Client/Pages/Login.razor" Line="33" Column="2" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" />
       <File FileName="shelterbooking/Server/ShelterService.cs" Line="23" Column="1" />
+      <File FileName="shelterbooking/Client/Pages/CreateUser.razor" Line="29" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CreateUser.razor" selected="True" />
+              </Node>
             </Node>
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="ShelterService.cs" selected="True" />
             </Node>
           </Node>
         </State>
