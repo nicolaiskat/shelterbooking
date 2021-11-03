@@ -16,13 +16,34 @@ namespace shelterbooking.Shared
         public string mobil { get; set; }
         public string email { get; set; }
         public string password { get; set; }
-        public Access access { get { return new Access(0, "guest") ; } }
+        public int level { get; set; }
+
+        public Bruger(string _id, string fornavn, string efternavn, string mobil, string email, string password, int level=1)
+        {
+            this._id = _id;
+            this.fornavn = fornavn;
+            this.efternavn = efternavn;
+            this.mobil = mobil;
+            this.email = email;
+            this.password = password;
+            this.level = level;
+        }
+        public Bruger(string fornavn, string efternavn, string mobil, string email, string password, int level = 1)
+        {
+            this.fornavn = fornavn;
+            this.efternavn = efternavn;
+            this.mobil = mobil;
+            this.email = email;
+            this.password = password;
+            this.level = level;
+        }
+        public Bruger() { }
     }
     public class Access
     {
         public int level { get; set; }
         public string beskr { get; set; }
-        public Access(int lvl, string beskr)
+        public Access(int lvl=1, string beskr = "null")
         {
             this.level = lvl;
             this.beskr = beskr;

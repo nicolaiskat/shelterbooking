@@ -1,32 +1,41 @@
 ﻿@page "/createuser"
+@inject NavigationManager uriHelper
+@inject HttpClient Http
+@inject IJSRuntime js
+@using shelterbooking.Shared 
+
 <h3>CreateUser</h3>
 
- <p>
+<p>
     Fornavn:
-    <input placeholder ="Fornavn" @bind="fornavn" />
+    <input placeholder="Fornavn" @bind="user.fornavn" />
     <br />
     Efternavn:
-    <input placeholder ="Efternavn" @bind="efternavn" />
+    <input placeholder="Efternavn" @bind="user.efternavn" />
     <br />
     Mobil:
-    <input placeholder ="Mobilnummer" @bind="mobil" />
+    <input placeholder="Mobilnummer" @bind="user.mobil" />
     <br />
     Email:
-    <input placeholder ="Email" @bind="email" />
+    <input placeholder="Email" @bind="user.email" />
     <br />
-    Password: 
-     <input placeholder ="Password" @bind="password" />
+    Password:
+    <input placeholder="Password" @bind="user.password" />
     <br />
-    <button class="btn btn-primary" @onclick="getUser">Create</button>
+    <a class="btn btn-primary" @onclick="CreateBruger">Login</a>
 </p>
 
 @code {
 
-    public string fornavn;
-    public string efternavn;
-    public string mobil;
-    public string email;
-    public string password;
-    public void getUser() { }
+    public Bruger user = new();
 
+    async Task CreateBruger()
+    {
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to create user {user.fornavn}?"))
+        {
+            await Http.PostAsJsonAsync("api/users", new Bruger(user.fornavn, user.efternavn, user.mobil, user.email, user.password, user.level));
+            await js.InvokeVoidAsync("alert", $"Created successfully!");
+            uriHelper.NavigateTo("login");
+        }
+    }
 }
