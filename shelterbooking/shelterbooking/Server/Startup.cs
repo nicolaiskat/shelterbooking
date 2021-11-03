@@ -31,11 +31,7 @@ namespace shelterbooking.Server
 
             services.Configure<BookingsDatabaseSettings>(Configuration.GetSection(nameof(BookingsDatabaseSettings)));
             services.AddSingleton<IBookingsDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BookingsDatabaseSettings>>().Value);
-            services.AddSingleton<BookingService>(); 
-            
-            services.Configure<UsersDatabaseSettings>(Configuration.GetSection(nameof(UsersDatabaseSettings)));
-            services.AddSingleton<IUsersDatabaseSettings>(sp => sp.GetRequiredService<IOptions<UsersDatabaseSettings>>().Value);
-            services.AddSingleton<UserService>();
+            services.AddSingleton<BookingService>();
 
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.UseMemberCasing());
             

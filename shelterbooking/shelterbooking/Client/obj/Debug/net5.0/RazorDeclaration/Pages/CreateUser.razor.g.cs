@@ -82,6 +82,7 @@ using shelterbooking.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< HEAD
 #nullable restore
 #line 5 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/CreateUser.razor"
 using shelterbooking.Shared;
@@ -89,6 +90,8 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
+=======
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
     [Microsoft.AspNetCore.Components.RouteAttribute("/createuser")]
     public partial class CreateUser : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,11 +101,21 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
+<<<<<<< HEAD
 #line 28 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/CreateUser.razor"
+=======
+#line 23 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/CreateUser.razor"
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
        
 
-    public Bruger user = new();
+    public string fornavn;
+    public string efternavn;
+    public string mobil;
+    public string email;
+    public string password;
+    public void getUser() { }
 
+<<<<<<< HEAD
     async Task CreateBruger()
     {
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to create user {user.fornavn}?"))
@@ -112,13 +125,12 @@ using shelterbooking.Shared;
             uriHelper.NavigateTo("/");
         }
     }
+=======
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime js { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager uriHelper { get; set; }
     }
 }
 #pragma warning restore 1591

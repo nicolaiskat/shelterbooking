@@ -557,7 +557,11 @@
       "url": "_content\/Blazored.Modal\/blazored.modal.js"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-tgJKylbGZLpBNXUkl1HH5wiGpX9AufCI+CzcrGG+GFA=",
+=======
+      "hash": "sha256-ev0cDznTIhllchu4nrczWJ4Q\/QJEjAJSGaHalbXwNBQ=",
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1389,6 +1393,7 @@
       "url": "_framework\/dotnet.5.0.11.js"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-lw5rGUsHgE0otrKfFOlzTOGmJEoVnwHubhsFxzrHsNY=",
       "url": "_framework\/shelterbooking.Shared.dll"
     },
@@ -1402,6 +1407,21 @@
     },
     {
       "hash": "sha256-c1PVGW7bfhzcGXBzeVMQm2ssdkaMfs+rTIf5e61OngY=",
+=======
+      "hash": "sha256-mnFNWBAmSHVZQS8DuuMtWLDfhZC9\/aYyhcMcibKKzNw=",
+      "url": "_framework\/shelterbooking.Shared.dll"
+    },
+    {
+      "hash": "sha256-eOAf8BOkrF8PT7oLAuD+JfznzzE57Jku3W7x9cR5TEU=",
+      "url": "_framework\/shelterbooking.Shared.pdb"
+    },
+    {
+      "hash": "sha256-ajJZarvTNvlME5U3WNyXwMHLDlfzVbL3NenO2KuEyuw=",
+      "url": "_framework\/shelterbooking.Client.dll"
+    },
+    {
+      "hash": "sha256-L3XO79FdhbWIEGAMF0V2zGr4NKVXpFXUEk07aHBsaZA=",
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
@@ -2237,7 +2257,11 @@
       "url": "_framework\/dotnet.5.0.11.js.gz"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-a0sLErchH0SaMR8j6f0GgRZfjEq+9LXwV\/LOrQtHAs8=",
+=======
+      "hash": "sha256-L7wvuYBB8Ws1NRCH5ro2t1CUlXy32FEJxyQmsYR\/cvo=",
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
       "url": "_framework\/shelterbooking.Shared.dll.gz"
     },
     {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @page "/"
 @using shelterbooking.Shared
 @inject HttpClient Http
@@ -5,6 +6,9 @@
 @using System.Net.Http
 @inject NavigationManager uriHelper
 
+=======
+﻿@page "/"
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 <h3>LogIn</h3>
 @if (users == null)
 {
@@ -15,14 +19,14 @@ else
 
 <p>
     Username:
-    <input placeholder="Email" @bind="email" />
+    <input placeholder ="Email" @bind="email" />
     <br />
-    Password:
-    <input placeholder="Password" @bind="password" />
+    Password: 
+     <input placeholder ="Password" @bind="password" />
     <br />
     <button class="btn btn-success" @onclick="() => startLogin(email, password)">Login</button>
     <br />
-    <a href="https://localhost:5001/createuser">Dont have a user?</a>
+     <a href="https://localhost:5001/createuser" >Dont have a user?</a>
 </p>
 
 
@@ -32,6 +36,7 @@ else
     public string email;
     public string password;
 
+<<<<<<< HEAD
     public Bruger[] users;
 
     protected override async Task OnInitializedAsync()
@@ -66,3 +71,24 @@ else
         }
     }
 }
+=======
+                }
+                else if (user.level == 1)
+                {
+                    uriHelper.NavigateTo("fetchdata");
+                }
+                else
+                {
+                    await js.InvokeVoidAsync("alert", $"User access not permitted");
+                }
+            }
+            else
+            {
+                await js.InvokeVoidAsync("alert", $"Email and/or password incorrect!");
+            }
+        }
+    }
+
+}
+
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)

@@ -2,4 +2,8 @@
 // This is because caching would make development more difficult (changes would not
 // be reflected on the first load after each change).
 self.addEventListener('fetch', () => { });
+<<<<<<< HEAD
 /* Manifest version: TLdz1Q+G */
+=======
+/* Manifest version: qUNokN1o */
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)

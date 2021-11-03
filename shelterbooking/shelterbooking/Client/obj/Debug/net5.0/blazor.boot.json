@@ -212,7 +212,11 @@
     },
     "lazyAssembly": null,
     "pdb": {
+<<<<<<< HEAD
       "shelterbooking.Client.pdb": "sha256-c1PVGW7bfhzcGXBzeVMQm2ssdkaMfs+rTIf5e61OngY="
+=======
+      "shelterbooking.Client.pdb": "sha256-L3XO79FdhbWIEGAMF0V2zGr4NKVXpFXUEk07aHBsaZA="
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",

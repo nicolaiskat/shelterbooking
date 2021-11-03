@@ -1,34 +1,39 @@
 ﻿@page "/createuser"
-@inject NavigationManager uriHelper
-@inject HttpClient Http
-@inject IJSRuntime js
-@using shelterbooking.Shared 
-
 <h3>CreateUser</h3>
 
-<p>
+ <p>
     Fornavn:
-    <input placeholder="Fornavn" @bind="user.fornavn" />
+    <input placeholder ="Fornavn" @bind="fornavn" />
     <br />
     Efternavn:
-    <input placeholder="Efternavn" @bind="user.efternavn" />
+    <input placeholder ="Efternavn" @bind="efternavn" />
     <br />
     Mobil:
-    <input placeholder="Mobilnummer" @bind="user.mobil" />
+    <input placeholder ="Mobilnummer" @bind="mobil" />
     <br />
     Email:
-    <input placeholder="Email" @bind="user.email" />
+    <input placeholder ="Email" @bind="email" />
     <br />
-    Password:
-    <input placeholder="Password" @bind="user.password" />
+    Password: 
+     <input placeholder ="Password" @bind="password" />
     <br />
+<<<<<<< HEAD
     <a class="btn btn-primary" @onclick="CreateBruger">Login</a>
+=======
+    <button class="btn btn-success" @onclick="getUser">Create</button>
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 </p>
 
 @code {
 
-    public Bruger user = new();
+    public string fornavn;
+    public string efternavn;
+    public string mobil;
+    public string email;
+    public string password;
+    public void getUser() { }
 
+<<<<<<< HEAD
     async Task CreateBruger()
     {
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to create user {user.fornavn}?"))
@@ -39,3 +44,6 @@
         }
     }
 }
+=======
+}
+>>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
