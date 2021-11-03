@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{FE57BBD1-8099-4428-BD9A-70EE3BC4D005}|Default">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/CreateUser.razor">
     <Files>
       <File FileName="shelterbooking/Client/Pages/Login.razor" Line="33" Column="2" />
@@ -7,12 +8,28 @@
       <File FileName="shelterbooking/Client/Pages/FetchData.razor" />
       <File FileName="shelterbooking/Server/ShelterService.cs" Line="23" Column="1" />
       <File FileName="shelterbooking/Client/Pages/CreateUser.razor" Line="29" Column="23" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelterbooking/Client/Pages/Pedelside.razor">
+    <Files>
+      <File FileName="shelterbooking/Server/Controllers/BookingsListController.cs" Line="38" Column="19" />
+      <File FileName="shelterbooking/Client/Pages/FetchData.razor" />
+      <File FileName="shelterbooking/Client/Pages/Pedelside.razor" Line="100" Column="35" />
+      <File FileName="shelterbooking/Client/Pages/OpretBooking.razor" />
+      <File FileName="shelterbooking/Client/Pages/Form3.razor" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersListController.cs" />
+      <File FileName="shelterbooking/Shared/Shelter.cs" />
+      <File FileName="shelterbooking/Client/Pages/UpdateShelter.razor" Line="24" Column="43" />
+      <File FileName="shelterbooking/Client/Pages/Form2.razor" />
+      <File FileName="shelterbooking/Server/Controllers/SheltersController.cs" Line="42" Column="10" />
+      <File FileName="shelterbooking/Client/Pages/UpdateBooking.razor" Line="20" Column="17" />
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
             <Node name="shelterbooking.Client" expanded="True">
+<<<<<<< HEAD
               <Node name="Pages" expanded="True">
                 <Node name="CreateUser.razor" selected="True" />
               </Node>
@@ -20,6 +37,13 @@
             <Node name="shelterbooking.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
             </Node>
+=======
+              <Node name="Pages" expanded="True" />
+            </Node>
+            <Node name="shelterbooking.Server" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
           </Node>
         </State>
       </Pad>

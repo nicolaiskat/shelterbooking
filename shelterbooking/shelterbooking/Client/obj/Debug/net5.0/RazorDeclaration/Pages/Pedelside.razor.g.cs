@@ -89,13 +89,6 @@ using System.Net.Http;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 7 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
-using System.Globalization;
-
-#line default
-#line hidden
-#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/pedelside")]
     public partial class Pedelside : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,7 +98,11 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
+<<<<<<< HEAD
 #line 118 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Pedelside.razor"
+=======
+#line 119 "C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Client\Pages\Pedelside.razor"
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
        
     private Shelter[] shelters;
     private Booking[] bookings;
