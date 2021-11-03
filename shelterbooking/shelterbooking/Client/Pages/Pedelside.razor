@@ -15,8 +15,8 @@
 }
 else
 {
-    <button class="btn btn-primary" @onclick="getSheltersList">Se Shelters</button>
-    <button class="btn btn-primary" @onclick="getBookingsList">Se bookings</button>
+    <button class="btn btn-success" @onclick="getSheltersList">Se Shelters</button>
+    <button class="btn btn-success" @onclick="getBookingsList">Se bookings</button>
     <br />
     if (typeList == 1)
     {
@@ -59,11 +59,11 @@ else
                             <b>Ansvarlig:</b> @shelter.properties.ansva_v
                         </td>
                         <td>
-                            <button class="btn btn-primary">Se bookings</button>
+                            <button class="btn btn-success">Se bookings</button>
                             <br />
-                            <a class="btn btn-primary" href='@string.Format("https://localhost:5001/shelter/edit/{0}", shelter._id)'>Ret shelter</a>
+                            <a class="btn btn-success" href='@string.Format("https://localhost:5001/shelter/edit/{0}", shelter._id)'>Ret shelter</a>
                             <br />
-                            <button class="btn btn-primary" @onclick="() => ShelDelete(shelter._id)">Slet shelter</button>
+                            <button class="btn btn-success" @onclick="() => ShelDelete(shelter._id)">Slet shelter</button>
                         </td>
                     </tr>
                 }
@@ -105,9 +105,9 @@ else
                             <b>Slut dato:</b> @booking.slutdato
                         </td>
                         <td>
-                            <a class="btn btn-primary" href='@string.Format("https://localhost:5001/booking/edit/{0}", booking._id)'>Ret booking</a>
+                            <a class="btn btn-success" href='@string.Format("https://localhost:5001/booking/edit/{0}", booking._id)'>Ret booking</a>
                             <br />
-                            <button class="btn btn-primary" @onclick="() => BookDelete(booking._id)">Slet booking</button>
+                            <button class="btn btn-success" @onclick="() => BookDelete(booking._id)">Slet booking</button>
                         </td>
                     </tr>
                 }
