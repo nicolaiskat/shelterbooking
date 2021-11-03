@@ -1,20 +1,40 @@
+<<<<<<< HEAD
 ﻿@page "/"
+=======
+﻿@page "/login"
+@using shelterbooking.Shared
+@inject HttpClient Http
+@inject IJSRuntime js
+@using System.Net.Http
+@inject NavigationManager uriHelper
+
+>>>>>>> f085d83f84ce4c00fcfdc3706952241dd0249374
 <h3>LogIn</h3>
 
 <p>
     Username:
-    <input placeholder ="Email" @bind="email" />
+    <input placeholder="Email" @bind="email" />
     <br />
-    Password: 
-     <input placeholder ="Password" @bind="password" />
+    Password:
+    <input placeholder="Password" @bind="password" />
     <br />
+<<<<<<< HEAD
     <button class="btn btn-success" @onclick="() => startLogin(email, password)">Login</button>
+=======
+<<<<<<< HEAD
+    <a class="btn btn-primary" @onclick="login">Login</a>
+
+=======
+    <button class="btn btn-success" @onclick="getlogin">Login</button>
+>>>>>>> 6f86d78077fa1e33c46654b8590efdb803ed1c08
+>>>>>>> f085d83f84ce4c00fcfdc3706952241dd0249374
     <br />
-     <a href="https://localhost:5001/createuser" >Dont have a user?</a>
+    <a href="https://localhost:5001/createuser">Dont have a user?</a>
 </p>
 
 
 
+<<<<<<< HEAD
 @code {
     public string email;
     public string password;
@@ -44,6 +64,43 @@
             }
         }
     }
+=======
+@code { 
+    public string email;
+    public string password;
 
+    private Bruger[] brugere;
+>>>>>>> f085d83f84ce4c00fcfdc3706952241dd0249374
+
+    protected override async Task OnInitializedAsync()
+    {
+        brugere = await Http.GetFromJsonAsync<Bruger[]>("UsersList");
+    }
+    
+    async Task login()
+    {
+        foreach(var bruger in brugere)
+        {
+            if(bruger.email == email && bruger.password == password)
+            {
+                if(bruger.level == 0)
+                {
+                    uriHelper.NavigateTo("fetchdata");
+                }
+                else if (bruger.level == 1)
+                {
+                    uriHelper.NavigateTo("pedelside");
+                }
+                else
+                {
+                    await js.InvokeVoidAsync("alert", $"Level of access not correct");
+                }
+            }
+            else
+            {
+                js.InvokeVoidAsync("alert", $"Incorrect email and or password");
+            }
+        }
+    }
 }
 
