@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.deps.json
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/shelterbooking.Shared.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Shared/bin/Debug/net5.0/ref/shelterbooking.Shared.dll
@@ -15,6 +16,8 @@
 =======
 =======
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+=======
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\shelterbooking.Shared.deps.json
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\shelterbooking.Shared.dll
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\bin\Debug\net5.0\ref\shelterbooking.Shared.dll
@@ -28,6 +31,9 @@ C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbook
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.pdb
 C:\Users\Nicolai Skat\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Shared\obj\Debug\net5.0\shelterbooking.Shared.csproj.AssemblyReference.cache
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+=======
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 =======
 >>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
