@@ -2305,13 +2305,13 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-GzBnvyQuMvDLtw6SXUXDxgIcClTLJEJDSWfOIynohng=",
+      "hash": "sha256-7TqxT+g+7XHusTf3mSAV2E9WIOFQhog1sIpNUHOad7c=",
       "url": "shelterbooking.Client.styles.css"
     },
     {
-      "hash": "sha256-xqno5HJ88gEm0VGPg4el5WPMrBaA+xnjSp7srK3t+R0=",
+      "hash": "sha256-eyotDlzw\/6DfVuPox14I1+0AOAxzDu2Id2cGjHiJDdo=",
       "url": "shelterbooking.Client.bundle.scp.css"
     }
   ],
-  "version": "xHOzFucX"
+  "version": "DCQVMPSY"
 };
