@@ -33,6 +33,10 @@ namespace shelterbooking.Server
             services.AddSingleton<IBookingsDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BookingsDatabaseSettings>>().Value);
             services.AddSingleton<BookingService>();
 
+            services.Configure<BrugereDatabaseSettings>(Configuration.GetSection(nameof(BrugereDatabaseSettings)));
+            services.AddSingleton<IBrugereDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BrugereDatabaseSettings>>().Value);
+            services.AddSingleton<BrugerService>();
+
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.UseMemberCasing());
             
             services.AddRazorPages();

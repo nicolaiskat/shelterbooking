@@ -54,8 +54,6 @@ else
                             <br />
                             <b>Antal pladser:</b> @shelter.properties.antal_pl
                             <br />
-                            <b>Ledig:</b> Yes
-                            <br />
                             <b>Ansvarlig:</b> @shelter.properties.ansva_v
                         </td>
                         <td>
@@ -93,6 +91,8 @@ else
                             <b>Booking id:</b> @booking._id
                             <br />
                             <b>Shelter navn:</b> @getShelterNavn(booking.shelter_id)
+                            <br />
+                            <b>Bruger id:</b> @booking.bruger_id
                             <br />
                             <b>Fulde navn:</b> @booking.fuldenavn
                             <br />
@@ -158,10 +158,6 @@ else
     public void getBookingsList()
     {
         typeList = 2;
-    }
-    public string updateShelter(string id)
-    {
-        return id;
     }
     public string getShelterNavn(string id)
     {

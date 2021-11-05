@@ -36,6 +36,7 @@ namespace shelterbooking.Server.Controllers
                 Booking booking = new Booking(
                                 $"{obj["_id"]}",
                                 $"{obj["shelter_id"]}",
+                                $"{obj["bruger_id"]}",
                                 $"{obj["fuldenavn"]}",
                                 Convert.ToInt32($"{obj["telefon"]}"),
                                 $"{obj["kommentar"]}",
