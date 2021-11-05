@@ -1132,13 +1132,11 @@ C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbook
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.MvcApplicationPartsAssemblyInfo.cache
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.RazorComponent.input.cache
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/CreateUser.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Form.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Form2.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Form3.razor.g.cs
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Login.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/OpretBooking.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/RazorDeclaration/Pages/OpretShelter.razor.g.cs
@@ -1155,13 +1153,11 @@ C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbook
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.TagHelpers.output.cache
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/shelterbooking.Client.RazorCoreGenerate.cache
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/App.razor.g.cs
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/CreateUser.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Form.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Form2.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Form3.razor.g.cs
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/Login.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/OpretBooking.razor.g.cs
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/obj/Debug/net5.0/Razor/Pages/OpretShelter.razor.g.cs

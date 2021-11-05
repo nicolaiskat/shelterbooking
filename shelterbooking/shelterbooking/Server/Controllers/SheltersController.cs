@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace shelterbooking.Server.Controllers
 {
-    [Route("")]
+    [Route("api/[controller]")]
     [ApiController]
     public class SheltersController : Controller
     {
