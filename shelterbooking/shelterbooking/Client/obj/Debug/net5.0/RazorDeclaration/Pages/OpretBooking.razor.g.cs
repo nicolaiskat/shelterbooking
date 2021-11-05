@@ -89,7 +89,7 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/booking/create/{shelId}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/booking/create/{shelId}/{userId}")]
     public partial class OpretBooking : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -101,14 +101,15 @@ using shelterbooking.Shared;
 #line 12 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretBooking.razor"
        
     [Parameter] public string shelId { get; set; }
+    [Parameter] public string userId { get; set; }
     public Booking book = new Booking();
 
     async Task CreateBooking()
     {
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to book shelter {shelId}?"))
         {
-            await Http.PostAsJsonAsync("api/bookings", new Booking(shelId, book.kommentar, book.startdato, book.slutdato, book.fuldenavn, book.telefon));
-            uriHelper.NavigateTo("fetchdata");
+            await Http.PostAsJsonAsync("api/bookings", new Booking(shelId, userId, book.kommentar, book.startdato, book.slutdato, book.fuldenavn, book.telefon));
+            uriHelper.NavigateTo($"fetchdata/{userId}");
         }
     }
 

@@ -557,23 +557,7 @@
       "url": "_content\/Blazored.Modal\/blazored.modal.js"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "hash": "sha256-tgJKylbGZLpBNXUkl1HH5wiGpX9AufCI+CzcrGG+GFA=",
-=======
-      "hash": "sha256-ev0cDznTIhllchu4nrczWJ4Q\/QJEjAJSGaHalbXwNBQ=",
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-Lx5FAPjBIfxw5ZJos45chPMR6CGZAsX6LB\/yRG738x8=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-Lx5FAPjBIfxw5ZJos45chPMR6CGZAsX6LB\/yRG738x8=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-Lx5FAPjBIfxw5ZJos45chPMR6CGZAsX6LB\/yRG738x8=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+      "hash": "sha256-tKdYpmNBBLYoshmDutsrKGjDNfYP\/YOxMWd7qPDoeBw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1405,57 +1389,19 @@
       "url": "_framework\/dotnet.5.0.11.js"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "hash": "sha256-lw5rGUsHgE0otrKfFOlzTOGmJEoVnwHubhsFxzrHsNY=",
-=======
-=======
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-      "hash": "sha256-EhGsCH\/OdpXBwjMwzIcDkwSzVsXRG6Nk7pvvurJ\/uZ4=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+      "hash": "sha256-u9dhsHXHiCWZyGi2p4iJCfZoMZySH8D8oWMJqiNI\/IY=",
       "url": "_framework\/shelterbooking.Shared.dll"
     },
     {
-      "hash": "sha256-5qrxOhT5awiCWhkjUBkw1cDDqP0N0P2ZhETjo0XCFRQ=",
+      "hash": "sha256-RbBAq4IWkYSqeJyM2CLPpgKM+QvBSAyZXDTZ39jf9iw=",
       "url": "_framework\/shelterbooking.Shared.pdb"
     },
     {
-      "hash": "sha256-iJIOU5J95\/H\/eCcoaw\/NC1bDX7DKyYvXpBgWh9jwn5s=",
+      "hash": "sha256-HSixZmQBzW+TdKbkT2OEz0\/g56ZP4DdRlAYrk9DECnY=",
       "url": "_framework\/shelterbooking.Client.dll"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "hash": "sha256-c1PVGW7bfhzcGXBzeVMQm2ssdkaMfs+rTIf5e61OngY=",
-=======
-      "hash": "sha256-mnFNWBAmSHVZQS8DuuMtWLDfhZC9\/aYyhcMcibKKzNw=",
-      "url": "_framework\/shelterbooking.Shared.dll"
-    },
-    {
-      "hash": "sha256-eOAf8BOkrF8PT7oLAuD+JfznzzE57Jku3W7x9cR5TEU=",
-      "url": "_framework\/shelterbooking.Shared.pdb"
-    },
-    {
-      "hash": "sha256-ajJZarvTNvlME5U3WNyXwMHLDlfzVbL3NenO2KuEyuw=",
-      "url": "_framework\/shelterbooking.Client.dll"
-    },
-    {
-      "hash": "sha256-L3XO79FdhbWIEGAMF0V2zGr4NKVXpFXUEk07aHBsaZA=",
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-mI79o2nXlpCTpUcRZwMxoYmtZUD4TQmqT6sHIgYvSLw=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-mI79o2nXlpCTpUcRZwMxoYmtZUD4TQmqT6sHIgYvSLw=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-mI79o2nXlpCTpUcRZwMxoYmtZUD4TQmqT6sHIgYvSLw=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+      "hash": "sha256-VPuQaQ5TGL6h4AOWrFG\/jzp7PPRn\/Ydsrlm6kHGDqoc=",
       "url": "_framework\/shelterbooking.Client.pdb"
     },
     {
@@ -2291,23 +2237,7 @@
       "url": "_framework\/dotnet.5.0.11.js.gz"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "hash": "sha256-a0sLErchH0SaMR8j6f0GgRZfjEq+9LXwV\/LOrQtHAs8=",
-=======
-      "hash": "sha256-L7wvuYBB8Ws1NRCH5ro2t1CUlXy32FEJxyQmsYR\/cvo=",
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-+A8BMcuu6bGtw+YGnKa1M8iC3qiqK8usxAMAWbI1VYA=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-+A8BMcuu6bGtw+YGnKa1M8iC3qiqK8usxAMAWbI1VYA=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-      "hash": "sha256-+A8BMcuu6bGtw+YGnKa1M8iC3qiqK8usxAMAWbI1VYA=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+      "hash": "sha256-Ga0b8PqfwvohdR2CK102YRzX6vRipHMHBYBbB3AqFFE=",
       "url": "_framework\/shelterbooking.Shared.dll.gz"
     },
     {
@@ -2375,43 +2305,13 @@
       "url": "manifest.json"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "hash": "sha256-Kx\/dR0CSw0HP0zPU3Z5KBbZnK\/L0jPXzdeJNKnc3uLA=",
-=======
-=======
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-      "hash": "sha256-V8xMhsGilmBs8QDGQN2SvX8aFKBgpN31YYnnZZ1HNWQ=",
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+      "hash": "sha256-GzBnvyQuMvDLtw6SXUXDxgIcClTLJEJDSWfOIynohng=",
       "url": "shelterbooking.Client.styles.css"
     },
     {
-      "hash": "sha256-7AsWwgKfU6Q\/soQDKgFySogKRzR3mTaSFIOsczK7okQ=",
+      "hash": "sha256-xqno5HJ88gEm0VGPg4el5WPMrBaA+xnjSp7srK3t+R0=",
       "url": "shelterbooking.Client.bundle.scp.css"
     }
   ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "version": "TLdz1Q+G"
+  "version": "xHOzFucX"
 };
-=======
-      "hash": "sha256-V8xMhsGilmBs8QDGQN2SvX8aFKBgpN31YYnnZZ1HNWQ=",
-      "url": "shelterbooking.Client.styles.css"
-    },
-    {
-      "hash": "sha256-AOqLaII1EPV0dBsL8UB8ilFqCYtY\/AY+FoIb1RZrF20=",
-      "url": "shelterbooking.Client.bundle.scp.css"
-    }
-  ],
-  "version": "B+2sGg75"
-};
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-  "version": "B+2sGg75"
-};
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-  "version": "B+2sGg75"
-};
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)

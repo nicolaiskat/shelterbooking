@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @page "/"
 @using shelterbooking.Shared
 @inject HttpClient Http
@@ -6,9 +5,6 @@
 @using System.Net.Http
 @inject NavigationManager uriHelper
 
-=======
-﻿@page "/"
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
 <h3>LogIn</h3>
 @if (users == null)
 {
@@ -24,22 +20,7 @@ else
     Password: 
      <input placeholder ="Password" @bind="password" />
     <br />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <button class="btn btn-success" @onclick="() => startLogin(email, password)">Login</button>
-=======
-    <a class="btn btn-primary" @onclick="login">Login</a>
-
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-    <a class="btn btn-primary" @onclick="login">Login</a>
-
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
-    <a class="btn btn-primary" @onclick="login">Login</a>
-
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
     <br />
      <a href="https://localhost:5001/createuser" >Dont have a user?</a>
 </p>
@@ -51,12 +32,11 @@ else
     public string email;
     public string password;
 
-<<<<<<< HEAD
     public Bruger[] users;
 
     protected override async Task OnInitializedAsync()
     {
-        users = await Http.GetFromJsonAsync<Bruger[]>("UsersList");
+        users = await Http.GetFromJsonAsync<Bruger[]>("BrugereList");
     }
 
     public void startLogin(string email, string password)
@@ -67,43 +47,21 @@ else
             {
                 if (user.level == 0)
                 {
-                    uriHelper.NavigateTo("fetchdata");
+                    uriHelper.NavigateTo($"fetchdata/{user._id}");
+                    break;
 
                 }
                 else if (user.level == 1)
                 {
-                    uriHelper.NavigateTo("pedelside");
+                    uriHelper.NavigateTo($"pedelside");
+                    break;
                 }
                 else
                 {
                     js.InvokeVoidAsync("alert", $"User access not permitted");
+                    break;
                 }
-            }
-            else
-            {
-                js.InvokeVoidAsync("alert", $"Email and/or password incorrect!");
             }
         }
     }
 }
-=======
-                }
-                else if (user.level == 1)
-                {
-                    uriHelper.NavigateTo("fetchdata");
-                }
-                else
-                {
-                    await js.InvokeVoidAsync("alert", $"User access not permitted");
-                }
-            }
-            else
-            {
-                await js.InvokeVoidAsync("alert", $"Email and/or password incorrect!");
-            }
-        }
-    }
-
-}
-
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)

@@ -90,7 +90,7 @@ using shelterbooking.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Shared/NavMenu.razor"
+#line 18 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

@@ -1,35 +1,29 @@
 ﻿@page "/createuser"
+@inject HttpClient Http
+@inject IJSRuntime js
+@using System.Net.Http
+@inject NavigationManager uriHelper
+@using shelterbooking.Shared 
+
 <h3>CreateUser</h3>
 
- <p>
+<p>
     Fornavn:
-    <input placeholder ="Fornavn" @bind="fornavn" />
+    <input placeholder="Fornavn" @bind="fornavn" />
     <br />
     Efternavn:
-    <input placeholder ="Efternavn" @bind="efternavn" />
+    <input placeholder="Efternavn" @bind="efternavn" />
     <br />
     Mobil:
-    <input placeholder ="Mobilnummer" @bind="mobil" />
+    <input placeholder="Mobilnummer" @bind="mobil" />
     <br />
     Email:
-    <input placeholder ="Email" @bind="email" />
+    <input placeholder="Email" @bind="email" />
     <br />
-    Password: 
-     <input placeholder ="Password" @bind="password" />
+    Password:
+    <input placeholder="Password" @bind="password" />
     <br />
-    <a class="btn btn-primary" @onclick="CreateBruger">Login</a>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <button class="btn btn-success" @onclick="getUser">Create</button>
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
-=======
->>>>>>> parent of f085d83 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)
+    <a class="btn btn-success" @onclick="CreateBruger">Create login</a>
 </p>
 
 @code {
@@ -39,19 +33,40 @@
     public string mobil;
     public string email;
     public string password;
-    public void getUser() { }
 
-<<<<<<< HEAD
+    public Bruger[] users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetFromJsonAsync<Bruger[]>("BrugereList");
+    }
+
     async Task CreateBruger()
     {
-        if (await js.InvokeAsync<bool>("confirm", $"Do you want to create user {user.fornavn}?"))
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to create user {fornavn}?"))
         {
-            await Http.PostAsJsonAsync("api/users", new Bruger(user.fornavn, user.efternavn, user.mobil, user.email, user.password, user.level));
-            await js.InvokeVoidAsync("alert", $"Created successfully!");
-            uriHelper.NavigateTo("/");
+            foreach (var user in users)
+            {
+                if (user.email == email)
+                {
+                    await js.InvokeVoidAsync("alert", "Email is already in use");
+                    break;
+                }
+                else if (!string.IsNullOrEmpty(fornavn) && !string.IsNullOrEmpty(efternavn) && !string.IsNullOrEmpty(mobil) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
+                {
+                    await Http.PostAsJsonAsync("api/brugere", new Bruger(fornavn, efternavn, mobil, email, password));
+                    await js.InvokeVoidAsync("alert", $"Created successfully!");
+                    uriHelper.NavigateTo("/");
+                }
+                else
+                {
+                    await js.InvokeVoidAsync("alert", "Pls fill out all fields correctly");
+                    break;
+                }
+            }
+
         }
+
+
     }
 }
-=======
-}
->>>>>>> parent of b7b4e38 (Merge branch 'main' of https://github.com/nicolaiskat/shelterbooking)

@@ -1,4 +1,4 @@
-@page "/fetchdata"
+@page "/fetchdata/{userId}"
 @using shelterbooking.Shared
 @inject HttpClient Http
 
@@ -15,64 +15,126 @@
 }
 else
 {
-    <p>
-        <b>Søgekriterier: </b>
-    </p>
-    <p><b>Navn: </b><input placeholder="Shelter plads" @bind="shelternavn"/></p>
-    <p><b>Antal pladser: </b><input placeholder="Antal pladser min" @bind="antal_min"/> - <input placeholder="Antal pladser max" @bind="antal_max" /></p>
-    <p><b>Kommunenavn: </b><input placeholder="Kommunenavn" @bind="kom" /></p>
-
+    <button class="btn btn-success" @onclick="getSheltersList">Se Shelters</button>
+    <button class="btn btn-success" @onclick="getBookingsList">Se bookings</button>
     <br />
-    <br />
+    if (typeList == 1)
+    {
+        <p>
+            <b>Søgekriterier: </b>
+        </p>
+        <p><b>Navn: </b><input placeholder="Shelter plads" @bind="shelternavn" /></p>
+        <p><b>Antal pladser: </b><input placeholder="Antal pladser min" @bind="antal_min" /> - <input placeholder="Antal pladser max" @bind="antal_max" /></p>
+        <p><b>Kommunenavn: </b><input placeholder="Kommunenavn" @bind="kom" /></p>
+
+        <br />
+        <br />
 
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Shelterplads</th>
-                <th>Book nu</th>
-            </tr>
-
-        </thead>
-        <tbody>
-            @foreach (var shelter in GetFilteretItems(shelternavn, antal_min, antal_max, kom))
-            {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>
-                        <b>Navn: </b>@shelter.properties.navn
-                        <br />
-                        <b>Antal pladser: </b>@shelter.properties.antal_pl
-                        <br />
-                        <b>Kommune: </b>@shelter.properties.cvr_navn
-                        <br />
-                        <b>Beskrivelse: </b>@shelter.properties.beskrivels
-                    </td>
-                    <td>
-                        <a class="btn btn-primary" href='@string.Format("https://localhost:5001/booking/create/{0}", shelter._id)'>Book</a>
-                    </td>
+                    <th>Shelterplads</th>
+                    <th>Book nu</th>
                 </tr>
 
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var shelter in GetFilteretItems(shelternavn, antal_min, antal_max, kom))
+                {
+                    <tr>
+                        <td>
+                            <b>Navn: </b>@shelter.properties.navn
+                            <br />
+                            <b>Antal pladser: </b>@shelter.properties.antal_pl
+                            <br />
+                            <b>Kommune: </b>@shelter.properties.cvr_navn
+                            <br />
+                            <b>Beskrivelse: </b>@shelter.properties.beskrivels
+                        </td>
+                        <td>
+                            <a class="btn btn-success" href='@string.Format("https://localhost:5001/booking/create/{0}/{1}", shelter._id, userId)'>Book</a>
+                        </td>
+                    </tr>
 
-   
-             
+                }
+            </tbody>
+        </table>
+    }
+    else if (typeList == 2)
+    {
+        <h2>Liste af alle bookings</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Booking</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                @foreach (var booking in BookingsByUser(userId))
+                {
+                    <tr>
+                        <td>
+                            <b>Booking id:</b> @booking._id
+                            <br />
+                            <b>Shelter navn:</b> @getShelterNavn(booking.shelter_id)
+                            <br />
+                            <b>Kommentare:</b> @booking.kommentar
+                            <br />
+                            <b>Start dato:</b> @booking.startdato
+                            <br />
+                            <b>Slut dato:</b> @booking.slutdato
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+
 }
 
 @code {
+    [Parameter] public string userId { get; set; }
     private Shelter[] shelters;
+    private Booking[] bookings;
 
     protected override async Task OnInitializedAsync()
     {
         shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
+        bookings = await Http.GetFromJsonAsync<Booking[]>("BookingsList");
     }
 
     public string shelternavn;
     public string kom;
     public string antal_min;
     public string antal_max;
+    public int typeList = 1;
 
+    public string getShelterNavn(string id)
+    {
+        foreach (var shel in shelters)
+        {
+            if (shel._id == id)
+            {
+                return shel.properties.navn;
+            }
+        }
+        return "ukendt navn";
+    }
+    public void getSheltersList()
+    {
+        typeList = 1;
+    }
+    public void getBookingsList()
+    {
+        typeList = 2;
+    }
     public List<Shelter> shelterToList()
     {
         List<Shelter> items = new();
@@ -81,6 +143,20 @@ else
             items.Add(shelter);
         };
         return items;
+    }
+
+    public List<Booking> BookingsByUser(string id)
+    {
+        List<Booking> items = new();
+        foreach (var booking in bookings)
+        {
+            if (booking.bruger_id == userId)
+            {
+                items.Add(booking);
+            }
+        }
+        return items;
+
     }
 
 
