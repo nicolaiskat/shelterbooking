@@ -111,7 +111,7 @@ using shelterbooking.Shared;
 
     protected override async Task OnInitializedAsync()
     {
-        users = await Http.GetFromJsonAsync<Bruger[]>("BrugereList");
+        users = await Http.GetFromJsonAsync<Bruger[]>("Brugere");
     }
 
     async Task CreateBruger()
@@ -125,19 +125,19 @@ using shelterbooking.Shared;
                     await js.InvokeVoidAsync("alert", "Email is already in use");
                     break;
                 }
-                else if (!string.IsNullOrEmpty(fornavn) && !string.IsNullOrEmpty(efternavn) && !string.IsNullOrEmpty(mobil) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
+                else if (user.email != email && !string.IsNullOrEmpty(fornavn) && !string.IsNullOrEmpty(efternavn) && !string.IsNullOrEmpty(mobil) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
                 {
                     await Http.PostAsJsonAsync("api/brugere", new Bruger(fornavn, efternavn, mobil, email, password));
                     await js.InvokeVoidAsync("alert", $"Created successfully!");
                     uriHelper.NavigateTo("/");
-                }
-                else
-                {
-                    await js.InvokeVoidAsync("alert", "Pls fill out all fields correctly");
                     break;
                 }
             }
 
+        }
+        else
+        {
+            await js.InvokeVoidAsync("alert", "Pls fill out all fields correctly");
         }
 
 

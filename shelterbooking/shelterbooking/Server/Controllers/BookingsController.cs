@@ -12,22 +12,22 @@ namespace shelterbooking.Server.Controllers
     [ApiController]
     public class BookingsController : Controller
     {
-        private readonly BookingService _bookingService;
+        private readonly ShelterService _bookingService;
 
 
-        public BookingsController(BookingService bookingService)
+        public BookingsController(ShelterService bookingService)
         {
             _bookingService = bookingService;
         }
 
         [HttpGet]
         public ActionResult<List<Booking>> Get() =>
-            _bookingService.Get();
+            _bookingService.GetBookings();
 
         [HttpGet("{id:length(24)}", Name = "GetBooking")]
         public ActionResult<Booking> Get(string id)
         {
-            var booking = _bookingService.Get(id);
+            var booking = _bookingService.GetBooking(id);
 
             if (booking == null)
             {
@@ -48,7 +48,7 @@ namespace shelterbooking.Server.Controllers
         [HttpPut("{id:length(24)}")]
         public IActionResult Update(string id, Booking bookingIn)
         {
-            var booking = _bookingService.Get(id);
+            var booking = _bookingService.GetBooking(id);
 
             if (booking == null)
             {
@@ -63,14 +63,14 @@ namespace shelterbooking.Server.Controllers
         [HttpDelete("{id:length(24)}")]
         public IActionResult Delete(string id)
         {
-            var booking = _bookingService.Get(id);
+            var booking = _bookingService.GetBooking(id);
 
             if (booking == null)
             {
                 return NotFound();
             }
 
-            _bookingService.Delete(booking._id);
+            _bookingService.DeleteBooking(booking._id);
 
             return NoContent();
         }

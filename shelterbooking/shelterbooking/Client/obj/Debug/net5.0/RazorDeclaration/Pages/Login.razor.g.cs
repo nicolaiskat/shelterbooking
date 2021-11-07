@@ -107,7 +107,7 @@ using System.Net.Http;
 
     protected override async Task OnInitializedAsync()
     {
-        users = await Http.GetFromJsonAsync<Bruger[]>("BrugereList");
+        users = await Http.GetFromJsonAsync<Bruger[]>("api/Brugere");
     }
 
     public void startLogin(string email, string password)

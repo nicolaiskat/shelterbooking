@@ -4,14 +4,18 @@ namespace shelterbooking.Server
     public class SheltersDatabaseSettings : ISheltersDatabaseSettings
     {
         public string SheltersCollectionName { get; set; }
+        public string BookingsCollectionName { get; set; }
+        public string BrugereCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
 
     public interface ISheltersDatabaseSettings
     {
-        string SheltersCollectionName { get; set; }
-        string ConnectionString { get; set; }
-        string DatabaseName { get; set; }
+        public string SheltersCollectionName { get; set; }
+        public string BookingsCollectionName { get; set; }
+        public string BrugereCollectionName { get; set; }
+        public string ConnectionString { get; set; }
+        public string DatabaseName { get; set; }
     }
 }

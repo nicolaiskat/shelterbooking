@@ -22,12 +22,12 @@ namespace shelterbooking.Server.Controllers
 
         [HttpGet]
         public ActionResult<List<Shelter>> Get() =>
-            _shelterService.Get();
+            _shelterService.GetShelters();
 
         [HttpGet("{id:length(24)}", Name = "GetShelter")]
         public ActionResult<Shelter> Get(string id)
         {
-            var shelter = _shelterService.Get(id);
+            var shelter = _shelterService.GetShelter(id);
 
             if (shelter == null)
             {
@@ -48,7 +48,7 @@ namespace shelterbooking.Server.Controllers
         [HttpPut("{id:length(24)}")]
         public IActionResult Update(string id, Shelter shelterIn)
         {
-            var shelter = _shelterService.Get(id);
+            var shelter = _shelterService.GetShelter(id);
 
             if (shelter == null)
             {
@@ -63,14 +63,14 @@ namespace shelterbooking.Server.Controllers
         [HttpDelete("{id:length(24)}")]
         public IActionResult Delete(string id)
         {
-            var shelter = _shelterService.Get(id);
+            var shelter = _shelterService.GetShelter(id);
 
             if (shelter == null)
             {
                 return NotFound();
             }
 
-            _shelterService.Delete(shelter._id);
+            _shelterService.DeleteShelter(shelter._id);
 
             return NoContent();
         }
