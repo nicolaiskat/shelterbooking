@@ -106,8 +106,8 @@ using shelterbooking.Shared;
 
     protected override async Task OnInitializedAsync()
     {
-        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
-        bookings = await Http.GetFromJsonAsync<Booking[]>("BookingsList");
+        shelters = await Http.GetFromJsonAsync<Shelter[]>("api/Shelters");
+        bookings = await Http.GetFromJsonAsync<Booking[]>("api/Bookings");
     }
 
     public string shelternavn;

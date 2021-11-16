@@ -122,8 +122,8 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        shelters = await Http.GetFromJsonAsync<Shelter[]>("SheltersList");
-        bookings = await Http.GetFromJsonAsync<Booking[]>("BookingsList");
+        shelters = await Http.GetFromJsonAsync<Shelter[]>("api/Shelters");
+        bookings = await Http.GetFromJsonAsync<Booking[]>("api/Bookings");
     }
 
     async Task ShelDelete(string shelId)

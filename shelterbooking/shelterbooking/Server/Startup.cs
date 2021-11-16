@@ -29,14 +29,6 @@ namespace shelterbooking.Server
             services.AddSingleton<ISheltersDatabaseSettings>(sp => sp.GetRequiredService<IOptions<SheltersDatabaseSettings>>().Value);
             services.AddSingleton<ShelterService>();
 
-            services.Configure<BookingsDatabaseSettings>(Configuration.GetSection(nameof(BookingsDatabaseSettings)));
-            services.AddSingleton<IBookingsDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BookingsDatabaseSettings>>().Value);
-            services.AddSingleton<BookingService>();
-
-            services.Configure<BrugereDatabaseSettings>(Configuration.GetSection(nameof(BrugereDatabaseSettings)));
-            services.AddSingleton<IBrugereDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BrugereDatabaseSettings>>().Value);
-            services.AddSingleton<BrugerService>();
-
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.UseMemberCasing());
             
             services.AddRazorPages();
