@@ -160,3 +160,14 @@ C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbook
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/ref/shelterbooking.Server.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/shelterbooking.Server.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/obj/Debug/net5.0/shelterbooking.Server.genruntimeconfig.cache
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.csproj.AssemblyReference.cache
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.AssemblyInfoInputs.cache
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.AssemblyInfo.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.csproj.CoreCompileInputs.cache
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.RazorAssemblyInfo.cache
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.RazorAssemblyInfo.cs
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.dll
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\ref\shelterbooking.Server.dll
+C:\Users\sisse\Documents\GitHub\shelterbooking\shelterbooking\shelterbooking\Server\obj\Debug\net5.0\shelterbooking.Server.pdb
