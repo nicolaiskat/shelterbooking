@@ -4,14 +4,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shelterbooking" expanded="True">
-            <Node name="shelterbooking.Client" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Form.razor" selected="True" />
-              </Node>
-            </Node>
-            <Node name="shelterbooking.Server" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="shelterbooking.Client" selected="True" />
           </Node>
         </State>
       </Pad>

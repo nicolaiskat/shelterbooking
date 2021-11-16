@@ -16,6 +16,5 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.13.2" />
-    <PackageReference Include="Syncfusion.Blazor" Version="19.3.0.47" />
   </ItemGroup>
 </Project>

@@ -89,6 +89,13 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateBooking.razor"
+using shelterbooking.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/booking/edit/{bookId}")]
     public partial class UpdateBooking : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,7 +105,7 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateBooking.razor"
+#line 11 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateBooking.razor"
        
     [Parameter] public string bookId { get; set; }
     public Booking book = new Booking();

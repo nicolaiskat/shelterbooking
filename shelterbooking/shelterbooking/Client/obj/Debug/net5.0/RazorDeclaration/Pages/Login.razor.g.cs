@@ -98,7 +98,7 @@ using System.Net.Http;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Login.razor"
+#line 29 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/Login.razor"
        
     public string email;
     public string password;

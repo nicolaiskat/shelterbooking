@@ -45,10 +45,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "Syncfusion.Blazor": {
-              "target": "Package",
-              "version": "[19.3.0.47, )"
             }
           },
           "imports": [
@@ -66,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

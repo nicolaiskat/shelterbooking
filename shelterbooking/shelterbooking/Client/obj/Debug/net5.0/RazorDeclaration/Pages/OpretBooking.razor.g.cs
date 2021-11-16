@@ -89,6 +89,13 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretBooking.razor"
+using shelterbooking.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/booking/create/{shelId}/{userId}")]
     public partial class OpretBooking : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,7 +105,7 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretBooking.razor"
+#line 13 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretBooking.razor"
        
     [Parameter] public string shelId { get; set; }
     [Parameter] public string userId { get; set; }

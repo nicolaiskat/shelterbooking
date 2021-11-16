@@ -89,6 +89,13 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateShelter.razor"
+using shelterbooking.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/shelter/edit/{shelId}")]
     public partial class UpdateShelter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,7 +105,7 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateShelter.razor"
+#line 11 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/UpdateShelter.razor"
        
     [Parameter] public string shelId { get; set; }
     public Shelter shel = new Shelter();
@@ -108,7 +115,7 @@ using shelterbooking.Shared;
         shel = await Http.GetFromJsonAsync<Shelter>($"api/shelters/{shelId}");
 
     }
- 
+
     async Task EditShelter()
     {
         await Http.PutAsJsonAsync($"api/shelters/{shelId}", shel);

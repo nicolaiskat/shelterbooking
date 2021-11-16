@@ -89,6 +89,13 @@ using shelterbooking.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretShelter.razor"
+using shelterbooking.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/shelter/create")]
     public partial class OpretShelter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,7 +105,7 @@ using shelterbooking.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretShelter.razor"
+#line 13 "/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Client/Pages/OpretShelter.razor"
        
     public Properties prop = new Properties();
     public Geometry geom = new Geometry("MultiPoint", new() { new() { 0, 0 } });

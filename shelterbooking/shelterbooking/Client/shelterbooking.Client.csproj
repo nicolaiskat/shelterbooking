@@ -12,8 +12,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.11" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
-    <PackageReference Include="Blazored.Modal" Version="6.0.1" />
-    <PackageReference Include="Syncfusion.Blazor" Version="19.3.0.47" />
+    <PackageReference Include="AntDesign" Version="0.10.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,5 +27,10 @@
     <None Remove="Microsoft.AspNetCore.Components.Forms" />
     <None Remove="Blazored.Modal" />
     <None Remove="Syncfusion.Blazor" />
+    <None Remove="Components\" />
+    <None Remove="AntDesign" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Components\" />
   </ItemGroup>
 </Project>

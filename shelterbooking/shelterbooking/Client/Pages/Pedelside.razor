@@ -14,106 +14,106 @@
     <p><em>Loading...</em></p>
 }
 else
+{ 
+<button class="btn btn-success" @onclick="getSheltersList">Se Shelters</button>
+<button class="btn btn-success" @onclick="getBookingsList">Se bookings</button>
+<br />
+if (typeList == 1)
 {
-    <button class="btn btn-success" @onclick="getSheltersList">Se Shelters</button>
-    <button class="btn btn-success" @onclick="getBookingsList">Se bookings</button>
-    <br />
-    if (typeList == 1)
-    {
-        <h2>Liste af alle shelters</h2>
-        <a href="https://localhost:5001/shelter/create">Opret shelter</a>
-        <p>
-            <b>Søgekriterier: </b>
-        </p>
-        <p><b>Navn: </b><input placeholder="Shelter plads" @bind="shelternavn" /></p>
-        <p><b>Antal pladser: </b><input placeholder="Antal pladser min" @bind="antal_min" /> - <input placeholder="Antal pladser max" @bind="antal_max" /></p>
-        <p><b>Kommunenavn: </b><input placeholder="Kommunenavn" @bind="kom" /></p>
+    <h2>Liste af alle shelters</h2>
+    <a href="https://localhost:5001/shelter/create">Opret shelter</a>
+    <p>
+        <b>Søgekriterier: </b>
+    </p>
+    <p><b>Navn: </b><input placeholder="Shelter plads" @bind="shelternavn" /></p>
+    <p><b>Antal pladser: </b><input placeholder="Antal pladser min" @bind="antal_min" /> - <input placeholder="Antal pladser max" @bind="antal_max" /></p>
+    <p><b>Kommunenavn: </b><input placeholder="Kommunenavn" @bind="kom" /></p>
 
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Shelterplads</th>
-                    <th>Funktioner</th>
-                </tr>
-            </thead>
-            <tbody>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Shelterplads</th>
+                <th>Funktioner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            @foreach (var shelter in GetFilteretItems(shelternavn, antal_min, antal_max, kom))
+            {
                 <tr>
                     <td>
+                        <b>Navn:</b> @shelter.properties.navn
+                        <br />
+                        <b>Beskrivelse:</b> @shelter.properties.beskrivels
+                        <br />
+                        <b>Kommune:</b> @shelter.properties.cvr_navn
+                        <br />
+                        <b>Antal pladser:</b> @shelter.properties.antal_pl
+                        <br />
+                        <b>Ansvarlig:</b> @shelter.properties.ansva_v
+                    </td>
+                    <td>
+                        <button class="btn btn-success">Se bookings</button>
+                        <br />
+                        <a class="btn btn-success" href='@string.Format("https://localhost:5001/shelter/edit/{0}", shelter._id)'>Ret shelter</a>
+                        <br />
+                        <button class="btn btn-success" @onclick="() => ShelDelete(shelter._id)">Slet shelter</button>
                     </td>
                 </tr>
-                @foreach (var shelter in GetFilteretItems(shelternavn, antal_min, antal_max, kom))
-                {
-                    <tr>
-                        <td>
-                            <b>Navn:</b> @shelter.properties.navn
-                            <br />
-                            <b>Beskrivelse:</b> @shelter.properties.beskrivels
-                            <br />
-                            <b>Kommune:</b> @shelter.properties.cvr_navn
-                            <br />
-                            <b>Antal pladser:</b> @shelter.properties.antal_pl
-                            <br />
-                            <b>Ansvarlig:</b> @shelter.properties.ansva_v
-                        </td>
-                        <td>
-                            <button class="btn btn-success">Se bookings</button>
-                            <br />
-                            <a class="btn btn-success" href='@string.Format("https://localhost:5001/shelter/edit/{0}", shelter._id)'>Ret shelter</a>
-                            <br />
-                            <button class="btn btn-success" @onclick="() => ShelDelete(shelter._id)">Slet shelter</button>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
-    else if (typeList == 2)
-    {
-        <h2>Liste af alle bookings</h2>
+            }
+        </tbody>
+    </table>
+}
+else if (typeList == 2)
+{
+    <h2>Liste af alle bookings</h2>
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Booking</th>
-                    <th>Funktioner</th>
-                </tr>
-            </thead>
-            <tbody>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Booking</th>
+                <th>Funktioner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            @foreach (var booking in bookings)
+            {
                 <tr>
                     <td>
+                        <b>Booking id:</b> @booking._id
+                        <br />
+                        <b>Shelter navn:</b> @getShelterNavn(booking.shelter_id)
+                        <br />
+                        <b>Bruger id:</b> @booking.bruger_id
+                        <br />
+                        <b>Fulde navn:</b> @booking.fuldenavn
+                        <br />
+                        <b>Telefon:</b> @booking.telefon
+                        <br />
+                        <b>Kommentare:</b> @booking.kommentar
+                        <br />
+                        <b>Start dato:</b> @booking.startdato
+                        <br />
+                        <b>Slut dato:</b> @booking.slutdato
+                    </td>
+                    <td>
+                        <a class="btn btn-success" href='@string.Format("https://localhost:5001/booking/edit/{0}", booking._id)'>Ret booking</a>
+                        <br />
+                        <button class="btn btn-success" @onclick="() => BookDelete(booking._id)">Slet booking</button>
                     </td>
                 </tr>
-                @foreach (var booking in bookings)
-                {
-                    <tr>
-                        <td>
-                            <b>Booking id:</b> @booking._id
-                            <br />
-                            <b>Shelter navn:</b> @getShelterNavn(booking.shelter_id)
-                            <br />
-                            <b>Bruger id:</b> @booking.bruger_id
-                            <br />
-                            <b>Fulde navn:</b> @booking.fuldenavn
-                            <br />
-                            <b>Telefon:</b> @booking.telefon
-                            <br />
-                            <b>Kommentare:</b> @booking.kommentar
-                            <br />
-                            <b>Start dato:</b> @booking.startdato
-                            <br />
-                            <b>Slut dato:</b> @booking.slutdato
-                        </td>
-                        <td>
-                            <a class="btn btn-success" href='@string.Format("https://localhost:5001/booking/edit/{0}", booking._id)'>Ret booking</a>
-                            <br />
-                            <button class="btn btn-success" @onclick="() => BookDelete(booking._id)">Slet booking</button>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
+            }
+        </tbody>
+    </table>
+}
 }
 
 @code {
@@ -163,7 +163,7 @@ else
     {
         foreach (var shel in shelters)
         {
-            if(shel._id == id)
+            if (shel._id == id)
             {
                 return shel.properties.navn;
             }

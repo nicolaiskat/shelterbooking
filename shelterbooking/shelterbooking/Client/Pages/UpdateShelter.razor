@@ -3,10 +3,11 @@
 @inject IJSRuntime js
 @inject NavigationManager uriHelper
 @using shelterbooking.Shared
+@using shelterbooking.Client.Components
 
 <h3>Edit</h3>
 <Form2 ButtonText="Update" shel="@shel"
-      OnValidSubmit="@EditShelter" />
+       OnValidSubmit="@EditShelter" />
 @code {
     [Parameter] public string shelId { get; set; }
     public Shelter shel = new Shelter();
@@ -16,7 +17,7 @@
         shel = await Http.GetFromJsonAsync<Shelter>($"api/shelters/{shelId}");
 
     }
- 
+
     async Task EditShelter()
     {
         await Http.PutAsJsonAsync($"api/shelters/{shelId}", shel);

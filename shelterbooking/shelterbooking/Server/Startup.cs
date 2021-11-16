@@ -32,6 +32,7 @@ namespace shelterbooking.Server
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.UseMemberCasing());
             
             services.AddRazorPages();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

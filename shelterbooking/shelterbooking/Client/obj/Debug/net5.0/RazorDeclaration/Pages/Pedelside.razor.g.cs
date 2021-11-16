@@ -146,7 +146,7 @@ using System.Net.Http;
     {
         foreach (var shel in shelters)
         {
-            if(shel._id == id)
+            if (shel._id == id)
             {
                 return shel.properties.navn;
             }

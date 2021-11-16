@@ -3,10 +3,11 @@
 @inject IJSRuntime js
 @inject NavigationManager uriHelper
 @using shelterbooking.Shared
+@using shelterbooking.Client.Components
 
 <h3>Edit</h3>
 <Form3 ButtonText="Update" book="@book"
-      OnValidSubmit="@EditBooking" />
+       OnValidSubmit="@EditBooking" />
 @code {
     [Parameter] public string bookId { get; set; }
     public Booking book = new Booking();

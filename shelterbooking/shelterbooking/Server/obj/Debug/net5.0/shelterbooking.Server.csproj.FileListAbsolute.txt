@@ -103,10 +103,11 @@ C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbook
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.pdb
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.Views.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/shelterbooking.Server.Views.pdb
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Blazored.Modal.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/AntDesign.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/DnsClient.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authorization.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Forms.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.Web.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -123,11 +124,8 @@ C:/Users/Nicolai Skat/Documents/GitHub/shelterbooking/shelterbooking/shelterbook
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Newtonsoft.Json.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
+/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/OneOf.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/SharpCompress.dll
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.Blazor.dll
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.ExcelExport.Net.dll
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.Licensing.dll
-/Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/Syncfusion.PdfExport.Net.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
 /Users/nicolaiskat/Projects/miniprojekt/projekt/shelterbooking/shelterbooking/Server/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
